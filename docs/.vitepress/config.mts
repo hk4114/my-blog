@@ -36,7 +36,7 @@ export default defineConfig({
     logo: "/logo.png",
     editLink: {
       pattern:
-        "https://github.com/ATQQ/sugar-blog/tree/master/packages/blogpress/:path",
+        "https://github.com/hk4114/my-blog/tree/main/docs/:path",
       text: "去 GitHub 上编辑内容",
     },
     nav: [
@@ -46,7 +46,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/ATQQ/sugar-blog/tree/master/packages/theme",
+        link: "https://github.com/hk4114/my-blog/tree/main/docs/theme",
       },
     ],
   },

@@ -1,6 +1,8 @@
 ---
 layout: home
 # 首页部分元素定制
+author: Kane
+logo: /logo.png
 blog:
  name: "Kane's Blog"
  motto: 
