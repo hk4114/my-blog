@@ -33,7 +33,7 @@ export default defineConfig({
     lastUpdatedText: "上次更新于",
 
     // 设置logo
-    logo: "/logo.png",
+    logo: "/logo.jpeg",
     editLink: {
       pattern:
         "https://github.com/hk4114/my-blog/tree/main/docs/:path",
