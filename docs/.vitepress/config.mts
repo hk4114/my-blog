@@ -35,18 +35,24 @@ export default defineConfig({
     // 设置logo
     logo: "/logo.jpeg",
     editLink: {
-      pattern:
-        "https://github.com/hk4114/my-blog/tree/main/docs/:path",
+      pattern: "https://github.com/hk4114/my-blog/tree/main/docs/:path",
       text: "去 GitHub 上编辑内容",
     },
     nav: [
-      { text: "首页", link: "/" },
-      { text: "关于作者", link: "/my-blog/about.html" },
+      { text: "关于我", link: "/about.html" },
+      {
+        text: "我的周刊",
+        items: [{ text: "我的周刊", link: "/weekly/index.html" }],
+      },
     ],
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/hk4114/my-blog/tree/main/docs/theme",
+        link: "https://github.com/hk4114",
+      },
+      {
+        icon: "x",
+        link: "https://x.com/pieinthewind",
       },
     ],
   },
