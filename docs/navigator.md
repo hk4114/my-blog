@@ -21,6 +21,8 @@ tag:
 
 ### 工具
 
+- [独立开发者出海工具箱](https://indiehackertools.net/)
+- [TexttoSpeech.im](https://texttospeech.im/zh-CN)
 - [markdown 编辑器](https://md.openwrite.cn/)
 - [process on](https://www.processon.com/) 
 - [资源帝电子书导航](https://shu.ziyuandi.cn/)
@@ -38,6 +40,10 @@ tag:
 - [标准地图服务](http://bzdt.ch.mnr.gov.cn/)
 - [MyFakeInfo](https://www.myfakeinfo.com/) 通过使用随机规则生成假信息，无法律风险。
 - [APIVault](https://apivault.dev/) 这个网站收集了大量公共 API，相当于 API 的搜索引擎，用户可以提交新的 API。
+- [Luma AI Video Generator](https://lunaai.video/zh-CN) Luma AI 视频生成器免费在线使用
+- [Rock AI](https://www.rockai.online/)
+- [awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare) 这个仓库收录了不少基于Cloudflare的开源工具/服务，基于 CF 很高的免费额度，大部分都可以免费自用
+- [DeepSeek-Coder-V2 代码助手](https://chat.deepseek.com/coder)
 
 图片相关
 - [可画](https://www.canva.cn/)
@@ -45,6 +51,9 @@ tag:
 - [消除或者替换图像背景，无需上传图像 - BgSub](https://bgsub.cn/)
 - [图片无损放大 - waifu2x](https://waifu2x.udp.jp/)
 - [照片清除背景](https://cleanupphotos.com/)
+- [Reshot](https://www.reshot.com/) 免费图标和插图
+- [万能视频图片解析下载](https://snapany.com/zh)
+- [Stable Diffusion 3 AI 图像生成器](https://stablediffusion3.net/zh-CN) 免费使用 Stable Diffusion 3，通过文本生成图像，无需注册。
 
 ### 影视资源
 
