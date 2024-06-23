@@ -10,7 +10,8 @@ const blogTheme = getThemeConfig({
 
   // 页脚
   footer: {
-    version: false,
+    version: true,
+    copyright: 'MIT License | 粥里有勺糖'
   },
 
   // 主题色修改

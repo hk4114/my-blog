@@ -25,8 +25,6 @@ tag:
 - [TexttoSpeech.im](https://texttospeech.im/zh-CN)
 - [markdown 编辑器](https://md.openwrite.cn/)
 - [process on](https://www.processon.com/) 
-- [资源帝电子书导航](https://shu.ziyuandi.cn/)
-- [鸠摩搜书](https://www.jiumodiary.com/)
 - [Online books](https://onlinebooks.library.upenn.edu/)
 - [沉浸式翻译](https://immersivetranslate.com/) 翻译 [calibre](https://calibre-ebook.com/) pdf 转 EPUB
 - [语音转字幕工具](https://godlucky.net/whisperapp/) 仅需浏览器，AI 自动生成语音字幕，免费且可本地离线运行。
