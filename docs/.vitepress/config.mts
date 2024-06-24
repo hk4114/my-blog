@@ -40,8 +40,17 @@ export default defineConfig({
     },
     nav: [
       { text: "关于我", link: "/about.html" },
+      { text: "导航", link: "/navigator.html" },
       {
         text: "我的周刊",
+        items: [{ text: "我的周刊", link: "/weekly/index.html" }],
+      },
+      {
+        text: "阅读",
+        items: [{ text: "我的周刊", link: "/weekly/index.html" }],
+      },
+      {
+        text: "生活",
         items: [{ text: "我的周刊", link: "/weekly/index.html" }],
       },
     ],
