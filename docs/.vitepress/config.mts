@@ -46,13 +46,21 @@ export default defineConfig({
         items: [{ text: "我的周刊", link: "/weekly/index.html" }],
       },
       {
-        text: "阅读",
-        items: [{ text: "我的周刊", link: "/weekly/index.html" }],
+        text: "项目",
+        link: '/thirty-projects/list.html'
       },
-      {
-        text: "生活",
-        items: [{ text: "我的周刊", link: "/weekly/index.html" }],
-      },
+      // {
+      //   text: "技术笔记",
+      //   items: [{ text: "我的周刊", link: "/weekly/index.html" }],
+      // },
+      // {
+      //   text: "阅读",
+      //   items: [{ text: "我的周刊", link: "/weekly/index.html" }],
+      // },
+      // {
+      //   text: "生活",
+      //   items: [{ text: "我的周刊", link: "/weekly/index.html" }],
+      // },
     ],
     socialLinks: [
       {

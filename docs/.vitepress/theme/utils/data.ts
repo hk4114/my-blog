@@ -3,6 +3,107 @@ import type { NavData } from "./types";
 // type?: "info" | "tip" | "warning" | "danger";
 export const NAV_DATA: NavData[] = [
   {
+    title: "摄影",
+    items: [
+      {
+        title: "大疆 天空之城",
+        desc: "大疆 天空之城",
+        badge: {
+          text: "无人机",
+          type: "tip",
+        },
+        link: "https://www.skypixel.com/",
+      },
+      {
+        title: "大疆 开发者平台",
+        desc: "大疆 开发者平台",
+        badge: {
+          text: "无人机",
+          type: "tip",
+        },
+        link: "https://developer.dji.com/cn/",
+      },
+      {
+        title: "大疆 BBS 社区",
+        desc: "大疆 BBS 社区",
+        badge: {
+          text: "无人机",
+          type: "tip",
+        },
+        link: "https://bbs.dji.com/",
+      },
+      {
+        title: "FPV 帮",
+        badge: {
+          text: "无人机",
+          type: "tip",
+        },
+        desc: "FPV 帮安全指南",
+        link: "http://wiki.fpvbang.com/safety_instruction/safety_instruction/",
+      },
+    ],
+  },
+  {
+    title: "学习资料",
+    items: [
+      {
+        title: "经济学季刊",
+        desc: "经济学季刊",
+        link: "https://www.nsd.pku.edu.cn/cbw/jjxjk/qkml/index.htm",
+      },
+      {
+        title: "Quick Reference",
+        desc: "开发人员分享快速参考备忘清单",
+        link: "https://wangchujiang.com/reference/index.html",
+      },
+      {
+        title: "编程导航",
+        desc: "编程导航",
+        link: "https://www.code-nav.cn/recommend",
+      },
+      {
+        title: "exercism",
+        desc: "编程学习网站",
+        link: "https://exercism.org/",
+      },
+      {
+        title: "阿里云知行动手实验室",
+        desc: "阿里云知行动手实验室",
+        link: "https://start.aliyun.com/",
+      },
+      {
+        title: "阿里云体验动手实验室",
+        desc: "阿里云体验动手实验室",
+        link: "https://developer.aliyun.com/adc/labs",
+      },
+      {
+        title: "华为沙箱实验室",
+        desc: "华为沙箱实验室",
+        link: "https://lab.huaweicloud.com/",
+      },
+      {
+        title: "腾讯动手实验室",
+        desc: "腾讯动手实验室",
+        link: "https://cloud.tencent.com/developer/labs/gallery",
+      },
+      {
+        title: "crashcourse",
+        desc: "crashcourse",
+        link: "https://crashcourse.club/category/",
+      },
+      {
+        title: "KuangStudy 编程学习资料",
+        desc: "KuangStudy 编程学习资料",
+        link: "https://www.kuangstudy.com/course",
+      },
+      {
+        title: "终身教育平台",
+        desc: "终身教育平台",
+        link: "https://le.ouchn.cn/home",
+      },
+    ],
+  },
+  {
     title: "AI 工具",
     items: [
       {
@@ -414,72 +515,7 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
-  {
-    title: "学习资料",
-    items: [
-      {
-        icon: "/icons/es6.svg",
-        title: "ES6 入门教程",
-        desc: "阮一峰的网络日志",
-        link: "http://es6.ruanyifeng.com",
-      },
-      {
-        title: "经济学季刊",
-        desc: "经济学季刊",
-        link: "https://www.nsd.pku.edu.cn/cbw/jjxjk/qkml/index.htm",
-      },
-      {
-        title: "Quick Reference",
-        desc: "开发人员分享快速参考备忘清单",
-        link: "https://wangchujiang.com/reference/index.html",
-      },
-      {
-        title: "编程导航",
-        desc: "编程导航",
-        link: "https://www.code-nav.cn/recommend",
-      },
-      {
-        title: "exercism",
-        desc: "编程学习网站",
-        link: "https://exercism.org/",
-      },
-      {
-        title: "阿里云知行动手实验室",
-        desc: "阿里云知行动手实验室",
-        link: "https://start.aliyun.com/",
-      },
-      {
-        title: "阿里云体验动手实验室",
-        desc: "阿里云体验动手实验室",
-        link: "https://developer.aliyun.com/adc/labs",
-      },
-      {
-        title: "华为沙箱实验室",
-        desc: "华为沙箱实验室",
-        link: "https://lab.huaweicloud.com/",
-      },
-      {
-        title: "腾讯动手实验室",
-        desc: "腾讯动手实验室",
-        link: "https://cloud.tencent.com/developer/labs/gallery",
-      },
-      {
-        title: "crashcourse",
-        desc: "crashcourse",
-        link: "https://crashcourse.club/category/",
-      },
-      {
-        title: "KuangStudy 编程学习资料",
-        desc: "KuangStudy 编程学习资料",
-        link: "https://www.kuangstudy.com/course",
-      },
-      {
-        title: "终身教育平台",
-        desc: "终身教育平台",
-        link: "https://le.ouchn.cn/home",
-      },
-    ],
-  },
+
   {
     title: "影视资源",
     items: [
@@ -512,47 +548,7 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
-  {
-    title: "摄影",
-    items: [
-      {
-        title: "大疆 天空之城",
-        desc: "大疆 天空之城",
-        badge: {
-          text: "无人机",
-          type: "tip",
-        },
-        link: "https://www.skypixel.com/",
-      },
-      {
-        title: "大疆 开发者平台",
-        desc: "大疆 开发者平台",
-        badge: {
-          text: "无人机",
-          type: "tip",
-        },
-        link: "https://developer.dji.com/cn/",
-      },
-      {
-        title: "大疆 BBS 社区",
-        desc: "大疆 BBS 社区",
-        badge: {
-          text: "无人机",
-          type: "tip",
-        },
-        link: "https://bbs.dji.com/",
-      },
-      {
-        title: "FPV 帮",
-        badge: {
-          text: "无人机",
-          type: "tip",
-        },
-        desc: "FPV 帮安全指南",
-        link: "http://wiki.fpvbang.com/safety_instruction/safety_instruction/",
-      },
-    ],
-  },
+
   {
     title: "vpn",
     items: [
