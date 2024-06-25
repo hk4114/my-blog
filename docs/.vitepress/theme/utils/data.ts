@@ -167,6 +167,21 @@ export const NAV_DATA: NavData[] = [
         desc: "【备用】如果不设置返回的结果是英文，体验不怎么样",
         link: "https://search.lepton.run/",
       },
+      {
+        title: "Luma AI Video Generator",
+        desc: "Luma AI 视频生成器免费在线使用",
+        link: "https://lunaai.video/zh-CN",
+      },
+      {
+        title: "DeepSeek-Coder-V2",
+        desc: "代码助手，需要登陆",
+        link: "https://chat.deepseek.com/coder",
+      },
+      {
+        title: "Stable Diffusion 3 AI 图像生成器",
+        desc: "通过文本生成图像，无需注册",
+        link: "https://stablediffusion3.net/zh-CN",
+      },
     ],
   },
   {
@@ -201,9 +216,13 @@ export const NAV_DATA: NavData[] = [
         desc: "搭建模型",
         link: "https://www.lepton.ai/playground",
       },
+      {
+        title: "Rock AI",
+        desc: "运行和微调开源模型，大规模部署自定义模型，全部只需一行代码",
+        link: "https://www.rockai.online/",
+      },
     ],
   },
-
   {
     title: "工具箱",
     items: [
@@ -320,6 +339,56 @@ export const NAV_DATA: NavData[] = [
         desc: "API的搜索引擎，收集了大量公共API",
         link: "https://apivault.dev/",
       },
+      {
+        title: "awesome-cloudflare",
+        desc: "基于 Cloudflare 的开源工具/服务仓库",
+        link: "https://github.com/zhuima/awesome-cloudflare",
+      },
+      {
+        title: "可画",
+        desc: "可画",
+        link: "https://www.canva.cn/",
+      },
+      {
+        title: "切九图",
+        desc: "切九图",
+        link: "https://v.magiconch.com/sns-image",
+      },
+      {
+        title: "BgSub",
+        desc: "消除或者替换图像背景，无需上传图像",
+        link: "https://bgsub.cn/",
+      },
+      {
+        title: "waifu2x",
+        desc: "图片无损放大工具",
+        link: "https://waifu2x.udp.jp/",
+      },
+      {
+        title: "照片清除背景",
+        desc: "照片清除背景",
+        link: "https://cleanupphotos.com/",
+      },
+      {
+        title: "Reshot",
+        desc: "免费图标和插图",
+        link: "https://www.reshot.com/",
+      },
+      {
+        title: "万能视频图片解析下载",
+        desc: "万能视频图片解析下载",
+        link: "https://snapany.com/zh",
+      },
+      {
+        title: "favicon",
+        desc: "favicon",
+        link: "https://favicon.io/",
+      },
+      {
+        title: "生日那天的星星",
+        desc: "Hubble 望远镜在你生日那天拍摄的照片",
+        link: "https://science.nasa.gov/mission/hubble/multimedia/what-did-hubble-see-on-your-birthday",
+      },
     ],
   },
   {
@@ -358,196 +427,6 @@ export const NAV_DATA: NavData[] = [
         title: "经济学季刊",
         desc: "经济学季刊",
         link: "https://www.nsd.pku.edu.cn/cbw/jjxjk/qkml/index.htm",
-      },
-    ],
-  },
-  {
-    title: "其他待分类",
-    items: [
-      {
-        title: "Luma AI Video Generator",
-        desc: "Luma AI 视频生成器免费在线使用",
-        link: "https://lunaai.video/zh-CN",
-      },
-      {
-        title: "Rock AI",
-        desc: "Rock AI",
-        link: "https://www.rockai.online/",
-      },
-      {
-        title: "awesome-cloudflare",
-        desc: "基于 Cloudflare 的开源工具/服务仓库",
-        link: "https://github.com/zhuima/awesome-cloudflare",
-      },
-      {
-        title: "DeepSeek-Coder-V2 代码助手",
-        desc: "DeepSeek-Coder-V2 代码助手",
-        link: "https://chat.deepseek.com/coder",
-      },
-      {
-        title: "可画",
-        desc: "可画",
-        link: "https://www.canva.cn/",
-      },
-      {
-        title: "切九图",
-        desc: "切九图",
-        link: "https://v.magiconch.com/sns-image",
-      },
-      {
-        title: "BgSub",
-        desc: "消除或者替换图像背景，无需上传图像",
-        link: "https://bgsub.cn/",
-      },
-      {
-        title: "waifu2x",
-        desc: "图片无损放大工具",
-        link: "https://waifu2x.udp.jp/",
-      },
-      {
-        title: "照片清除背景",
-        desc: "照片清除背景",
-        link: "https://cleanupphotos.com/",
-      },
-      {
-        title: "Reshot",
-        desc: "免费图标和插图",
-        link: "https://www.reshot.com/",
-      },
-      {
-        title: "万能视频图片解析下载",
-        desc: "万能视频图片解析下载",
-        link: "https://snapany.com/zh",
-      },
-      {
-        title: "Stable Diffusion 3 AI 图像生成器",
-        desc: "通过文本生成图像，无需注册",
-        link: "https://stablediffusion3.net/zh-CN",
-      },
-      {
-        title: "电影 ikanbot",
-        desc: "电影 ikanbot",
-        link: "https://www.ikanbot.com/",
-      },
-      {
-        title: "低端影视",
-        desc: "低端影视",
-        link: "https://ddys.pro/",
-      },
-      {
-        title: "曲奇动漫",
-        desc: "曲奇动漫",
-        link: "https://www.quqim.net/",
-      },
-      {
-        title: "anime1",
-        desc: "anime1",
-        link: "https://anime1.me/",
-      },
-      {
-        title: "香格里拉",
-        desc: "香格里拉",
-        link: "https://www.dm5.cn/",
-      },
-      {
-        title: "包子漫画",
-        desc: "包子漫画",
-        link: "https://cn.baozimh.com/",
-      },
-      {
-        title: "动漫狂",
-        desc: "动漫狂",
-        link: "https://www.cartoonmad.com/",
-      },
-      {
-        title: "漫画",
-        desc: "漫画",
-        link: "https://www.colamanga.com/",
-      },
-      {
-        title: "国家统计局官网",
-        desc: "国家统计局官网",
-        link: "http://www.stats.gov.cn/",
-      },
-      {
-        title: "国家药品监督管理局",
-        desc: "国家药品监督管理局",
-        link: "https://www.nmpa.gov.cn/",
-      },
-      {
-        title: "商务部直销行业管理",
-        desc: "可查传销还是直销",
-        link: "https://zxgl.mofcom.gov.cn/front/index",
-      },
-      {
-        title: "中国执行信息公开网",
-        desc: "可以查到一个人的失信记录",
-        link: "http://zxgk.court.gov.cn/",
-      },
-      {
-        title: "全国标准信息公共服务平台",
-        desc: "每个行业接触到的各种标准都能查到",
-        link: "https://std.samr.gov.cn/",
-      },
-      {
-        title: "中国裁判文书网",
-        desc: "检索对方的名字，了解刑事案件、经济纠纷等",
-        link: "https://wenshu.court.gov.cn/",
-      },
-      {
-        title: "工信部，申诉运营商",
-        desc: "工信部，申诉运营商",
-        link: "https://yhssglxt.miit.gov.cn/web",
-      },
-      {
-        title: "国家邮政局申诉网站",
-        desc: "快递申诉",
-        link: "https://sswz.spb.gov.cn/",
-      },
-      {
-        title: "信用信息公示系统-查企业",
-        desc: "信用信息公示系统-查企业",
-        link: "https://www.gsxt.gov.cn/index.html",
-      },
-      {
-        title: "大疆 天空之城",
-        desc: "大疆 天空之城",
-        link: "https://www.skypixel.com/",
-      },
-      {
-        title: "大疆 开发者平台",
-        desc: "大疆 开发者平台",
-        link: "https://developer.dji.com/cn/",
-      },
-      {
-        title: "大疆 BBS 社区",
-        desc: "大疆 BBS 社区",
-        link: "https://bbs.dji.com/",
-      },
-      {
-        title: "FPV 帮",
-        desc: "FPV 帮安全指南",
-        link: "http://wiki.fpvbang.com/safety_instruction/safety_instruction/",
-      },
-      {
-        title: "sockboom",
-        desc: "sockboom",
-        link: "https://sockboom.link",
-      },
-      {
-        title: "leensa",
-        desc: "leensa",
-        link: "https://leensa.com",
-      },
-      {
-        title: "备用 woccloud",
-        desc: "备用 woccloud",
-        link: "https://www.woccloud.pro/",
-      },
-      {
-        title: "备用 ikuuu",
-        desc: "备用 ikuuu",
-        link: "https://ikuuu.eu/auth/login",
       },
       {
         title: "Quick Reference",
@@ -595,6 +474,159 @@ export const NAV_DATA: NavData[] = [
         link: "https://www.kuangstudy.com/course",
       },
       {
+        title: "终身教育平台",
+        desc: "终身教育平台",
+        link: "https://le.ouchn.cn/home",
+      },
+    ],
+  },
+  {
+    title: "影视资源",
+    items: [
+      {
+        title: "ikanbot",
+        icon: "https://v.ikanbot.com/resources/logo.svg",
+        desc: "免登陆，影视资源的聚合，挺全的",
+        link: "https://www.ikanbot.com/",
+      },
+      {
+        title: "低端影视",
+        icon: "https://ddys.pro/apple-touch-icon.png",
+        desc: "资源比较可靠稳定",
+        link: "https://ddys.pro/",
+      },
+      {
+        title: "anime1",
+        desc: "动画线上看",
+        link: "https://anime1.me/",
+      },
+      {
+        title: "包子漫画",
+        desc: "包子漫画",
+        link: "https://cn.baozimh.com/",
+      },
+      {
+        title: "动漫狂",
+        desc: "动漫狂",
+        link: "https://www.cartoonmad.com/",
+      },
+    ],
+  },
+  {
+    title: "摄影",
+    items: [
+      {
+        title: "大疆 天空之城",
+        desc: "大疆 天空之城",
+        badge: {
+          text: "无人机",
+          type: "tip",
+        },
+        link: "https://www.skypixel.com/",
+      },
+      {
+        title: "大疆 开发者平台",
+        desc: "大疆 开发者平台",
+        badge: {
+          text: "无人机",
+          type: "tip",
+        },
+        link: "https://developer.dji.com/cn/",
+      },
+      {
+        title: "大疆 BBS 社区",
+        desc: "大疆 BBS 社区",
+        badge: {
+          text: "无人机",
+          type: "tip",
+        },
+        link: "https://bbs.dji.com/",
+      },
+      {
+        title: "FPV 帮",
+        badge: {
+          text: "无人机",
+          type: "tip",
+        },
+        desc: "FPV 帮安全指南",
+        link: "http://wiki.fpvbang.com/safety_instruction/safety_instruction/",
+      },
+    ],
+  },
+  {
+    title: "vpn",
+    items: [
+      {
+        title: "sockboom",
+        desc: "sockboom",
+        link: "https://sockboom.link",
+      },
+      {
+        title: "leensa",
+        desc: "leensa",
+        link: "https://leensa.com",
+      },
+      {
+        title: "备用 woccloud",
+        desc: "备用 woccloud",
+        link: "https://www.woccloud.pro/",
+      },
+      {
+        title: "备用 ikuuu",
+        desc: "备用 ikuuu",
+        link: "https://ikuuu.eu/auth/login",
+      },
+    ],
+  },
+  {
+    title: "官方信息源",
+    items: [
+      {
+        title: "国家统计局官网",
+        desc: "国家统计局官网",
+        link: "http://www.stats.gov.cn/",
+      },
+      {
+        title: "国家药品监督管理局",
+        desc: "国家药品监督管理局",
+        link: "https://www.nmpa.gov.cn/",
+      },
+      {
+        title: "商务部直销行业管理",
+        desc: "可查传销还是直销",
+        link: "https://zxgl.mofcom.gov.cn/front/index",
+      },
+      {
+        title: "中国执行信息公开网",
+        desc: "可以查到一个人的失信记录",
+        link: "http://zxgk.court.gov.cn/",
+      },
+      {
+        title: "全国标准信息公共服务平台",
+        desc: "每个行业接触到的各种标准都能查到",
+        link: "https://std.samr.gov.cn/",
+      },
+      {
+        title: "中国裁判文书网",
+        desc: "检索对方的名字，了解刑事案件、经济纠纷等",
+        link: "https://wenshu.court.gov.cn/",
+      },
+      {
+        title: "工信部，申诉运营商",
+        desc: "工信部，申诉运营商",
+        link: "https://yhssglxt.miit.gov.cn/web",
+      },
+      {
+        title: "国家邮政局申诉网站",
+        desc: "快递申诉",
+        link: "https://sswz.spb.gov.cn/",
+      },
+      {
+        title: "信用信息公示系统-查企业",
+        desc: "信用信息公示系统-查企业",
+        link: "https://www.gsxt.gov.cn/index.html",
+      },
+      {
         title: "外文局出品",
         desc: "权威发布各种重要概念热点词汇",
         link: "http://tppckte.org.cn/",
@@ -608,11 +640,6 @@ export const NAV_DATA: NavData[] = [
         title: "商务部《对外投资合作国别（地区）指南》",
         desc: "商务部《对外投资合作国别（地区）指南》",
         link: "http://fec.mofcom.gov.cn/article/gbdqzn/",
-      },
-      {
-        title: "高教书苑 教材",
-        desc: "高教书苑 教材",
-        link: "https://ebook.hep.com.cn/ebooks/index.html",
       },
       {
         title: "发现报告",
@@ -633,86 +660,6 @@ export const NAV_DATA: NavData[] = [
         title: "合同示范文本",
         desc: "合同示范文本",
         link: "https://cont.12315.cn/",
-      },
-      {
-        title: "终身教育平台",
-        desc: "终身教育平台",
-        link: "https://le.ouchn.cn/home",
-      },
-      {
-        title: "favicon",
-        desc: "favicon",
-        link: "https://favicon.io/",
-      },
-      {
-        title: "生日那天的星星",
-        desc: "Hubble 望远镜在你生日那天拍摄的照片",
-        link: "https://science.nasa.gov/mission/hubble/multimedia/what-did-hubble-see-on-your-birthday",
-      },
-      {
-        title: "小林 x 图解计算机基础",
-        desc: "图解计算机网络、操作系统等，易懂计算机知识",
-        link: "https://xiaolincoding.com/",
-      },
-      {
-        title: "效率消息中心从 0-1 搭建与思考|得物技术",
-        desc: "得物技术分享效率消息中心搭建与思考",
-        link: "https://mp.weixin.qq.com/s/SWenfaa7obt6XrSA5gZA1A",
-      },
-      {
-        title: "复杂业务系统的通用架构设计法则 | 得物技术",
-        desc: "得物技术分享复杂业务系统架构设计法则",
-        link: "https://mp.weixin.qq.com/s/m9Tbe1NIIXQfSprKw5wenQ",
-      },
-      {
-        title: "资损防控技术体系简介及实践｜得物技术",
-        desc: "得物技术分享资损防控技术体系及实践",
-        link: "https://mp.weixin.qq.com/s/QoS-nek0EPLSE0DrYDbfww",
-      },
-      {
-        title: "从数据治理到数据资产管理-数据治理框架再思考",
-        desc: "数据治理框架再思考",
-        link: "https://mp.weixin.qq.com/s/AeSHQ2EE8BE9tgoNRMS7MQ",
-      },
-      {
-        title: "一文读懂业务需求分析师必备技能",
-        desc: "业务需求分析师必备技能",
-        link: "https://mp.weixin.qq.com/s/ulJVxUj_n1dCSC_z6agP7Q",
-      },
-      {
-        title: "流程图&时序图绘制小 tips ｜得物技术",
-        desc: "得物技术分享流程图&时序图绘制技巧",
-        link: "https://mp.weixin.qq.com/s/9-q9XLh9XkGHlgO1x0TS0w",
-      },
-      {
-        title: "数据分层：打造数据资产管家",
-        desc: "数据分层，数据资产管理",
-        link: "https://mp.weixin.qq.com/s/wctkyNh09c-IVuKpO_pCCw",
-      },
-      {
-        title: "Java/Python 的常用快捷键汇总",
-        desc: "Java/Python 常用快捷键汇总",
-        link: "https://mp.weixin.qq.com/s/Zh9TllGDm9woyQ0ZYBcLnA",
-      },
-      {
-        title: "带你详细了解架构设计",
-        desc: "详细介绍架构设计",
-        link: "https://mp.weixin.qq.com/s/ZBewuUDkxGoDgSFnpNxrDw",
-      },
-      {
-        title: "数据管理关键技术顶层设计",
-        desc: "数据管理关键技术顶层设计",
-        link: "https://mp.weixin.qq.com/s/dNXjNGfz_ZJzceWKEKdTxA",
-      },
-      {
-        title: "一文讲透主数据管理",
-        desc: "主数据管理详解",
-        link: "https://mp.weixin.qq.com/s/8hS9wBiM0jh2PYYyRp_H0g",
-      },
-      {
-        title: "行业研究万字教程，真·新手友好版",
-        desc: "行业研究新手教程",
-        link: "https://mp.weixin.qq.com/s/QDkImJr_dlfiOkY9XG_eYA",
       },
     ],
   },

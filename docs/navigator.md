@@ -4,7 +4,7 @@ layoutClass: m-nav-layout
 sidebar: false
 prev: false
 next: false
-hide: true
+hidden: true
 outline: [2, 3, 4]
 ---
 
