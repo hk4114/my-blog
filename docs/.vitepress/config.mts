@@ -43,16 +43,16 @@ export default defineConfig({
       { text: "导航", link: "/navigator.html" },
       {
         text: "我的周刊",
-        items: [{ text: "我的周刊", link: "/weekly/index.html" }],
+        items: [{ text: "索引", link: "/weekly/index.html" }],
+      },
+      {
+        text: "技术笔记",
+        items: [{ text: "mac 命令", link: "/tech/mac.html" }],
       },
       {
         text: "项目",
         link: '/thirty-projects/list.html'
       },
-      // {
-      //   text: "技术笔记",
-      //   items: [{ text: "我的周刊", link: "/weekly/index.html" }],
-      // },
       // {
       //   text: "阅读",
       //   items: [{ text: "我的周刊", link: "/weekly/index.html" }],

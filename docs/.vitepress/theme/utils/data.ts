@@ -52,6 +52,11 @@ export const NAV_DATA: NavData[] = [
         link: "https://www.nsd.pku.edu.cn/cbw/jjxjk/qkml/index.htm",
       },
       {
+        title: "《对外投资合作国别（地区）指南》",
+        desc: "商务部",
+        link: "http://fec.mofcom.gov.cn/article/gbdqzn/",
+      },
+      {
         title: "Quick Reference",
         desc: "开发人员分享快速参考备忘清单",
         link: "https://wangchujiang.com/reference/index.html",
@@ -401,15 +406,10 @@ export const NAV_DATA: NavData[] = [
     title: "工具",
     items: [
       {
-        icon: "https://lf1-cdn2-tos.bytegoofy.com/bydesign/iconparksite/logo.svg",
-        title: "IconPark 图标库",
-        desc: "IconPark图标库是一个通过技术驱动矢量图标样式的开源图标库，可以实现根据单一 SVG 源文件变换出多种主题， 具备丰富的分类、更轻量的代码和更灵活的使用场景；致力于构建高质量、统一化、可定义的图标资源，让大多数人都能够选择适合自己的风格图标",
-        link: "https://iconpark.oceanengine.com/official",
-      },
-      {
-        title: "TexttoSpeech.im",
-        desc: "文字转语音",
-        link: "https://texttospeech.im/zh-CN",
+        icon: "https://cdn-fusion.imgimg.cc/i/2024/V0dcRHCStxC0mLBy.png",
+        title: "mac 教程",
+        desc: "mac 教程",
+        link: "https://44maker.github.io/wiki/Mac/index.html",
       },
       {
         title: "markdown 编辑器",
@@ -417,19 +417,32 @@ export const NAV_DATA: NavData[] = [
         link: "https://md.openwrite.cn/",
       },
       {
+        title: "TexttoSpeech.im",
+        desc: "文字转语音",
+        link: "https://texttospeech.im/zh-CN",
+      },
+      {
         title: "process on",
         desc: "ProcessOn流程图和思维导图工具",
         link: "https://www.processon.com/",
       },
       {
-        title: "Online books",
-        desc: "Online books",
-        link: "https://onlinebooks.library.upenn.edu/",
-      },
-      {
         title: "沉浸式翻译",
         desc: "沉浸式翻译工具，支持pdf转EPUB",
+        badge: {
+          text: "翻译",
+          type: "danger",
+        },
         link: "https://immersivetranslate.com/",
+      },
+      {
+        title: "DeepL 翻译",
+        badge: {
+          text: "翻译",
+          type: "danger",
+        },
+        desc: "全世界最准确的翻译",
+        link: "https://www.deepl.com/translator",
       },
       {
         title: "calibre",
@@ -441,11 +454,7 @@ export const NAV_DATA: NavData[] = [
         desc: "AI 自动生成语音字幕，免费且可本地离线运行",
         link: "https://godlucky.net/whisperapp/",
       },
-      {
-        title: "DeepL 翻译",
-        desc: "全世界最准确的翻译",
-        link: "https://www.deepl.com/translator",
-      },
+      
       {
         title: "pdf 处理",
         desc: "pdf 处理工具",
@@ -477,47 +486,93 @@ export const NAV_DATA: NavData[] = [
         link: "https://github.com/zhuima/awesome-cloudflare",
       },
       {
+        icon: "https://lf1-cdn2-tos.bytegoofy.com/bydesign/iconparksite/logo.svg",
+        title: "IconPark 图标库",
+        badge: {
+          text: "图片",
+          type: "warning",
+        },
+        desc: "通过技术驱动矢量图标样式的开源图标库",
+        link: "https://iconpark.oceanengine.com/official",
+      },
+      {
         title: "可画",
         desc: "可画",
+        badge: {
+          text: "图片",
+          type: "warning",
+        },
         link: "https://www.canva.cn/",
       },
       {
         title: "切九图",
         desc: "切九图",
+        badge: {
+          text: "图片",
+          type: "warning",
+        },
         link: "https://v.magiconch.com/sns-image",
       },
       {
         title: "BgSub",
         desc: "消除或者替换图像背景，无需上传图像",
+        badge: {
+          text: "图片",
+          type: "warning",
+        },
         link: "https://bgsub.cn/",
       },
       {
         title: "waifu2x",
         desc: "图片无损放大工具",
+        badge: {
+          text: "图片",
+          type: "warning",
+        },
         link: "https://waifu2x.udp.jp/",
       },
       {
         title: "照片清除背景",
         desc: "照片清除背景",
+        badge: {
+          text: "图片",
+          type: "warning",
+        },
         link: "https://cleanupphotos.com/",
       },
       {
         title: "Reshot",
         desc: "免费图标和插图",
+        badge: {
+          text: "图片",
+          type: "warning",
+        },
         link: "https://www.reshot.com/",
-      },
-      {
-        title: "万能视频图片解析下载",
-        desc: "万能视频图片解析下载",
-        link: "https://snapany.com/zh",
       },
       {
         title: "favicon",
         desc: "favicon",
+        badge: {
+          text: "图片",
+          type: "warning",
+        },
         link: "https://favicon.io/",
       },
       {
+        title: "万能视频图片解析下载",
+        desc: "万能视频图片解析下载",
+        badge: {
+          text: "图片",
+          type: "warning",
+        },
+        link: "https://snapany.com/zh",
+      },
+      {
         title: "生日那天的星星",
+        badge: {
+          text: "图片",
+          type: "warning",
+        },
         desc: "Hubble 望远镜在你生日那天拍摄的照片",
         link: "https://science.nasa.gov/mission/hubble/multimedia/what-did-hubble-see-on-your-birthday",
       },
@@ -544,9 +599,24 @@ export const NAV_DATA: NavData[] = [
         desc: "",
         link: "https://shu.ziyuandi.cn/",
       },
+      {
+        title: "Online books",
+        desc: "Listing over 3 million free books on the Web",
+        link: "https://onlinebooks.library.upenn.edu/",
+      },
+      {
+        title: "国家数字图书馆",
+        desc: "",
+        link: "http://www.nlc.cn/",
+      },
+      {
+        title: "发现报告",
+        desc: "",
+        icon: 'https://static.fxbaogao.com/pub/img/logo/fxbaogao/favicon.ico',
+        link: "https://www.fxbaogao.com/",
+      },
     ],
   },
-
   {
     title: "影视资源",
     items: [
@@ -579,7 +649,6 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
-
   {
     title: "vpn",
     items: [
@@ -606,13 +675,8 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
-    title: "官方信息源",
+    title: "投诉维权防诈骗",
     items: [
-      {
-        title: "国家统计局官网",
-        desc: "国家统计局官网",
-        link: "http://www.stats.gov.cn/",
-      },
       {
         title: "国家药品监督管理局",
         desc: "国家药品监督管理局",
@@ -639,8 +703,8 @@ export const NAV_DATA: NavData[] = [
         link: "https://wenshu.court.gov.cn/",
       },
       {
-        title: "工信部，申诉运营商",
-        desc: "工信部，申诉运营商",
+        title: "工信部，",
+        desc: "申诉运营商",
         link: "https://yhssglxt.miit.gov.cn/web",
       },
       {
@@ -649,9 +713,19 @@ export const NAV_DATA: NavData[] = [
         link: "https://sswz.spb.gov.cn/",
       },
       {
-        title: "信用信息公示系统-查企业",
-        desc: "信用信息公示系统-查企业",
+        title: "信用信息公示系统",
+        desc: "查企业",
         link: "https://www.gsxt.gov.cn/index.html",
+      },
+    ]
+  },
+  {
+    title: "公开数据",
+    items: [
+      {
+        title: "国家统计局官网",
+        desc: "国家统计局官网",
+        link: "http://www.stats.gov.cn/",
       },
       {
         title: "外文局出品",
@@ -664,24 +738,9 @@ export const NAV_DATA: NavData[] = [
         link: "http://www.sstir.cn/",
       },
       {
-        title: "商务部《对外投资合作国别（地区）指南》",
-        desc: "商务部《对外投资合作国别（地区）指南》",
-        link: "http://fec.mofcom.gov.cn/article/gbdqzn/",
-      },
-      {
-        title: "发现报告",
-        desc: "发现报告",
-        link: "https://www.fxbaogao.com/",
-      },
-      {
         title: "医学微视",
         desc: "医学微视",
         link: "https://www.mvyxws.com/?from=timeline&isappinstalled=0",
-      },
-      {
-        title: "国家数字图书馆",
-        desc: "国家数字图书馆",
-        link: "http://www.nlc.cn/",
       },
       {
         title: "合同示范文本",

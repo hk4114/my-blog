@@ -56,6 +56,13 @@ const blogTheme = getThemeConfig({
       url: "https://sugarat.top",
     },
     {
+      nickname: "@sugarat/theme",
+      des: "基于 vitepress 的定制主题",
+      avatar:
+        "https://img.cdn.sugarat.top/mdImg/MTY3NDk5NTE2NzAzMA==674995167030",
+      url: "https://theme.sugarat.top/",
+    },
+    {
       nickname: "Vitepress",
       des: "Vite & Vue Powered Static Site Generator",
       avatar: "https://vitepress.dev/vitepress-logo-large.webp",
