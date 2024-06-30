@@ -367,6 +367,37 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
+    title: "代码助手",
+    items: [
+      {
+        title: "通义灵码",
+        desc: "基于通义大模型的代码开发工具，插件形式",
+        link: "https://tongyi.aliyun.com/lingma",
+      },
+      {
+        title: "MarsCode",
+        desc:
+          "字节跳动发布了基于豆包大模型打造的智能开发工具，面向国内开发者免费开放",
+        link: "https://www.marscode.cn/home",
+      },
+      {
+        title: "文心快码",
+        desc: "编程工具，插件形式，插件市场搜索：Baidu Comate",
+        link: "https://comate.baidu.com/",
+      },
+      {
+        title: "CodeWhisperer",
+        desc: "Amazon 出品的开发插件",
+        link: "https://aws.amazon.com/cn/pm/codewhisperer/",
+      },
+      {
+        title: "Copilot",
+        desc: "GitHub，要钱，还没用过",
+        link: "https://docs.github.com/zh/copilot/quickstart",
+      },
+    ],
+  },
+  {
     title: "工具",
     items: [
       {
