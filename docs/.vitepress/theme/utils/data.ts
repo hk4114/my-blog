@@ -279,11 +279,6 @@ export const NAV_DATA: NavData[] = [
         link: "https://lunaai.video/zh-CN",
       },
       {
-        title: "DeepSeek-Coder-V2",
-        desc: "代码助手，需要登陆",
-        link: "https://chat.deepseek.com/coder",
-      },
-      {
         title: "Stable Diffusion 3 AI 图像生成器",
         desc: "通过文本生成图像，无需注册",
         link: "https://stablediffusion3.net/zh-CN",
