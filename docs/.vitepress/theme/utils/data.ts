@@ -106,6 +106,11 @@ export const NAV_DATA: NavData[] = [
         desc: "终身教育平台",
         link: "https://le.ouchn.cn/home",
       },
+      {
+        title: "exercism",
+        desc: "代码学习的测试题",
+        link: "https://exercism.org/",
+      }
     ],
   },
   {
@@ -376,8 +381,7 @@ export const NAV_DATA: NavData[] = [
       },
       {
         title: "MarsCode",
-        desc:
-          "字节跳动发布了基于豆包大模型打造的智能开发工具，面向国内开发者免费开放",
+        desc: "字节跳动发布了基于豆包大模型打造的智能开发工具，面向国内开发者免费开放",
         link: "https://www.marscode.cn/home",
       },
       {
@@ -409,18 +413,58 @@ export const NAV_DATA: NavData[] = [
       {
         title: "markdown 编辑器",
         desc: "markdown 编辑器",
+        badge: {
+          text: "mk",
+          type: "info",
+        },
         link: "https://md.openwrite.cn/",
+      },
+      {
+        title: "墨滴编辑器",
+        desc: "markdown 编辑器",
+        badge: {
+          text: "mk",
+          type: "info",
+        },
+        icon: "https://editor.mdnice.com/favicon.svg",
+        link: "https://editor.mdnice.com/",
+      },
+      {
+        title: "幕布",
+        desc: "思维导图，ppt，在线形式",
+        badge: {
+          text: "思维导图",
+          type: "danger",
+        },
+        icon: "https://assets.mubu.com/favicon.ico",
+        link: "https://mubu.com/",
+      },
+      {
+        title: "process on",
+        icon: "https://www.processon.com/assets/imgs/logo_small.svg",
+        badge: {
+          text: "思维导图",
+          type: "danger",
+        },
+        desc: "ProcessOn流程图和思维导图工具",
+        link: "https://www.processon.com/",
+      },
+      {
+        title: "excalidraw",
+        icon: "https://excalidraw.com/apple-touch-icon.png",
+        badge: {
+          text: "思维导图",
+          type: "danger",
+        },
+        desc: "绘图工具",
+        link: "https://excalidraw.com/",
       },
       {
         title: "TexttoSpeech.im",
         desc: "文字转语音",
         link: "https://texttospeech.im/zh-CN",
       },
-      {
-        title: "process on",
-        desc: "ProcessOn流程图和思维导图工具",
-        link: "https://www.processon.com/",
-      },
+
       {
         title: "沉浸式翻译",
         desc: "沉浸式翻译工具，支持pdf转EPUB",
@@ -449,7 +493,7 @@ export const NAV_DATA: NavData[] = [
         desc: "AI 自动生成语音字幕，免费且可本地离线运行",
         link: "https://godlucky.net/whisperapp/",
       },
-      
+
       {
         title: "pdf 处理",
         desc: "pdf 处理工具",
@@ -460,25 +504,11 @@ export const NAV_DATA: NavData[] = [
         desc: "在线格式转换工具",
         link: "https://www.aconvert.com/",
       },
-      {
-        title: "标准地图服务",
-        desc: "标准地图服务",
-        link: "http://bzdt.ch.mnr.gov.cn/",
-      },
+
       {
         title: "MyFakeInfo",
         desc: "生成假信息，无法律风险",
         link: "https://www.myfakeinfo.com/",
-      },
-      {
-        title: "APIVault",
-        desc: "API的搜索引擎，收集了大量公共API",
-        link: "https://apivault.dev/",
-      },
-      {
-        title: "awesome-cloudflare",
-        desc: "基于 Cloudflare 的开源工具/服务仓库",
-        link: "https://github.com/zhuima/awesome-cloudflare",
       },
       {
         icon: "https://lf1-cdn2-tos.bytegoofy.com/bydesign/iconparksite/logo.svg",
@@ -574,6 +604,49 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
+    title: "公共服务",
+    items: [
+      {
+        title: "vercel",
+        badge: {
+          text: "部署",
+          type: "info",
+        },
+        desc: "部署",
+        link: "https://vercel.com",
+      },
+      {
+        title: "cloudflare",
+        badge: {
+          text: "部署",
+          type: "info",
+        },
+        desc: "部署",
+        link: "https://dash.cloudflare.com",
+      },
+      {
+        title: "cloudns",
+        badge: {
+          text: "部署",
+          type: "info",
+        },
+        desc: "dns",
+        link: "https://www.cloudns.net/",
+      },
+      {
+        title: "标准地图服务",
+        desc: "标准地图服务",
+        link: "http://bzdt.ch.mnr.gov.cn/",
+      },
+      {
+        title: "APIVault",
+        desc: "API的搜索引擎，收集了大量公共API",
+        link: "https://apivault.dev/",
+      },
+      
+    ],
+  },
+  {
     title: "搜书",
     items: [
       {
@@ -607,7 +680,7 @@ export const NAV_DATA: NavData[] = [
       {
         title: "发现报告",
         desc: "",
-        icon: 'https://static.fxbaogao.com/pub/img/logo/fxbaogao/favicon.ico',
+        icon: "https://static.fxbaogao.com/pub/img/logo/fxbaogao/favicon.ico",
         link: "https://www.fxbaogao.com/",
       },
     ],
@@ -712,7 +785,7 @@ export const NAV_DATA: NavData[] = [
         desc: "查企业",
         link: "https://www.gsxt.gov.cn/index.html",
       },
-    ]
+    ],
   },
   {
     title: "公开数据",
