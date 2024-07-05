@@ -515,10 +515,19 @@ export const NAV_DATA: NavData[] = [
         title: "IconPark 图标库",
         badge: {
           text: "图片",
-          type: "warning",
+          type: "info",
         },
         desc: "通过技术驱动矢量图标样式的开源图标库",
         link: "https://iconpark.oceanengine.com/official",
+      },
+      {
+        title: "ImageSearch",
+        badge: {
+          text: "图片",
+          type: "warning",
+        },
+        desc: "一个以图搜图的网站，聚合了百度和谷歌的结果",
+        link: "https://picfind.top/",
       },
       {
         title: "可画",
