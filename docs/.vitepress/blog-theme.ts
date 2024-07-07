@@ -118,28 +118,34 @@ const blogTheme = getThemeConfig({
     topTitle: "举些🌰",
     list: [
       {
-        title: "博客主题 @sugarat/theme",
-        description: "基于 vitepress 实现的博客主题",
+        title: "博客",
+        description: "个人博客",
         time: {
-          start: "2023/01/29",
+          start: "2024/06/29",
         },
         github: {
-          owner: "ATQQ",
-          repo: "sugar-blog",
-          branch: "master",
-          path: "packages/theme",
+          owner: "hk4114",
+          repo: "my-blog",
+          branch: "main",
+          path: "docs",
         },
         status: {
-          text: "自定义badge",
+          text: "在运行",
         },
-        url: "https://theme.sugarat.top",
-        cover:
-          "https://img.cdn.sugarat.top/mdImg/MTY3MzE3MDUxOTMwMw==673170519303",
+        url: "https://hk4114.github.io/my-blog",
+        cover: [
+          baseUrl + "projects/blog1.png",
+          baseUrl + "projects/blog2.png",
+        ],
         tags: ["Vitepress", "Vue"],
         links: [
           {
-            title: "一个简约风的VitePress博客主题",
-            url: "https://juejin.cn/post/7196517835380293693",
+            title: "地址",
+            url: "https://hk4114.github.io/my-blog",
+          },
+          {
+            title: "投资",
+            url: "https://hk4114.github.io/investment/",
           },
         ],
       },

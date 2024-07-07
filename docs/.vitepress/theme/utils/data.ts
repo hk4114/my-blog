@@ -117,6 +117,12 @@ export const NAV_DATA: NavData[] = [
     title: "AI 工具",
     items: [
       {
+        title: "way to agi",
+        icon: "https://www.waytoagi.com/favicon.ico",
+        desc: "精选最好的 AI 提示词",
+        link: "https://www.waytoagi.com/prompts",
+      },
+      {
         title: "kimi.ai",
         icon: "https://statics.moonshot.cn/kimi-chat/favicon.ico",
         desc: "目前我最常用的AI工具",
