@@ -47,11 +47,27 @@ export default defineConfig({
       },
       {
         text: "技术笔记",
-        items: [{ text: "mac 命令", link: "/tech/mac.html" }],
+        items: [
+          { text: "mac 命令", link: "/tech/mac.html" },
+          { text: "prompt 工程", link: "/tech/prompt.html" },
+        ],
+      },
+      {
+        text: "方法论集锦",
+        items: [
+          {
+            text: "学习方法论",
+            link: "https://www.yuque.com/huakang/hanadostar/oh4qnzlnk496g2gn",
+          },
+          {
+            text: "我的为人处事",
+            link: "https://www.yuque.com/huakang/hanadostar/vubs5smhenoy1na0",
+          },
+        ],
       },
       {
         text: "项目",
-        link: '/thirty-projects/list.html'
+        link: "/thirty-projects/list.html",
       },
       // {
       //   text: "阅读",
