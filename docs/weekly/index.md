@@ -37,9 +37,10 @@ hidden: true
 - 腾讯技术工程
 
 ## 2024
-* [Mine Weekly 第 46 期](./2024-07-07.md)
-* [Mine Weekly 第 45 期](./2024-06-30.md)
-* [Mine Weekly 第 44 期](https://www.yuque.com/huakang/weekly/vw91sf87r9vxk32r)
+* [Mine Weekly 第 48 期](./2024-07-14.md)
+* [Mine Weekly 第 47 期](./2024-07-07.md)
+* [Mine Weekly 第 46 期](./2024-06-30.md)
+* [Mine Weekly 第 45 期](https://www.yuque.com/huakang/weekly/vw91sf87r9vxk32r)
 
 ---
 
