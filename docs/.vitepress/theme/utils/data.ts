@@ -147,6 +147,12 @@ export const NAV_DATA: NavData[] = [
         link: "https://www.coze.cn/",
       },
       {
+        title: "豆包",
+        icon: "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/web/logo-icon.png",
+        desc: "没怎么用过",
+        link: "https://www.doubao.com/chat/",
+      },
+      {
         title: "智谱",
         icon: "https://chatglm.cn/img/icons/favicon-32x32.png",
         desc: "没怎么用过",
