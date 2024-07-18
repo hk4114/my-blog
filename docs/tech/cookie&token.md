@@ -1,5 +1,5 @@
 ---
-title: [译]揭开 Cookie 和 Token 的神秘面纱
+title: 【译】揭开 Cookie 和 Token 的神秘面纱
 description: 本文将帮助你理解网页 Cookie 和 Token 的基本概念和用途，并介绍它们的常见类型。
 ---
 
@@ -23,8 +23,7 @@ description: 本文将帮助你理解网页 Cookie 和 Token 的基本概念和�
 当你再次访问时，网站可以通过 Cookie 继续你的操作。
 
 下面的图片在非常高的层面上解释了 Cookie 是如何工作的。
-![Image 1. High-level definition of how cookies come to life
-Source: Cookieyes. Check source URL from lower left corner of picture](xxxx)
+
 
 ### 为什么需要 Cookie？
 因为 HTTP 协议本身不记录状态，所以需要 Cookie 来记住用户的状态。当你请求网站时，服务器会发送一个包含会话 ID 的 Cookie。这个会话 ID 帮助网站识别你。
