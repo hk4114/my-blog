@@ -47,6 +47,12 @@ export const NAV_DATA: NavData[] = [
     title: "学习资料",
     items: [
       {
+        icon: "https://cdn-fusion.imgimg.cc/i/2024/V0dcRHCStxC0mLBy.png",
+        title: "mac 教程",
+        desc: "mac 教程",
+        link: "https://44maker.github.io/wiki/Mac/index.html",
+      },
+      {
         title: "经济学季刊",
         desc: "经济学季刊",
         link: "https://www.nsd.pku.edu.cn/cbw/jjxjk/qkml/index.htm",
@@ -110,18 +116,12 @@ export const NAV_DATA: NavData[] = [
         title: "exercism",
         desc: "代码学习的测试题",
         link: "https://exercism.org/",
-      }
+      },
     ],
   },
   {
-    title: "AI 工具",
+    title: "基于文本的 AI 工具",
     items: [
-      {
-        title: "way to agi",
-        icon: "https://www.waytoagi.com/favicon.ico",
-        desc: "精选最好的 AI 提示词",
-        link: "https://www.waytoagi.com/prompts",
-      },
       {
         title: "kimi.ai",
         icon: "https://statics.moonshot.cn/kimi-chat/favicon.ico",
@@ -158,87 +158,112 @@ export const NAV_DATA: NavData[] = [
         desc: "没怎么用过",
         link: "https://chatglm.cn/",
       },
-
       {
         title: "chatGPT",
         icon: "https://cdn.oaistatic.com/_next/static/media/apple-touch-icon.82af6fe1.png",
-        desc: "源网址",
+        desc: "OpenAI开发的对话式AI聊天机器人",
+        badge: {
+          text: "需魔法",
+          type: "danger",
+        },
         link: "https://chat.openai.com/",
       },
       {
         title: "gpt4o.so",
         icon: "https://cdn.lbbai.com/links/images/2.png",
-        badge: {
-          text: "镜像",
-          type: "info",
-        },
-        desc: "用来当gpt镜像",
+        desc: "chatGPT 镜像",
         link: "https://gpt4o.so/zh-CN",
       },
       {
         title: "老北鼻",
-        badge: {
-          text: "镜像",
-          type: "info",
-        },
         icon: "https://lbbai.com/wp-content/uploads/2023/04/54x54.png",
-        desc: "常用, gpt镜像",
+        desc: "chatGPT 镜像",
         link: "https://lj.lbbai.com/#url=lbbdh",
       },
       {
         title: "gpt 镜像",
-        badge: {
-          text: "镜像",
-          type: "info",
-        },
-        desc: "gpt镜像",
+        desc: "chatGPT 镜像",
         link: "https://chat18.aichatos8.com/",
       },
+      {
+        title: "Gemini",
+        badge: {
+          text: "需魔法",
+          type: "danger",
+        },
+        desc: "Google开发的对话式AI聊天机器人",
+        link: "https://gemini.google.com",
+      },
+      {
+        title: "Missive",
+        icon: "https://ddux7jl4k2xkx.cloudfront.net/assets/missive-apple-touch-icon-0b50d5767ede0ecd6ab321f0c72c4c8745a67ca5978bb6991a68cf251dec0785.png",
+        desc: "团队收件箱工具，可用于内部和外部沟通",
+        link: "https://missiveapp.com",
+      },
+      {
+        title: "Recruitee",
+        icon: "https://cdn.prod.website-files.com/60780a9b4720a47267a88257/60990d7ed4f930cd32416212_recruitee-webclip-blue.png",
+        desc: "自动化招聘任务的工具",
+        link: "https://recruitee.com",
+      },
+      {
+        title: "Notion",
+        icon: "https://www.notion.so/front-static/logo-ios.png",
+        desc: "智能文档组织工具，总结会议记录",
+        link: "https://www.notion.so",
+      },
+      {
+        title: "tl;dv",
+        icon: "https://tldv.io/wp-content/uploads/2022/04/tldvllogo.svg",
+        desc: "会议记录和总结工具",
+        link: "https://tldv.io",
+      },
+    ],
+  },
+  {
+    title: "搜索",
+    items: [
       {
         title: "百小应",
         icon: "https://cdn.baichuan-ai.com/build/_next/static/media/logo.ce66885d.png",
         badge: {
-          text: "搜索",
-          type: "tip",
+          text: "需登陆",
+          type: "warning",
         },
-        desc: "【需登陆】",
+        desc: "",
         link: "https://ying.baichuan-ai.com",
       },
       {
         title: "perplexity",
         badge: {
-          text: "搜索",
-          type: "tip",
+          text: "需魔法",
+          type: "danger",
         },
-        desc: "【需魔法】",
+        desc: "好用，爱用，常用",
         link: "https://www.perplexity.ai/",
       },
       {
         title: "秘塔",
         icon: "https://metaso.cn/apple-touch-icon.png",
         badge: {
-          text: "搜索",
-          type: "tip",
+          text: "需登陆",
+          type: "warning",
         },
-        desc: "【需登陆】学术模式很不错，交互友好",
+        desc: "学术模式很不错，交互友好",
         link: "https://metaso.cn/",
       },
       {
         title: "开搜AI",
         icon: "https://img.kaisouai.com/img/browserLogo.png",
         badge: {
-          text: "搜索",
-          type: "tip",
+          text: "需登陆",
+          type: "warning",
         },
-        desc: "【需登陆】",
+        desc: "体验一般",
         link: "https://kaisouai.com/",
       },
       {
         title: "globe",
-        badge: {
-          text: "搜索",
-          type: "tip",
-        },
         desc: "不需要登陆，带图片搜索",
         link: "https://explorer.globe.engineer/",
       },
@@ -246,8 +271,8 @@ export const NAV_DATA: NavData[] = [
         title: "consensus",
         icon: "https://consensus.app/images/logo-min.svg",
         badge: {
-          text: "搜索",
-          type: "tip",
+          text: "需登陆",
+          type: "warning",
         },
         desc: "【需登陆】答案完全来自论文",
         link: "https://consensus.app/search/",
@@ -256,49 +281,44 @@ export const NAV_DATA: NavData[] = [
         title: "duckduckgo",
         icon: "https://duckduckgo.com/assets/logo_header.v109.svg",
         badge: {
-          text: "搜索",
-          type: "tip",
+          text: "需魔法",
+          type: "danger",
         },
-        desc: "【需魔法】比较老牌的搜索引擎，个人体验不怎么样",
+        desc: "比较老牌的搜索引擎，个人体验不怎么样",
         link: "https://duckduckgo.com/?q=DuckDuckGo&ia=chat",
       },
       {
         title: "brainstorm",
         badge: {
-          text: "搜索",
-          type: "tip",
+          text: "需登陆",
+          type: "danger",
         },
-        desc: "【需登陆】备用",
+        desc: "备用",
         link: "https://brainstorm.cool",
       },
       {
         title: "devv ai",
         badge: {
-          text: "搜索",
-          type: "tip",
+          text: "需魔法",
+          type: "danger",
         },
-        desc: "【需魔法】面向程序员",
+        desc: "面向程序员",
         link: "https://devv.ai/",
       },
       {
         title: "lepton",
         icon: "https://avatars.githubusercontent.com/u/124112888?s=200&v=4",
-        badge: {
-          text: "搜索",
-          type: "tip",
-        },
         desc: "【备用】如果不设置返回的结果是英文，体验不怎么样",
         link: "https://search.lepton.run/",
       },
       {
-        title: "Luma AI Video Generator",
-        desc: "Luma AI 视频生成器免费在线使用",
-        link: "https://lunaai.video/zh-CN",
-      },
-      {
-        title: "Stable Diffusion 3 AI 图像生成器",
-        desc: "通过文本生成图像，无需注册",
-        link: "https://stablediffusion3.net/zh-CN",
+        title: "ImageSearch",
+        badge: {
+          text: "图片",
+          type: "warning",
+        },
+        desc: "一个以图搜图的网站，聚合了百度和谷歌的结果",
+        link: "https://picfind.top/",
       },
     ],
   },
@@ -345,6 +365,12 @@ export const NAV_DATA: NavData[] = [
     title: "工具箱",
     items: [
       {
+        title: "way to agi",
+        icon: "https://www.waytoagi.com/favicon.ico",
+        desc: "精选最好的 AI 提示词",
+        link: "https://www.waytoagi.com/prompts",
+      },
+      {
         title: "独立开发者出海工具箱",
         desc: "独立开发者出海工具箱",
         link: "https://indiehackertools.net/",
@@ -381,6 +407,25 @@ export const NAV_DATA: NavData[] = [
         desc: "开发者武器库，做开发者最专业最好用的专业工具箱",
         link: "https://devtool.tech",
       },
+      {
+        title: "markdown 编辑器",
+        desc: "markdown 编辑器",
+        badge: {
+          text: "mk",
+          type: "info",
+        },
+        link: "https://md.openwrite.cn/",
+      },
+      {
+        title: "墨滴编辑器",
+        desc: "markdown 编辑器",
+        badge: {
+          text: "mk",
+          type: "info",
+        },
+        icon: "https://editor.mdnice.com/favicon.svg",
+        link: "https://editor.mdnice.com/",
+      },
     ],
   },
   {
@@ -414,32 +459,104 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
-    title: "工具",
+    title: "翻译",
     items: [
       {
-        icon: "https://cdn-fusion.imgimg.cc/i/2024/V0dcRHCStxC0mLBy.png",
-        title: "mac 教程",
-        desc: "mac 教程",
-        link: "https://44maker.github.io/wiki/Mac/index.html",
-      },
-      {
-        title: "markdown 编辑器",
-        desc: "markdown 编辑器",
+        title: "沉浸式翻译",
+        desc: "沉浸式翻译工具，支持pdf转EPUB",
         badge: {
-          text: "mk",
+          text: "翻译",
           type: "info",
         },
-        link: "https://md.openwrite.cn/",
+        link: "https://immersivetranslate.com/",
       },
       {
-        title: "墨滴编辑器",
-        desc: "markdown 编辑器",
+        title: "DeepL 翻译",
         badge: {
-          text: "mk",
+          text: "翻译",
           type: "info",
         },
-        icon: "https://editor.mdnice.com/favicon.svg",
-        link: "https://editor.mdnice.com/",
+        desc: "全世界最准确的翻译",
+        link: "https://www.deepl.com/translator",
+      },
+      {
+        title: "语音转字幕工具",
+        desc: "AI 自动生成语音字幕，免费且可本地离线运行",
+        link: "https://godlucky.net/whisperapp/",
+      },
+    ],
+  },
+  {
+    title: "公共服务",
+    items: [
+      {
+        title: "vercel",
+        badge: {
+          text: "部署",
+          type: "info",
+        },
+        desc: "部署",
+        link: "https://vercel.com",
+      },
+      {
+        title: "cloudflare",
+        badge: {
+          text: "部署",
+          type: "info",
+        },
+        desc: "部署",
+        link: "https://dash.cloudflare.com",
+      },
+      {
+        title: "cloudns",
+        badge: {
+          text: "部署",
+          type: "info",
+        },
+        desc: "dns",
+        link: "https://www.cloudns.net/",
+      },
+      {
+        title: "标准地图服务",
+        desc: "标准地图服务",
+        link: "http://bzdt.ch.mnr.gov.cn/",
+      },
+      {
+        title: "APIVault",
+        desc: "API的搜索引擎，收集了大量公共API",
+        link: "https://apivault.dev/",
+      },
+      {
+        title: "MyFakeInfo",
+        desc: "生成假信息，无法律风险",
+        link: "https://www.myfakeinfo.com/",
+      },
+    ],
+  },
+  {
+    title: "设计/图像/视频生成",
+    items: [
+      {
+        title: "Luma AI Video Generator",
+        icon: "https://lunaai.video/favicon.ico",
+        desc: "Luma AI 视频生成器免费在线使用",
+        link: "https://lunaai.video/zh-CN",
+      },
+      {
+        title: "Descript",
+        icon: "https://cdn.prod.website-files.com/5d761d627a6dfa6a5b28ab12/5d761d627a6dfa22d328aba1_Webclip.png",
+        desc: "视频和播客编辑工具",
+        link: "https://www.descript.com",
+      },
+      {
+        icon: "https://lf1-cdn2-tos.bytegoofy.com/bydesign/iconparksite/logo.svg",
+        title: "IconPark 图标库",
+        badge: {
+          text: "图片",
+          type: "info",
+        },
+        desc: "通过技术驱动矢量图标样式的开源图标库",
+        link: "https://iconpark.oceanengine.com/official",
       },
       {
         title: "幕布",
@@ -476,79 +593,53 @@ export const NAV_DATA: NavData[] = [
         desc: "文字转语音",
         link: "https://texttospeech.im/zh-CN",
       },
-
       {
-        title: "沉浸式翻译",
-        desc: "沉浸式翻译工具，支持pdf转EPUB",
-        badge: {
-          text: "翻译",
-          type: "danger",
-        },
-        link: "https://immersivetranslate.com/",
-      },
-      {
-        title: "DeepL 翻译",
-        badge: {
-          text: "翻译",
-          type: "danger",
-        },
-        desc: "全世界最准确的翻译",
-        link: "https://www.deepl.com/translator",
-      },
-      {
-        title: "calibre",
-        desc: "pdf 转 EPUB 工具",
-        link: "https://calibre-ebook.com/",
-      },
-      {
-        title: "语音转字幕工具",
-        desc: "AI 自动生成语音字幕，免费且可本地离线运行",
-        link: "https://godlucky.net/whisperapp/",
-      },
-
-      {
-        title: "pdf 处理",
-        desc: "pdf 处理工具",
-        link: "https://tools.pdf24.org/zh/",
-      },
-      {
-        title: "在线格式转换",
-        desc: "在线格式转换工具",
-        link: "https://www.aconvert.com/",
-      },
-
-      {
-        title: "MyFakeInfo",
-        desc: "生成假信息，无法律风险",
-        link: "https://www.myfakeinfo.com/",
-      },
-      {
-        icon: "https://lf1-cdn2-tos.bytegoofy.com/bydesign/iconparksite/logo.svg",
-        title: "IconPark 图标库",
-        badge: {
-          text: "图片",
-          type: "info",
-        },
-        desc: "通过技术驱动矢量图标样式的开源图标库",
-        link: "https://iconpark.oceanengine.com/official",
-      },
-      {
-        title: "ImageSearch",
+        title: "DALL-E",
         badge: {
           text: "图片",
           type: "warning",
         },
-        desc: "一个以图搜图的网站，聚合了百度和谷歌的结果",
-        link: "https://picfind.top/",
+        desc: "【需魔法】OpenAI开发的文本到图像生成模型",
+        link: "https://openai.com/index/dall-e-3",
+      },
+      {
+        title: "Midjourney",
+        icon: "https://www.midjourney.com/favicon.ico",
+        desc: "图像生成和操作工具，生成产品概念图、设计营销材料",
+        link: "https://www.midjourney.com",
+      },
+      {
+        title: "Stable Diffusion 3 AI 图像生成器",
+        icon: "https://stablediffusion3.net/favicon.ico",
+        desc: "通过文本生成图像，无需注册",
+        link: "https://stablediffusion3.net/zh-CN",
+      },
+      {
+        title: "Figma",
+        desc: "设计工具，更快更容易地可视化想法、创建交互式原型",
+        badge: {
+          text: "设计",
+          type: "info",
+        },
+        link: "https://www.figma.com",
       },
       {
         title: "可画",
-        desc: "可画",
+        desc: "在线设计工具",
         badge: {
-          text: "图片",
-          type: "warning",
+          text: "设计",
+          type: "info",
         },
-        link: "https://www.canva.cn/",
+        link: "https://www.canva.com",
+      },
+      {
+        title: "Tome",
+        desc: "演示制作工具，快速生成图像、文本、大纲等，创建产品演示",
+        badge: {
+          text: "设计",
+          type: "info",
+        },
+        link: "https://tome.app/ai",
       },
       {
         title: "切九图",
@@ -613,58 +704,6 @@ export const NAV_DATA: NavData[] = [
         },
         link: "https://snapany.com/zh",
       },
-      {
-        title: "生日那天的星星",
-        badge: {
-          text: "图片",
-          type: "warning",
-        },
-        desc: "Hubble 望远镜在你生日那天拍摄的照片",
-        link: "https://science.nasa.gov/mission/hubble/multimedia/what-did-hubble-see-on-your-birthday",
-      },
-    ],
-  },
-  {
-    title: "公共服务",
-    items: [
-      {
-        title: "vercel",
-        badge: {
-          text: "部署",
-          type: "info",
-        },
-        desc: "部署",
-        link: "https://vercel.com",
-      },
-      {
-        title: "cloudflare",
-        badge: {
-          text: "部署",
-          type: "info",
-        },
-        desc: "部署",
-        link: "https://dash.cloudflare.com",
-      },
-      {
-        title: "cloudns",
-        badge: {
-          text: "部署",
-          type: "info",
-        },
-        desc: "dns",
-        link: "https://www.cloudns.net/",
-      },
-      {
-        title: "标准地图服务",
-        desc: "标准地图服务",
-        link: "http://bzdt.ch.mnr.gov.cn/",
-      },
-      {
-        title: "APIVault",
-        desc: "API的搜索引擎，收集了大量公共API",
-        link: "https://apivault.dev/",
-      },
-      
     ],
   },
   {
@@ -735,6 +774,11 @@ export const NAV_DATA: NavData[] = [
         title: "动漫狂",
         desc: "动漫狂",
         link: "https://www.cartoonmad.com/",
+      },
+      {
+        title: "4kvm",
+        desc: "电影电视",
+        link: "https://www.4kvm.org/",
       },
     ],
   },
@@ -835,6 +879,35 @@ export const NAV_DATA: NavData[] = [
         title: "合同示范文本",
         desc: "合同示范文本",
         link: "https://cont.12315.cn/",
+      },
+      {
+        title: "生日那天的星星",
+        badge: {
+          text: "图片",
+          type: "warning",
+        },
+        desc: "Hubble 望远镜在你生日那天拍摄的照片",
+        link: "https://science.nasa.gov/mission/hubble/multimedia/what-did-hubble-see-on-your-birthday",
+      },
+    ],
+  },
+  {
+    title: "格式转换",
+    items: [
+      {
+        title: "calibre",
+        desc: "pdf 转 EPUB 工具",
+        link: "https://calibre-ebook.com/",
+      },
+      {
+        title: "pdf 处理",
+        desc: "pdf 处理工具",
+        link: "https://tools.pdf24.org/zh/",
+      },
+      {
+        title: "在线格式转换",
+        desc: "在线格式转换工具",
+        link: "https://www.aconvert.com/",
       },
     ],
   },
