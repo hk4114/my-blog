@@ -48,3 +48,30 @@ hidden: true
 :::details 2023
 * [Mine Weekly 第 34 期](https://www.yuque.com/huakang/weekly/nvc0osh8q54t6tsg)
 :::
+
+## 以前写过的文章
+- [【环境工具】关于 Nginx 我所知道的](https://juejin.cn/post/7220220100384981050)
+
+- [【环境工具】VScode 前端插件整理 & VScode 常用快捷键整理](https://juejin.cn/post/7166149743079325703)
+
+- [【环境工具】关于Chrome断点与调试我所知道的](https://juejin.cn/post/7176877808017211453)
+
+- [【环境工具】常用 Git 操作手册](https://juejin.cn/post/7177233238803513400)
+
+- [【操作指南】CSS 日常开发问题集锦（含H5）](https://juejin.cn/post/7209542304862961724)
+
+- [【操作指南】原生微信小程序常见 API 使用案例](https://juejin.cn/post/7217653855444992057)
+
+- [【操作指南】关于正则表达式我所知道的](https://juejin.cn/post/7209542304863010876)
+
+- [【操作指南】关于大屏适配我所知道的](https://juejin.cn/post/7210615486710726715)
+
+- [【操作指南】package.json 中的配置](https://juejin.cn/post/7145078108092104718)
+
+- [【操作指南】前端脚手架的搭建](https://juejin.cn/post/7141308016644587533)
+
+- [【前端监控】前端异常捕获与处理](https://juejin.cn/post/7221481997571047482)
+
+- [【前端监控】前端性能的重要指标](https://juejin.cn/post/7223668409506431037)
+
+- [【综述】关于低代码我所知道的](https://juejin.cn/post/7222921573623676987)

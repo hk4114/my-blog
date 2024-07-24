@@ -783,31 +783,6 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
-    title: "vpn",
-    items: [
-      {
-        title: "sockboom",
-        desc: "sockboom",
-        link: "https://sockboom.link",
-      },
-      {
-        title: "leensa",
-        desc: "leensa",
-        link: "https://leensa.com",
-      },
-      {
-        title: "备用 woccloud",
-        desc: "备用 woccloud",
-        link: "https://www.woccloud.pro/",
-      },
-      {
-        title: "备用 ikuuu",
-        desc: "备用 ikuuu",
-        link: "https://ikuuu.eu/auth/login",
-      },
-    ],
-  },
-  {
     title: "投诉维权防诈骗",
     items: [
       {
