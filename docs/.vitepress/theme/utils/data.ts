@@ -3,8 +3,31 @@ import type { NavData } from "./types";
 // type?: "info" | "tip" | "warning" | "danger";
 export const NAV_DATA: NavData[] = [
   {
-    title: "摄影",
+    title: "随便逛逛",
     items: [
+      {
+        icon: "https://weibo.com/favicon.ico",
+        title: "微博",
+        link: "https://weibo.com/",
+      },
+      {
+        icon: "https://x.com/favicon.ico",
+        title: "推特",
+        link: "https://x.com/home",
+      },
+      {
+        icon: "https://my.nikon.com.cn/favicon.ico",
+        title: "尼康",
+        desc: "尼康论坛",
+        link: "https://my.nikon.com.cn/",
+      },
+      {
+        icon: "https://sspai.com/favicon.ico",
+        title: "sspai",
+        desc: "少数派",
+        link: "https://sspai.com/",
+        
+      },
       {
         title: "大疆 天空之城",
         desc: "大疆 天空之城",
@@ -51,6 +74,13 @@ export const NAV_DATA: NavData[] = [
         title: "mac 教程",
         desc: "mac 教程",
         link: "https://44maker.github.io/wiki/Mac/index.html",
+      },
+      {
+        icon: "https://www.aicompasspro.com/favicon.ico",
+        title: "ai 英语学习",
+        desc: "AI指南专业版-英语学习小助手",
+        link: "https://www.aicompasspro.com/study",
+        
       },
       {
         title: "经济学季刊",
