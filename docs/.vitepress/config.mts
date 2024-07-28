@@ -16,6 +16,7 @@ export default defineConfig({
   lang: "zh-cn",
   title: "kane's blog",
   description: "个人博客",
+  cleanUrls: true,
   lastUpdated: true,
   // 详见：https://vitepress.dev/zh/reference/site-config#head
   head: [

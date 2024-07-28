@@ -395,6 +395,44 @@ export const NAV_DATA: NavData[] = [
     title: "工具箱",
     items: [
       {
+        title: "card podiatry",
+        desc: "文字生成图片工具",
+        badge: {
+          text: "日报",
+          type: "tip",
+        },
+        link: "https://card.pomodiary.com/",
+      },
+      {
+        title: "retro",
+        desc: "文字生成图片工具",
+        badge: {
+          text: "日报",
+          type: "tip",
+        },
+        link: "https://retro.iwhy.dev/",
+      },
+      {
+        title: "markdown 编辑器",
+        desc: "markdown 编辑器",
+        badge: {
+          text: "周刊",
+          type: "info",
+        },
+        icon:'https://md.openwrite.cn/assets/images/favicon.png',
+        link: "https://md.openwrite.cn/",
+      },
+      {
+        title: "墨滴编辑器",
+        desc: "markdown 编辑器",
+        badge: {
+          text: "周刊",
+          type: "info",
+        },
+        icon: "https://editor.mdnice.com/favicon.svg",
+        link: "https://editor.mdnice.com/",
+      },
+      {
         title: "way to agi",
         icon: "https://www.waytoagi.com/favicon.ico",
         desc: "精选最好的 AI 提示词",
@@ -436,26 +474,7 @@ export const NAV_DATA: NavData[] = [
         title: "开发者武器库",
         desc: "开发者武器库，做开发者最专业最好用的专业工具箱",
         link: "https://devtool.tech",
-      },
-      {
-        title: "markdown 编辑器",
-        desc: "markdown 编辑器",
-        badge: {
-          text: "mk",
-          type: "info",
-        },
-        link: "https://md.openwrite.cn/",
-      },
-      {
-        title: "墨滴编辑器",
-        desc: "markdown 编辑器",
-        badge: {
-          text: "mk",
-          type: "info",
-        },
-        icon: "https://editor.mdnice.com/favicon.svg",
-        link: "https://editor.mdnice.com/",
-      },
+      }
     ],
   },
   {
