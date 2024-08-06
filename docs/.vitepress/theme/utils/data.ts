@@ -404,6 +404,16 @@ export const NAV_DATA: NavData[] = [
         link: "https://card.pomodiary.com/",
       },
       {
+        icon: 'https://cdnn.mmtool.cn/favicon.svg',
+        title: "vtool",
+        desc: "手写体文稿生成器",
+        badge: {
+          text: "日报",
+          type: "tip",
+        },
+        link: "https://vtool.pro/handwriting/index.html",
+      },
+      {
         title: "retro",
         desc: "文字生成图片工具",
         badge: {
@@ -590,6 +600,11 @@ export const NAV_DATA: NavData[] = [
         icon: "https://lunaai.video/favicon.ico",
         desc: "Luma AI 视频生成器免费在线使用",
         link: "https://lunaai.video/zh-CN",
+      },
+      {
+        title: "VideoZip",
+        desc: "WASM 视频处理工具",
+        link: "https://www.videozip.online/",
       },
       {
         title: "Descript",
