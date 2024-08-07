@@ -70,6 +70,11 @@ export const NAV_DATA: NavData[] = [
     title: "学习资料",
     items: [
       {
+        title: "通往 AGI 之路",
+        desc: "帮助了解 AI 的从概念到应用等各方面知识",
+        link: "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e",
+      },
+      {
         icon: "https://cdn-fusion.imgimg.cc/i/2024/V0dcRHCStxC0mLBy.png",
         title: "mac 教程",
         desc: "mac 教程",
