@@ -68,6 +68,18 @@ const blogTheme = getThemeConfig({
       avatar: "https://vitepress.dev/vitepress-logo-large.webp",
       url: "https://vitepress.dev/",
     },
+    {
+      nickname: "mac 教程",
+      des: "mac 教程",
+      avatar: "https://cdn-fusion.imgimg.cc/i/2024/V0dcRHCStxC0mLBy.png",
+      url: "https://44maker.github.io/wiki/Mac/index.html",
+    },
+    {
+      nickname: "44maker",
+      des: "mac & kali",
+      avatar: "https://cdn-fusion.imgimg.cc/i/2024/a2940be08601cf50.png",
+      url: "https://44maker.github.io/",
+    }
   ],
 
   article: {

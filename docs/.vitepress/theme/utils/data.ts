@@ -3,7 +3,138 @@ import type { NavData } from "./types";
 // type?: "info" | "tip" | "warning" | "danger";
 export const NAV_DATA: NavData[] = [
   {
-    title: "随便逛逛",
+    title: "学习资料",
+    items: [
+      {
+        title: "终身教育平台",
+        desc: "终身教育平台",
+        link: "https://le.ouchn.cn/home",
+      },
+      {
+        icon: "https://microsoft.github.io/Security-101/images/favicon.png",
+        badge: {
+          text: "计算机相关",
+          type: "danger",
+        },
+        title: "微软官方面向初学者的网络安全教程",
+        desc: "基本网络安全概念，如机密性、完整性、可用性三元组、风险与威胁的区别等。理解身份、网络、安全操作、基础设施和数据安全等关键概念和主题。",
+        link: "https://microsoft.github.io/Security-101/#/",
+      },
+      {
+        title: "一千小时",
+        desc: "李笑来写的关于学英语",
+        badge: {
+          text: "英语",
+          type: "info",
+        },
+        icon: "https://1000h.org/portal-static/images/favicon.ico",
+        link: "https://1000h.org/",
+      },
+      {
+        title: "通往 AGI 之路",
+        desc: "帮助了解 AI 的从概念到应用等各方面知识",
+        badge: {
+          text: "计算机相关",
+          type: "danger",
+        },
+        link: "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e",
+      },
+
+      {
+        icon: "https://www.aicompasspro.com/favicon.ico",
+        title: "ai 英语学习",
+        badge: {
+          text: "英语",
+          type: "info",
+        },
+        desc: "AI指南专业版-英语学习小助手",
+        link: "https://www.aicompasspro.com/study",
+      },
+      {
+        title: "Quick Reference",
+        desc: "开发人员分享快速参考备忘清单",
+        badge: {
+          text: "编程",
+          type: "tip",
+        },
+        link: "https://wangchujiang.com/reference/index.html",
+      },
+      {
+        title: "编程导航",
+        desc: "编程导航",
+        badge: {
+          text: "编程",
+          type: "tip",
+        },
+        link: "https://www.code-nav.cn/recommend",
+      },
+      {
+        title: "exercism",
+        desc: "编程学习网站",
+        badge: {
+          text: "编程",
+          type: "tip",
+        },
+        link: "https://exercism.org/",
+      },
+      {
+        title: "阿里云体验动手实验室",
+        desc: "阿里云体验动手实验室",
+        badge: {
+          text: "编程",
+          type: "tip",
+        },
+        link: "https://developer.aliyun.com/adc/labs",
+      },
+      {
+        title: "华为沙箱实验室",
+        desc: "华为沙箱实验室",
+        badge: {
+          text: "编程",
+          type: "tip",
+        },
+        link: "https://lab.huaweicloud.com/",
+      },
+      {
+        title: "腾讯动手实验室",
+        desc: "腾讯动手实验室",
+        badge: {
+          text: "编程",
+          type: "tip",
+        },
+        link: "https://cloud.tencent.com/developer/labs/gallery",
+      },
+      {
+        title: "crashcourse",
+        desc: "crashcourse",
+        badge: {
+          text: "英语",
+          type: "info",
+        },
+        link: "https://crashcourse.club/category/",
+      },
+      {
+        title: "KuangStudy 编程学习资料",
+        desc: "KuangStudy 编程学习资料",
+        badge: {
+          text: "编程",
+          type: "tip",
+        },
+        link: "https://www.kuangstudy.com/course",
+      },
+      {
+        title: "exercism",
+        desc: "代码学习的测试题",
+        badge: {
+          text: "编程",
+          type: "tip",
+        },
+        link: "https://exercism.org/",
+      },
+    ],
+  },
+  {
+    title: "博客论坛",
     items: [
       {
         icon: "https://weibo.com/favicon.ico",
@@ -16,76 +147,16 @@ export const NAV_DATA: NavData[] = [
         link: "https://x.com/home",
       },
       {
-        icon: "https://my.nikon.com.cn/favicon.ico",
-        title: "尼康",
-        desc: "尼康论坛",
-        link: "https://my.nikon.com.cn/",
+        icon: "https://paper.seebug.org/static/images/favicon.ico",
+        title: "seebug",
+        desc: "安全博客",
+        link: "https://paper.seebug.org/",
       },
       {
         icon: "https://sspai.com/favicon.ico",
         title: "sspai",
         desc: "少数派",
         link: "https://sspai.com/",
-        
-      },
-      {
-        title: "大疆 天空之城",
-        desc: "大疆 天空之城",
-        badge: {
-          text: "无人机",
-          type: "tip",
-        },
-        link: "https://www.skypixel.com/",
-      },
-      {
-        title: "大疆 开发者平台",
-        desc: "大疆 开发者平台",
-        badge: {
-          text: "无人机",
-          type: "tip",
-        },
-        link: "https://developer.dji.com/cn/",
-      },
-      {
-        title: "大疆 BBS 社区",
-        desc: "大疆 BBS 社区",
-        badge: {
-          text: "无人机",
-          type: "tip",
-        },
-        link: "https://bbs.dji.com/",
-      },
-      {
-        title: "FPV 帮",
-        badge: {
-          text: "无人机",
-          type: "tip",
-        },
-        desc: "FPV 帮安全指南",
-        link: "http://wiki.fpvbang.com/safety_instruction/safety_instruction/",
-      },
-    ],
-  },
-  {
-    title: "学习资料",
-    items: [
-      {
-        title: "通往 AGI 之路",
-        desc: "帮助了解 AI 的从概念到应用等各方面知识",
-        link: "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e",
-      },
-      {
-        icon: "https://cdn-fusion.imgimg.cc/i/2024/V0dcRHCStxC0mLBy.png",
-        title: "mac 教程",
-        desc: "mac 教程",
-        link: "https://44maker.github.io/wiki/Mac/index.html",
-      },
-      {
-        icon: "https://www.aicompasspro.com/favicon.ico",
-        title: "ai 英语学习",
-        desc: "AI指南专业版-英语学习小助手",
-        link: "https://www.aicompasspro.com/study",
-        
       },
       {
         title: "经济学季刊",
@@ -97,66 +168,17 @@ export const NAV_DATA: NavData[] = [
         desc: "商务部",
         link: "http://fec.mofcom.gov.cn/article/gbdqzn/",
       },
-      {
-        title: "Quick Reference",
-        desc: "开发人员分享快速参考备忘清单",
-        link: "https://wangchujiang.com/reference/index.html",
-      },
-      {
-        title: "编程导航",
-        desc: "编程导航",
-        link: "https://www.code-nav.cn/recommend",
-      },
-      {
-        title: "exercism",
-        desc: "编程学习网站",
-        link: "https://exercism.org/",
-      },
-      {
-        title: "阿里云知行动手实验室",
-        desc: "阿里云知行动手实验室",
-        link: "https://start.aliyun.com/",
-      },
-      {
-        title: "阿里云体验动手实验室",
-        desc: "阿里云体验动手实验室",
-        link: "https://developer.aliyun.com/adc/labs",
-      },
-      {
-        title: "华为沙箱实验室",
-        desc: "华为沙箱实验室",
-        link: "https://lab.huaweicloud.com/",
-      },
-      {
-        title: "腾讯动手实验室",
-        desc: "腾讯动手实验室",
-        link: "https://cloud.tencent.com/developer/labs/gallery",
-      },
-      {
-        title: "crashcourse",
-        desc: "crashcourse",
-        link: "https://crashcourse.club/category/",
-      },
-      {
-        title: "KuangStudy 编程学习资料",
-        desc: "KuangStudy 编程学习资料",
-        link: "https://www.kuangstudy.com/course",
-      },
-      {
-        title: "终身教育平台",
-        desc: "终身教育平台",
-        link: "https://le.ouchn.cn/home",
-      },
-      {
-        title: "exercism",
-        desc: "代码学习的测试题",
-        link: "https://exercism.org/",
-      },
     ],
   },
   {
     title: "基于文本的 AI 工具",
     items: [
+      {
+        title: "ai 提示词",
+        icon: "https://www.waytoagi.com/favicon.ico",
+        desc: "精选最好的 AI 提示词",
+        link: "https://www.waytoagi.com/prompts",
+      },
       {
         title: "kimi.ai",
         icon: "https://statics.moonshot.cn/kimi-chat/favicon.ico",
@@ -397,62 +419,165 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
-    title: "工具箱",
+    title: "代码助手",
     items: [
       {
-        title: "card podiatry",
-        desc: "文字生成图片工具",
-        badge: {
-          text: "日报",
-          type: "tip",
-        },
-        link: "https://card.pomodiary.com/",
+        title: "通义灵码",
+        desc: "基于通义大模型的代码开发工具，插件形式",
+        link: "https://tongyi.aliyun.com/lingma",
       },
       {
-        icon: 'https://cdnn.mmtool.cn/favicon.svg',
-        title: "vtool",
-        desc: "手写体文稿生成器",
-        badge: {
-          text: "日报",
-          type: "tip",
-        },
-        link: "https://vtool.pro/handwriting/index.html",
+        title: "MarsCode",
+        desc: "字节跳动发布了基于豆包大模型打造的智能开发工具，面向国内开发者免费开放",
+        link: "https://www.marscode.cn/home",
       },
       {
-        title: "retro",
-        desc: "文字生成图片工具",
-        badge: {
-          text: "日报",
-          type: "tip",
-        },
-        link: "https://retro.iwhy.dev/",
+        title: "文心快码",
+        desc: "编程工具，插件形式，插件市场搜索：Baidu Comate",
+        link: "https://comate.baidu.com/",
       },
       {
-        title: "markdown 编辑器",
-        desc: "markdown 编辑器",
+        title: "CodeWhisperer",
+        desc: "Amazon 出品的开发插件",
+        link: "https://aws.amazon.com/cn/pm/codewhisperer/",
+      },
+      {
+        title: "Copilot",
+        desc: "GitHub，要钱，还没用过",
+        link: "https://docs.github.com/zh/copilot/quickstart",
+      },
+    ],
+  },
+  {
+    title: "摄影",
+    items: [
+      {
+        icon: "https://my.nikon.com.cn/favicon.ico",
+        title: "尼康",
+        desc: "尼康论坛",
+        link: "https://my.nikon.com.cn/",
+      },
+      {
+        title: "大疆 天空之城",
+        desc: "大疆 天空之城",
         badge: {
-          text: "周刊",
+          text: "无人机",
+          type: "tip",
+        },
+        link: "https://www.skypixel.com/",
+      },
+      {
+        title: "大疆 开发者平台",
+        desc: "大疆 开发者平台",
+        badge: {
+          text: "无人机",
+          type: "tip",
+        },
+        link: "https://developer.dji.com/cn/",
+      },
+      {
+        title: "大疆 BBS 社区",
+        desc: "大疆 BBS 社区",
+        badge: {
+          text: "无人机",
+          type: "tip",
+        },
+        link: "https://bbs.dji.com/",
+      },
+      {
+        title: "FPV 帮",
+        badge: {
+          text: "无人机",
+          type: "tip",
+        },
+        desc: "FPV 帮安全指南",
+        link: "http://wiki.fpvbang.com/safety_instruction/safety_instruction/",
+      },
+    ],
+  },
+  {
+    title: "书籍影视资源",
+    items: [
+      {
+        title: "鸠摩搜书",
+        badge: {
+          text: "搜书",
           type: "info",
         },
-        icon:'https://md.openwrite.cn/assets/images/favicon.png',
-        link: "https://md.openwrite.cn/",
+        link: "https://www.jiumodiary.com/",
       },
       {
-        title: "墨滴编辑器",
-        desc: "markdown 编辑器",
+        title: "资源帝电子书导航",
         badge: {
-          text: "周刊",
+          text: "搜书",
           type: "info",
         },
-        icon: "https://editor.mdnice.com/favicon.svg",
-        link: "https://editor.mdnice.com/",
+        link: "https://shu.ziyuandi.cn/",
       },
       {
-        title: "way to agi",
-        icon: "https://www.waytoagi.com/favicon.ico",
-        desc: "精选最好的 AI 提示词",
-        link: "https://www.waytoagi.com/prompts",
+        title: "Online books",
+        badge: {
+          text: "搜书",
+          type: "info",
+        },
+        desc: "Listing over 3 million free books on the Web",
+        link: "https://onlinebooks.library.upenn.edu/",
       },
+      {
+        title: "国家数字图书馆",
+        badge: {
+          text: "搜书",
+          type: "info",
+        },
+        link: "http://www.nlc.cn/",
+      },
+      {
+        title: "发现报告",
+        badge: {
+          text: "报告",
+          type: "danger",
+        },
+        icon: "https://static.fxbaogao.com/pub/img/logo/fxbaogao/favicon.ico",
+        link: "https://www.fxbaogao.com/",
+      },
+
+      {
+        title: "ikanbot",
+        icon: "https://v.ikanbot.com/resources/logo.svg",
+        desc: "免登陆，影视资源的聚合，挺全的",
+        link: "https://www.ikanbot.com/",
+      },
+      {
+        title: "低端影视",
+        icon: "https://ddys.pro/apple-touch-icon.png",
+        desc: "资源比较可靠稳定",
+        link: "https://ddys.pro/",
+      },
+      {
+        title: "anime1",
+        desc: "动画线上看",
+        link: "https://anime1.me/",
+      },
+      {
+        title: "包子漫画",
+        desc: "包子漫画",
+        link: "https://cn.baozimh.com/",
+      },
+      {
+        title: "动漫狂",
+        desc: "动漫狂",
+        link: "https://www.cartoonmad.com/",
+      },
+      {
+        title: "4kvm",
+        desc: "电影电视",
+        link: "https://www.4kvm.org/",
+      },
+    ],
+  },
+  {
+    title: "工具箱",
+    items: [
       {
         title: "独立开发者出海工具箱",
         desc: "独立开发者出海工具箱",
@@ -489,42 +614,91 @@ export const NAV_DATA: NavData[] = [
         title: "开发者武器库",
         desc: "开发者武器库，做开发者最专业最好用的专业工具箱",
         link: "https://devtool.tech",
-      }
-    ],
-  },
-  {
-    title: "代码助手",
-    items: [
-      {
-        title: "通义灵码",
-        desc: "基于通义大模型的代码开发工具，插件形式",
-        link: "https://tongyi.aliyun.com/lingma",
-      },
-      {
-        title: "MarsCode",
-        desc: "字节跳动发布了基于豆包大模型打造的智能开发工具，面向国内开发者免费开放",
-        link: "https://www.marscode.cn/home",
-      },
-      {
-        title: "文心快码",
-        desc: "编程工具，插件形式，插件市场搜索：Baidu Comate",
-        link: "https://comate.baidu.com/",
-      },
-      {
-        title: "CodeWhisperer",
-        desc: "Amazon 出品的开发插件",
-        link: "https://aws.amazon.com/cn/pm/codewhisperer/",
-      },
-      {
-        title: "Copilot",
-        desc: "GitHub，要钱，还没用过",
-        link: "https://docs.github.com/zh/copilot/quickstart",
       },
     ],
   },
   {
-    title: "翻译",
+    title: "工具",
     items: [
+      {
+        title: "DALL-E",
+        badge: {
+          text: "图片",
+          type: "warning",
+        },
+        desc: "【需魔法】OpenAI开发的文本到图像生成模型",
+        link: "https://openai.com/index/dall-e-3",
+      },
+      {
+        title: "Midjourney",
+        icon: "https://www.midjourney.com/favicon.ico",
+        desc: "图像生成和操作工具，生成产品概念图、设计营销材料",
+        link: "https://www.midjourney.com",
+      },
+      {
+        title: "Stable Diffusion 3 AI 图像生成器",
+        icon: "https://stablediffusion3.net/favicon.ico",
+        desc: "通过文本生成图像，无需注册",
+        link: "https://stablediffusion3.net/zh-CN",
+      },
+      {
+        title: "万能视频图片解析下载",
+        desc: "万能视频图片解析下载",
+        badge: {
+          text: "图片",
+          type: "warning",
+        },
+        link: "https://snapany.com/zh",
+      },
+      {
+        title: "card podiatry",
+        desc: "文字生成图片工具",
+        badge: {
+          text: "日报",
+          type: "tip",
+        },
+        link: "https://card.pomodiary.com/",
+      },
+      {
+        icon: "https://cdnn.mmtool.cn/favicon.svg",
+        title: "vtool",
+        desc: "手写体文稿生成器",
+        badge: {
+          text: "日报",
+          type: "tip",
+        },
+        link: "https://vtool.pro/handwriting/index.html",
+      },
+      {
+        title: "retro",
+        desc: "文字生成图片工具",
+        badge: {
+          text: "日报",
+          type: "tip",
+        },
+        link: "https://retro.iwhy.dev/",
+      },
+      {
+        title: "markdown 编辑器",
+        desc: "markdown 编辑器",
+        badge: {
+          text: "周刊",
+          type: "info",
+        },
+        icon: "https://md.openwrite.cn/assets/images/favicon.png",
+        link: "https://md.openwrite.cn/",
+      },
+      {
+        title: "墨滴编辑器",
+        desc: "markdown 编辑器",
+        badge: {
+          text: "周刊",
+          type: "info",
+        },
+        icon: "https://editor.mdnice.com/favicon.svg",
+        link: "https://editor.mdnice.com/",
+      },
+
       {
         title: "沉浸式翻译",
         desc: "沉浸式翻译工具，支持pdf转EPUB",
@@ -545,14 +719,41 @@ export const NAV_DATA: NavData[] = [
       },
       {
         title: "语音转字幕工具",
+        badge: {
+          text: "翻译",
+          type: "info",
+        },
         desc: "AI 自动生成语音字幕，免费且可本地离线运行",
         link: "https://godlucky.net/whisperapp/",
       },
-    ],
-  },
-  {
-    title: "公共服务",
-    items: [
+      {
+        title: "calibre",
+        desc: "pdf 转 EPUB 工具",
+        badge: {
+          text: "格式转换",
+          type: "tip",
+        },
+        link: "https://calibre-ebook.com/",
+      },
+      {
+        title: "pdf 处理",
+        desc: "pdf 处理工具",
+        badge: {
+          text: "格式转换",
+          type: "tip",
+        },
+        link: "https://tools.pdf24.org/zh/",
+      },
+      {
+        title: "在线格式转换",
+        desc: "在线格式转换工具",
+        badge: {
+          text: "格式转换",
+          type: "tip",
+        },
+        link: "https://www.aconvert.com/",
+      },
+
       {
         title: "vercel",
         badge: {
@@ -580,26 +781,7 @@ export const NAV_DATA: NavData[] = [
         desc: "dns",
         link: "https://www.cloudns.net/",
       },
-      {
-        title: "标准地图服务",
-        desc: "标准地图服务",
-        link: "http://bzdt.ch.mnr.gov.cn/",
-      },
-      {
-        title: "APIVault",
-        desc: "API的搜索引擎，收集了大量公共API",
-        link: "https://apivault.dev/",
-      },
-      {
-        title: "MyFakeInfo",
-        desc: "生成假信息，无法律风险",
-        link: "https://www.myfakeinfo.com/",
-      },
-    ],
-  },
-  {
-    title: "设计/图像/视频生成",
-    items: [
+
       {
         title: "Luma AI Video Generator",
         icon: "https://lunaai.video/favicon.ico",
@@ -662,27 +844,7 @@ export const NAV_DATA: NavData[] = [
         desc: "文字转语音",
         link: "https://texttospeech.im/zh-CN",
       },
-      {
-        title: "DALL-E",
-        badge: {
-          text: "图片",
-          type: "warning",
-        },
-        desc: "【需魔法】OpenAI开发的文本到图像生成模型",
-        link: "https://openai.com/index/dall-e-3",
-      },
-      {
-        title: "Midjourney",
-        icon: "https://www.midjourney.com/favicon.ico",
-        desc: "图像生成和操作工具，生成产品概念图、设计营销材料",
-        link: "https://www.midjourney.com",
-      },
-      {
-        title: "Stable Diffusion 3 AI 图像生成器",
-        icon: "https://stablediffusion3.net/favicon.ico",
-        desc: "通过文本生成图像，无需注册",
-        link: "https://stablediffusion3.net/zh-CN",
-      },
+
       {
         title: "Figma",
         desc: "设计工具，更快更容易地可视化想法、创建交互式原型",
@@ -764,91 +926,6 @@ export const NAV_DATA: NavData[] = [
         },
         link: "https://favicon.io/",
       },
-      {
-        title: "万能视频图片解析下载",
-        desc: "万能视频图片解析下载",
-        badge: {
-          text: "图片",
-          type: "warning",
-        },
-        link: "https://snapany.com/zh",
-      },
-    ],
-  },
-  {
-    title: "搜书",
-    items: [
-      {
-        title: "鸠摩搜书",
-        badge: {
-          text: "搜书",
-          type: "info",
-        },
-        desc: "",
-        link: "https://www.jiumodiary.com/",
-      },
-      {
-        title: "资源帝电子书导航",
-        badge: {
-          text: "搜书",
-          type: "info",
-        },
-        desc: "",
-        link: "https://shu.ziyuandi.cn/",
-      },
-      {
-        title: "Online books",
-        desc: "Listing over 3 million free books on the Web",
-        link: "https://onlinebooks.library.upenn.edu/",
-      },
-      {
-        title: "国家数字图书馆",
-        desc: "",
-        link: "http://www.nlc.cn/",
-      },
-      {
-        title: "发现报告",
-        desc: "",
-        icon: "https://static.fxbaogao.com/pub/img/logo/fxbaogao/favicon.ico",
-        link: "https://www.fxbaogao.com/",
-      },
-    ],
-  },
-  {
-    title: "影视资源",
-    items: [
-      {
-        title: "ikanbot",
-        icon: "https://v.ikanbot.com/resources/logo.svg",
-        desc: "免登陆，影视资源的聚合，挺全的",
-        link: "https://www.ikanbot.com/",
-      },
-      {
-        title: "低端影视",
-        icon: "https://ddys.pro/apple-touch-icon.png",
-        desc: "资源比较可靠稳定",
-        link: "https://ddys.pro/",
-      },
-      {
-        title: "anime1",
-        desc: "动画线上看",
-        link: "https://anime1.me/",
-      },
-      {
-        title: "包子漫画",
-        desc: "包子漫画",
-        link: "https://cn.baozimh.com/",
-      },
-      {
-        title: "动漫狂",
-        desc: "动漫狂",
-        link: "https://www.cartoonmad.com/",
-      },
-      {
-        title: "4kvm",
-        desc: "电影电视",
-        link: "https://www.4kvm.org/",
-      },
     ],
   },
   {
@@ -897,7 +974,7 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
-    title: "公开数据",
+    title: "其他",
     items: [
       {
         title: "国家统计局官网",
@@ -933,25 +1010,15 @@ export const NAV_DATA: NavData[] = [
         desc: "Hubble 望远镜在你生日那天拍摄的照片",
         link: "https://science.nasa.gov/mission/hubble/multimedia/what-did-hubble-see-on-your-birthday",
       },
-    ],
-  },
-  {
-    title: "格式转换",
-    items: [
       {
-        title: "calibre",
-        desc: "pdf 转 EPUB 工具",
-        link: "https://calibre-ebook.com/",
+        title: "APIVault",
+        desc: "API的搜索引擎，收集了大量公共API",
+        link: "https://apivault.dev/",
       },
       {
-        title: "pdf 处理",
-        desc: "pdf 处理工具",
-        link: "https://tools.pdf24.org/zh/",
-      },
-      {
-        title: "在线格式转换",
-        desc: "在线格式转换工具",
-        link: "https://www.aconvert.com/",
+        title: "MyFakeInfo",
+        desc: "生成假信息，无法律风险",
+        link: "https://www.myfakeinfo.com/",
       },
     ],
   },
