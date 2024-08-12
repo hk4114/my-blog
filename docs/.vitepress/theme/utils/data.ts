@@ -689,6 +689,17 @@ export const NAV_DATA: NavData[] = [
         link: "https://md.openwrite.cn/",
       },
       {
+        title: "微信公众号 Markdown 排版编辑器",
+        desc: "简单好用的在线、免费、实时的 Markdown 转微信公众号文章格式的工具",
+        badge: {
+          text: "周刊",
+          type: "info",
+        },
+        icon: "https://quail.ink/portal-images/app-logo.webp",
+        link: "https://quail.ink/tools/markdown-to-wx/",
+        
+      },
+      {
         title: "墨滴编辑器",
         desc: "markdown 编辑器",
         badge: {
