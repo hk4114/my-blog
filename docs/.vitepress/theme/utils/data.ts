@@ -6,6 +6,21 @@ export const NAV_DATA: NavData[] = [
     title: "学习资料",
     items: [
       {
+        title: "软件工程师的必读书单",
+        desc: "作者列出一份英文书单，包括34本程序员的必读书籍。",
+        link: "https://newsletter.techworld-with-milan.com/p/learn-things-that-dont-change",
+      },
+      {
+        title: "LLM Visualization",
+        desc: "用可视化 3D 页面，演示大模型的运行原理",
+        link: "https://bbycroft.net/llm",
+      },
+      {
+        title: "Transformer Explainer",
+        desc: "把原理压缩进一张5秒的动图",
+        link: "http://poloclub.github.io/transformer-explainer",
+      },
+      {
         title: "终身教育平台",
         desc: "终身教育平台",
         link: "https://le.ouchn.cn/home",
@@ -130,6 +145,26 @@ export const NAV_DATA: NavData[] = [
           type: "tip",
         },
         link: "https://exercism.org/",
+      },
+      {
+        title: "清华大学的机器学习术语表",
+        desc: "已收录 500+ AI术语，最全&最准确。",
+        link: "https://www.aminer.cn/ml_taxonomy",
+      },
+      {
+        title: "MLU Explain",
+        desc: "新手入门机器学习",
+        link: "https://mlu-explain.github.io/",
+      },
+      {
+        title: "A Neural Network Playground",
+        desc: "体验到神经网络设计和训练的完整过程",
+        link: "https://playground.tensorflow.org/",
+      },
+      {
+        title: "CNN Explainer",
+        desc: "卷积神经网络原理演示",
+        link: "https://poloclub.github.io/cnn-explainer",
       },
     ],
   },
@@ -621,6 +656,11 @@ export const NAV_DATA: NavData[] = [
     title: "工具",
     items: [
       {
+        title: "OPS",
+        desc: "一站式全能工具，文生图「提示词」的可视化/翻译/管理",
+        link: "https://moonvy.com/apps/ops",
+      },
+      {
         title: "DALL-E",
         badge: {
           text: "图片",
@@ -697,7 +737,6 @@ export const NAV_DATA: NavData[] = [
         },
         icon: "https://quail.ink/portal-images/app-logo.webp",
         link: "https://quail.ink/tools/markdown-to-wx/",
-        
       },
       {
         title: "墨滴编辑器",
@@ -805,6 +844,11 @@ export const NAV_DATA: NavData[] = [
         link: "https://www.videozip.online/",
       },
       {
+        title: "Song Generator",
+        desc: "免费的 AI 歌曲在线生成器。",
+        link: "https://songgenerator.io/zh-CN",
+      },
+      {
         title: "Descript",
         icon: "https://cdn.prod.website-files.com/5d761d627a6dfa6a5b28ab12/5d761d627a6dfa22d328aba1_Webclip.png",
         desc: "视频和播客编辑工具",
@@ -855,7 +899,11 @@ export const NAV_DATA: NavData[] = [
         desc: "文字转语音",
         link: "https://texttospeech.im/zh-CN",
       },
-
+      {
+        title: "TikTok Voice",
+        desc: "一个在线的文本转语音网站，可以选择 TikTok 内置的各种语音，支持多种语言。",
+        link: "https://tiktokvoice.net/",
+      },
       {
         title: "Figma",
         desc: "设计工具，更快更容易地可视化想法、创建交互式原型",
@@ -1030,6 +1078,11 @@ export const NAV_DATA: NavData[] = [
         title: "MyFakeInfo",
         desc: "生成假信息，无法律风险",
         link: "https://www.myfakeinfo.com/",
+      },
+      {
+        title: "元素周期表",
+        desc: "每一种元素都有详细介绍，包括物理特性、原子特性和其他属性，还配有照片。",
+        link: "https://pt.ziziyi.com/",
       },
     ],
   },
