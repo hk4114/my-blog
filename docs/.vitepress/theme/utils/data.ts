@@ -1036,6 +1036,11 @@ export const NAV_DATA: NavData[] = [
     title: "其他",
     items: [
       {
+        title: "art of manliness",
+        desc: "挺有意思的小知识",
+        link: "https://www.artofmanliness.com/",
+      },
+      {
         title: "国家统计局官网",
         desc: "国家统计局官网",
         link: "http://www.stats.gov.cn/",
