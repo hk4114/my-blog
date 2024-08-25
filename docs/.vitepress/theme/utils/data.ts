@@ -661,6 +661,11 @@ export const NAV_DATA: NavData[] = [
         link: "https://moonvy.com/apps/ops",
       },
       {
+        title: "tldr",
+        desc: "浏览器中的命令行手册浏览器中的命令行手册",
+        link: "https://tldr.inbrowser.app/",
+      },
+      {
         title: "DALL-E",
         badge: {
           text: "图片",
