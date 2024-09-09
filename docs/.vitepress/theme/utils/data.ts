@@ -462,6 +462,11 @@ export const NAV_DATA: NavData[] = [
         link: "https://tongyi.aliyun.com/lingma",
       },
       {
+        title: "cursor",
+        desc: "",
+        link: "https://www.cursor.com/settings",
+      },
+      {
         title: "MarsCode",
         desc: "字节跳动发布了基于豆包大模型打造的智能开发工具，面向国内开发者免费开放",
         link: "https://www.marscode.cn/home",
