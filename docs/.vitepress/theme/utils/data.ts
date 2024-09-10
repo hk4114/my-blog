@@ -1090,6 +1090,11 @@ export const NAV_DATA: NavData[] = [
         link: "https://apivault.dev/",
       },
       {
+        title: "Free Public APIs",
+        desc: "与其他 API 列表区别在于，该网站收集的 API 会每天定时测试一次每个 API 是否可用，确保网站上收集的 API 均可用。",
+        link: "https://www.freepublicapis.com/",
+      },
+      {
         title: "MyFakeInfo",
         desc: "生成假信息，无法律风险",
         link: "https://www.myfakeinfo.com/",
