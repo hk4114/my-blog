@@ -658,6 +658,22 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
+    title: "软件工具",
+    items: [
+      {
+        title: "PasteBar",
+        desc: "管理 Mac 和 Windows 剪贴板的免费开源工具",
+        link: "https://github.com/PasteBar/PasteBarApp",
+      },
+      {
+        title: "CrossPaste",
+        desc: "一个开源的桌面程序，跨设备的通用粘贴板，可以把 Windows 的内容粘贴到 Mac。",
+        link: "https://github.com/CrossPaste/crosspaste-desktop",
+      },
+    ]
+  },
+
+  {
     title: "工具",
     items: [
       {
