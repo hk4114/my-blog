@@ -1,7 +1,20 @@
 ---
-title: 《面向 chatGPT 提示工程》笔记
+title: 提示词
 description: 含 prompt 工程以及模版
 ---
+
+## 现实世界提示工程课程
+
+> https://github.com/anthropics/courses/blob/master/real_world_prompting/README.md
+
+本课程专为已有提示工程经验的开发者设计，在五节课程中，你将学习如何将关键的提示技术融入复杂的现实世界提示中。
+在课程目录里你也可以找到他们发布的其他教程。
+
+1. 提示工程回顾
+2. 医疗提示演练
+3. 提示工程过程
+4. 通话总结提示演练
+5. 客户支持机器人提示演练
 
 ## 设置参数
 
@@ -338,9 +351,6 @@ You are a Socratic tutor. Use the following principles in responding to students
 ## 参考资料
 - [more useful things](https://www.moreusefulthings.com/prompts)
 - [gpt store-prompts](https://github.com/1003715231/gptstore-prompts) / [飞书地址]( https://aboqbe7f4x.feishu.cn/wiki/ReqDwE6dNisHt8kIFnYcWeQwnde)
-- [全能 AI 导师](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor/blob/main/Mr_Ranedeer.txt)
-- [30 个提示词范例](https://platform.openai.com/docs/examples)
-- [Anthropic 提示词库](https://docs.anthropic.com/claude/prompt-library)
 
 ## 往期精彩
 - [我所知道的 chatGPT 提示工程](https://juejin.cn/post/7245519751224934461)

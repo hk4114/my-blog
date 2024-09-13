@@ -209,12 +209,6 @@ export const NAV_DATA: NavData[] = [
     title: "基于文本的 AI 工具",
     items: [
       {
-        title: "ai 提示词",
-        icon: "https://www.waytoagi.com/favicon.ico",
-        desc: "精选最好的 AI 提示词",
-        link: "https://www.waytoagi.com/prompts",
-      },
-      {
         title: "kimi.ai",
         icon: "https://statics.moonshot.cn/kimi-chat/favicon.ico",
         desc: "目前我最常用的AI工具",
@@ -677,14 +671,15 @@ export const NAV_DATA: NavData[] = [
     title: "工具",
     items: [
       {
-        title: "OPS",
-        desc: "一站式全能工具，文生图「提示词」的可视化/翻译/管理",
-        link: "https://moonvy.com/apps/ops",
-      },
-      {
         title: "tldr",
         desc: "浏览器中的命令行手册浏览器中的命令行手册",
         link: "https://tldr.inbrowser.app/",
+      },
+      {
+        title: "OPS",
+        desc: "一站式全能工具，文生图「提示词」的可视化/翻译/管理",
+        link: 'https://github.com/Moonvy/OpenPromptStudio',
+        
       },
       {
         title: "DALL-E",
@@ -744,37 +739,6 @@ export const NAV_DATA: NavData[] = [
         },
         link: "https://retro.iwhy.dev/",
       },
-      {
-        title: "markdown 编辑器",
-        desc: "markdown 编辑器",
-        badge: {
-          text: "周刊",
-          type: "info",
-        },
-        icon: "https://md.openwrite.cn/assets/images/favicon.png",
-        link: "https://md.openwrite.cn/",
-      },
-      {
-        title: "微信公众号 Markdown 排版编辑器",
-        desc: "简单好用的在线、免费、实时的 Markdown 转微信公众号文章格式的工具",
-        badge: {
-          text: "周刊",
-          type: "info",
-        },
-        icon: "https://quail.ink/portal-images/app-logo.webp",
-        link: "https://quail.ink/tools/markdown-to-wx/",
-      },
-      {
-        title: "墨滴编辑器",
-        desc: "markdown 编辑器",
-        badge: {
-          text: "周刊",
-          type: "info",
-        },
-        icon: "https://editor.mdnice.com/favicon.svg",
-        link: "https://editor.mdnice.com/",
-      },
-
       {
         title: "沉浸式翻译",
         desc: "沉浸式翻译工具，支持pdf转EPUB",
