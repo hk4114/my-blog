@@ -351,6 +351,7 @@ You are a Socratic tutor. Use the following principles in responding to students
 ## 参考资料
 - [more useful things](https://www.moreusefulthings.com/prompts)
 - [gpt store-prompts](https://github.com/1003715231/gptstore-prompts) / [飞书地址]( https://aboqbe7f4x.feishu.cn/wiki/ReqDwE6dNisHt8kIFnYcWeQwnde)
+- [现实世界提示工程课程](https://github.com/anthropics/courses/blob/master/real_world_prompting/README.md) 本课程专为已有提示工程经验的开发者设计，在五节课程中，你将学习如何将关键的提示技术融入复杂的现实世界提示中。提示工程回顾、医疗提示演练、提示工程过程、通话总结提示演练、客户支持机器人提示演练
 
 ## 往期精彩
 - [我所知道的 chatGPT 提示工程](https://juejin.cn/post/7245519751224934461)

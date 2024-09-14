@@ -6,34 +6,9 @@ export const NAV_DATA: NavData[] = [
     title: "学习资料",
     items: [
       {
-        title: "软件工程师的必读书单",
-        desc: "作者列出一份英文书单，包括34本程序员的必读书籍。",
-        link: "https://newsletter.techworld-with-milan.com/p/learn-things-that-dont-change",
-      },
-      {
-        title: "LLM Visualization",
-        desc: "用可视化 3D 页面，演示大模型的运行原理",
-        link: "https://bbycroft.net/llm",
-      },
-      {
-        title: "Transformer Explainer",
-        desc: "把原理压缩进一张5秒的动图",
-        link: "http://poloclub.github.io/transformer-explainer",
-      },
-      {
         title: "终身教育平台",
         desc: "终身教育平台",
         link: "https://le.ouchn.cn/home",
-      },
-      {
-        icon: "https://microsoft.github.io/Security-101/images/favicon.png",
-        badge: {
-          text: "计算机相关",
-          type: "danger",
-        },
-        title: "微软官方面向初学者的网络安全教程",
-        desc: "基本网络安全概念，如机密性、完整性、可用性三元组、风险与威胁的区别等。理解身份、网络、安全操作、基础设施和数据安全等关键概念和主题。",
-        link: "https://microsoft.github.io/Security-101/#/",
       },
       {
         title: "一千小时",
@@ -45,16 +20,6 @@ export const NAV_DATA: NavData[] = [
         icon: "https://1000h.org/portal-static/images/favicon.ico",
         link: "https://1000h.org/",
       },
-      {
-        title: "通往 AGI 之路",
-        desc: "帮助了解 AI 的从概念到应用等各方面知识",
-        badge: {
-          text: "计算机相关",
-          type: "danger",
-        },
-        link: "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e",
-      },
-
       {
         icon: "https://www.aicompasspro.com/favicon.ico",
         title: "ai 英语学习",
@@ -145,26 +110,6 @@ export const NAV_DATA: NavData[] = [
           type: "tip",
         },
         link: "https://exercism.org/",
-      },
-      {
-        title: "清华大学的机器学习术语表",
-        desc: "已收录 500+ AI术语，最全&最准确。",
-        link: "https://www.aminer.cn/ml_taxonomy",
-      },
-      {
-        title: "MLU Explain",
-        desc: "新手入门机器学习",
-        link: "https://mlu-explain.github.io/",
-      },
-      {
-        title: "A Neural Network Playground",
-        desc: "体验到神经网络设计和训练的完整过程",
-        link: "https://playground.tensorflow.org/",
-      },
-      {
-        title: "CNN Explainer",
-        desc: "卷积神经网络原理演示",
-        link: "https://poloclub.github.io/cnn-explainer",
       },
     ],
   },
@@ -362,16 +307,6 @@ export const NAV_DATA: NavData[] = [
         },
         desc: "【需登陆】答案完全来自论文",
         link: "https://consensus.app/search/",
-      },
-      {
-        title: "duckduckgo",
-        icon: "https://duckduckgo.com/assets/logo_header.v109.svg",
-        badge: {
-          text: "需魔法",
-          type: "danger",
-        },
-        desc: "比较老牌的搜索引擎，个人体验不怎么样",
-        link: "https://duckduckgo.com/?q=DuckDuckGo&ia=chat",
       },
       {
         title: "brainstorm",
@@ -612,12 +547,6 @@ export const NAV_DATA: NavData[] = [
   {
     title: "工具箱",
     items: [
-      {
-        title: "way to agi",
-        icon: "https://www.waytoagi.com/favicon.ico",
-        desc: "精选最好的 AI 提示词",
-        link: "https://www.waytoagi.com/prompts",
-      },
       {
         title: "独立开发者出海工具箱",
         desc: "独立开发者出海工具箱",
