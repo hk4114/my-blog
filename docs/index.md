@@ -12,6 +12,7 @@ blog:
   - The beginnings of all things are small.
   - 钱的数目不大，但毕竟是钱，所以不应该放弃。
   - 愿你快乐，别愁闷，别自作聪明，尽量少花些钱。
+  - 是满足一千个欲望，还是战胜一个？
  # 设置 inspiringTimeout 可以实现自动切换
  inspiringTimeout: 3000
  pageSize: 6
