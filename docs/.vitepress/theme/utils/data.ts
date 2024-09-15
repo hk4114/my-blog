@@ -666,34 +666,6 @@ export const NAV_DATA: NavData[] = [
         link: "https://snapany.com/zh",
       },
       {
-        title: "card podiatry",
-        desc: "文字生成图片工具",
-        badge: {
-          text: "日报",
-          type: "tip",
-        },
-        link: "https://card.pomodiary.com/",
-      },
-      {
-        icon: "https://cdnn.mmtool.cn/favicon.svg",
-        title: "vtool",
-        desc: "手写体文稿生成器",
-        badge: {
-          text: "日报",
-          type: "tip",
-        },
-        link: "https://vtool.pro/handwriting/index.html",
-      },
-      {
-        title: "retro",
-        desc: "文字生成图片工具",
-        badge: {
-          text: "日报",
-          type: "tip",
-        },
-        link: "https://retro.iwhy.dev/",
-      },
-      {
         title: "沉浸式翻译",
         desc: "沉浸式翻译工具，支持pdf转EPUB",
         badge: {
