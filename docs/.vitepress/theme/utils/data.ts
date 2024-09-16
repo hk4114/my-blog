@@ -223,7 +223,7 @@ export const NAV_DATA: NavData[] = [
           type: "danger",
         },
         desc: "Google开发的对话式AI聊天机器人",
-        link: "https://gemini.google.com",
+        link: "https://gemini.google.com/app",
       },
       {
         title: "Missive",
@@ -611,16 +611,28 @@ export const NAV_DATA: NavData[] = [
       {
         title: "pdf-to-word",
         desc: "adobe pdf 2 word",
+        badge: {
+          text: "需魔法",
+          type: "danger",
+        },
         link: "https://www.adobe.com/acrobat/online/pdf-to-word.html",
       },
       {
         title: "pdf-to-ppt",
         desc: "adobe pdf 2 ppt",
+        badge: {
+          text: "需魔法",
+          type: "danger",
+        },
         link: "https://www.adobe.com/acrobat/online/pdf-to-ppt.html",
       },
       {
         title: "pdf-to-excel",
         desc: "adobe pdf 2 excel",
+        badge: {
+          text: "需魔法",
+          type: "danger",
+        },
         link: "https://www.adobe.com/acrobat/online/pdf-to-excel.html",
       },
       {
