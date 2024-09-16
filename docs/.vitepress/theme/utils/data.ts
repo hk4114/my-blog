@@ -609,6 +609,21 @@ export const NAV_DATA: NavData[] = [
     title: "软件工具",
     items: [
       {
+        title: "pdf-to-word",
+        desc: "adobe pdf 2 word",
+        link: "https://www.adobe.com/acrobat/online/pdf-to-word.html",
+      },
+      {
+        title: "pdf-to-ppt",
+        desc: "adobe pdf 2 ppt",
+        link: "https://www.adobe.com/acrobat/online/pdf-to-ppt.html",
+      },
+      {
+        title: "pdf-to-excel",
+        desc: "adobe pdf 2 excel",
+        link: "https://www.adobe.com/acrobat/online/pdf-to-excel.html",
+      },
+      {
         title: "PasteBar",
         desc: "管理 Mac 和 Windows 剪贴板的免费开源工具",
         link: "https://github.com/PasteBar/PasteBarApp",
