@@ -11,6 +11,16 @@ export const NAV_DATA: NavData[] = [
         link: "https://le.ouchn.cn/home",
       },
       {
+        title: "BestBlogs.dev",
+        desc: "聚焦于汇聚编程、人工智能、产品设计、商业科技领域的精华",
+        link: "https://www.bestblogs.dev/feeds",
+      },
+      {
+        title: "startup failure",
+        desc: "聚焦于汇聚编程、人工智能、产品设计、商业科技领域的精华",
+        link: "https://www.cbinsights.com/research/startup-failure-post-mortem/",
+      },
+      {
         title: "一千小时",
         desc: "李笑来写的关于学英语",
         badge: {
