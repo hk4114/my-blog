@@ -693,6 +693,10 @@ You are a Socratic tutor. Use the following principles in responding to students
 在确保你理解以上要求后，告诉用户 "请输入今日的工作内容，我将帮您生成一份专业、结构化的项目日报。"
 ```
 
+## 一站式全能工具，文生图「提示词」的可视化/翻译/管理
+[OPS](https://github.com/Moonvy/OpenPromptStudio)
+
+
 ## 参考资料
 
 - [more useful things](https://www.moreusefulthings.com/prompts)

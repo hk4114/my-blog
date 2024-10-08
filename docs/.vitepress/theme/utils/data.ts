@@ -3,138 +3,50 @@ import type { NavData } from "./types";
 // type?: "info" | "tip" | "warning" | "danger";
 export const NAV_DATA: NavData[] = [
   {
-    title: "学习资料",
+    title: "编程学习",
     items: [
-      {
-        title: "终身教育平台",
-        desc: "终身教育平台",
-        link: "https://le.ouchn.cn/home",
-      },
-      {
-        title: "BestBlogs.dev",
-        desc: "聚焦于汇聚编程、人工智能、产品设计、商业科技领域的精华",
-        link: "https://www.bestblogs.dev/feeds",
-      },
-      {
-        title: "startup failure",
-        desc: "聚焦于汇聚编程、人工智能、产品设计、商业科技领域的精华",
-        link: "https://www.cbinsights.com/research/startup-failure-post-mortem/",
-      },
-      {
-        title: "一千小时",
-        desc: "李笑来写的关于学英语",
-        badge: {
-          text: "英语",
-          type: "info",
-        },
-        icon: "https://1000h.org/portal-static/images/favicon.ico",
-        link: "https://1000h.org/",
-      },
-      {
-        icon: "https://www.aicompasspro.com/favicon.ico",
-        title: "ai 英语学习",
-        badge: {
-          text: "英语",
-          type: "info",
-        },
-        desc: "AI指南专业版-英语学习小助手",
-        link: "https://www.aicompasspro.com/study",
-      },
       {
         title: "Quick Reference",
         desc: "开发人员分享快速参考备忘清单",
-        badge: {
-          text: "编程",
-          type: "tip",
-        },
         link: "https://wangchujiang.com/reference/index.html",
       },
       {
-        title: "编程导航",
-        desc: "编程导航",
-        badge: {
-          text: "编程",
-          type: "tip",
-        },
-        link: "https://www.code-nav.cn/recommend",
-      },
-      {
-        title: "exercism",
-        desc: "编程学习网站",
-        badge: {
-          text: "编程",
-          type: "tip",
-        },
-        link: "https://exercism.org/",
-      },
-      {
         title: "阿里云体验动手实验室",
-        desc: "阿里云体验动手实验室",
-        badge: {
-          text: "编程",
-          type: "tip",
-        },
         link: "https://developer.aliyun.com/adc/labs",
       },
       {
-        title: "华为沙箱实验室",
-        desc: "华为沙箱实验室",
-        badge: {
-          text: "编程",
-          type: "tip",
-        },
-        link: "https://lab.huaweicloud.com/",
-      },
-      {
-        title: "腾讯动手实验室",
-        desc: "腾讯动手实验室",
-        badge: {
-          text: "编程",
-          type: "tip",
-        },
-        link: "https://cloud.tencent.com/developer/labs/gallery",
-      },
-      {
-        title: "crashcourse",
-        desc: "crashcourse",
-        badge: {
-          text: "英语",
-          type: "info",
-        },
-        link: "https://crashcourse.club/category/",
-      },
-      {
         title: "KuangStudy 编程学习资料",
-        desc: "KuangStudy 编程学习资料",
-        badge: {
-          text: "编程",
-          type: "tip",
-        },
         link: "https://www.kuangstudy.com/course",
       },
       {
         title: "exercism",
         desc: "代码学习的测试题",
-        badge: {
-          text: "编程",
-          type: "tip",
-        },
+        icon: "https://assets.exercism.org/meta/favicon-32x32.png",
         link: "https://exercism.org/",
       },
-    ],
-  },
-  {
-    title: "博客论坛",
-    items: [
       {
-        icon: "https://weibo.com/favicon.ico",
-        title: "微博",
-        link: "https://weibo.com/",
+        title: "tldr",
+        desc: "浏览器中的命令行手册浏览器中的命令行手册",
+        link: "https://tldr.inbrowser.app/",
       },
       {
-        icon: "https://x.com/favicon.ico",
-        title: "推特",
-        link: "https://x.com/home",
+        title: "编程导航",
+        badge: {
+          text: "会员",
+          type: "info",
+        },
+        icon: "https://www.code-nav.cn/favicon.ico",
+        link: "https://www.code-nav.cn/",
+      },
+    ]
+  },
+  {
+    title: "博客专栏",
+    items: [
+      {
+        title: "BestBlogs.dev",
+        desc: "聚焦于汇聚编程、人工智能、产品设计、商业科技领域的精华",
+        link: "https://www.bestblogs.dev/feeds",
       },
       {
         icon: "https://paper.seebug.org/static/images/favicon.ico",
@@ -144,19 +56,13 @@ export const NAV_DATA: NavData[] = [
       },
       {
         icon: "https://sspai.com/favicon.ico",
-        title: "sspai",
-        desc: "少数派",
+        title: "少数派",
         link: "https://sspai.com/",
       },
       {
         title: "经济学季刊",
         desc: "经济学季刊",
         link: "https://www.nsd.pku.edu.cn/cbw/jjxjk/qkml/index.htm",
-      },
-      {
-        title: "《对外投资合作国别（地区）指南》",
-        desc: "商务部",
-        link: "http://fec.mofcom.gov.cn/article/gbdqzn/",
       },
     ],
   },
@@ -184,7 +90,6 @@ export const NAV_DATA: NavData[] = [
       {
         title: "coze扣子",
         icon: "https://lf-coze-web-cdn.coze.cn/obj/coze-web-cn/obric/coze/favicon.1970.png",
-        desc: "没怎么用过",
         link: "https://www.coze.cn/",
       },
       {
@@ -402,7 +307,6 @@ export const NAV_DATA: NavData[] = [
       },
       {
         title: "cursor",
-        desc: "",
         link: "https://www.cursor.com/settings",
       },
       {
@@ -512,16 +416,15 @@ export const NAV_DATA: NavData[] = [
       },
       {
         title: "发现报告",
-        badge: {
-          text: "报告",
-          type: "danger",
-        },
         icon: "https://static.fxbaogao.com/pub/img/logo/fxbaogao/favicon.ico",
         link: "https://www.fxbaogao.com/",
       },
-
       {
         title: "ikanbot",
+        badge: {
+          text: "影视",
+          type: "tip",
+        },
         icon: "https://v.ikanbot.com/resources/logo.svg",
         desc: "免登陆，影视资源的聚合，挺全的",
         link: "https://www.ikanbot.com/",
@@ -529,12 +432,20 @@ export const NAV_DATA: NavData[] = [
       {
         title: "低端影视",
         icon: "https://ddys.pro/apple-touch-icon.png",
+        badge: {
+          text: "影视",
+          type: "tip",
+        },
         desc: "资源比较可靠稳定",
         link: "https://ddys.pro/",
       },
       {
         title: "anime1",
         desc: "动画线上看",
+        badge: {
+          text: "影视",
+          type: "tip",
+        },
         link: "https://anime1.me/",
       },
       {
@@ -550,6 +461,10 @@ export const NAV_DATA: NavData[] = [
       {
         title: "4kvm",
         desc: "电影电视",
+        badge: {
+          text: "影视",
+          type: "tip",
+        },
         link: "https://www.4kvm.org/",
       },
     ],
@@ -578,11 +493,6 @@ export const NAV_DATA: NavData[] = [
         link: "https://tools.miku.ac/",
       },
       {
-        title: "七夜导航",
-        desc: "类似门户网站",
-        link: "https://nav.qinight.com/",
-      },
-      {
         icon: "https://tool.lu/favicon.ico",
         title: "在线工具",
         desc: "开发人员的工具箱",
@@ -593,25 +503,6 @@ export const NAV_DATA: NavData[] = [
         title: "开发者武器库",
         desc: "开发者武器库，做开发者最专业最好用的专业工具箱",
         link: "https://devtool.tech",
-      },
-      {
-        title: "markdown 编辑器",
-        desc: "markdown 编辑器",
-        badge: {
-          text: "mk",
-          type: "info",
-        },
-        link: "https://md.openwrite.cn/",
-      },
-      {
-        title: "墨滴编辑器",
-        desc: "markdown 编辑器",
-        badge: {
-          text: "mk",
-          type: "info",
-        },
-        icon: "https://editor.mdnice.com/favicon.svg",
-        link: "https://editor.mdnice.com/",
       },
     ],
   },
@@ -646,90 +537,6 @@ export const NAV_DATA: NavData[] = [
         link: "https://www.adobe.com/acrobat/online/pdf-to-excel.html",
       },
       {
-        title: "PasteBar",
-        desc: "管理 Mac 和 Windows 剪贴板的免费开源工具",
-        link: "https://github.com/PasteBar/PasteBarApp",
-      },
-      {
-        title: "CrossPaste",
-        desc: "一个开源的桌面程序，跨设备的通用粘贴板，可以把 Windows 的内容粘贴到 Mac。",
-        link: "https://github.com/CrossPaste/crosspaste-desktop",
-      },
-    ]
-  },
-
-  {
-    title: "翻译",
-    items: [
-      {
-        title: "tldr",
-        desc: "浏览器中的命令行手册浏览器中的命令行手册",
-        link: "https://tldr.inbrowser.app/",
-      },
-      {
-        title: "OPS",
-        desc: "一站式全能工具，文生图「提示词」的可视化/翻译/管理",
-        link: 'https://github.com/Moonvy/OpenPromptStudio',
-        
-      },
-      {
-        title: "DALL-E",
-        badge: {
-          text: "图片",
-          type: "warning",
-        },
-        desc: "【需魔法】OpenAI开发的文本到图像生成模型",
-        link: "https://openai.com/index/dall-e-3",
-      },
-      {
-        title: "Midjourney",
-        icon: "https://www.midjourney.com/favicon.ico",
-        desc: "图像生成和操作工具，生成产品概念图、设计营销材料",
-        link: "https://www.midjourney.com",
-      },
-      {
-        title: "Stable Diffusion 3 AI 图像生成器",
-        icon: "https://stablediffusion3.net/favicon.ico",
-        desc: "通过文本生成图像，无需注册",
-        link: "https://stablediffusion3.net/zh-CN",
-      },
-      {
-        title: "万能视频图片解析下载",
-        desc: "万能视频图片解析下载",
-        badge: {
-          text: "图片",
-          type: "warning",
-        },
-        link: "https://snapany.com/zh",
-      },
-      {
-        title: "沉浸式翻译",
-        desc: "沉浸式翻译工具，支持pdf转EPUB",
-        badge: {
-          text: "翻译",
-          type: "info",
-        },
-        link: "https://immersivetranslate.com/",
-      },
-      {
-        title: "DeepL 翻译",
-        badge: {
-          text: "翻译",
-          type: "info",
-        },
-        desc: "全世界最准确的翻译",
-        link: "https://www.deepl.com/translator",
-      },
-      {
-        title: "语音转字幕工具",
-        badge: {
-          text: "翻译",
-          type: "info",
-        },
-        desc: "AI 自动生成语音字幕，免费且可本地离线运行",
-        link: "https://godlucky.net/whisperapp/",
-      },
-      {
         title: "calibre",
         desc: "pdf 转 EPUB 工具",
         badge: {
@@ -756,7 +563,7 @@ export const NAV_DATA: NavData[] = [
         },
         link: "https://www.aconvert.com/",
       },
-
+      
       {
         title: "vercel",
         badge: {
@@ -784,38 +591,7 @@ export const NAV_DATA: NavData[] = [
         desc: "dns",
         link: "https://www.cloudns.net/",
       },
-      {
-        title: "Luma AI Video Generator",
-        icon: "https://lunaai.video/favicon.ico",
-        desc: "Luma AI 视频生成器免费在线使用",
-        link: "https://lunaai.video/zh-CN",
-      },
-      {
-        title: "VideoZip",
-        desc: "WASM 视频处理工具",
-        link: "https://www.videozip.online/",
-      },
-      {
-        title: "Song Generator",
-        desc: "免费的 AI 歌曲在线生成器。",
-        link: "https://songgenerator.io/zh-CN",
-      },
-      {
-        title: "Descript",
-        icon: "https://cdn.prod.website-files.com/5d761d627a6dfa6a5b28ab12/5d761d627a6dfa22d328aba1_Webclip.png",
-        desc: "视频和播客编辑工具",
-        link: "https://www.descript.com",
-      },
-      {
-        icon: "https://lf1-cdn2-tos.bytegoofy.com/bydesign/iconparksite/logo.svg",
-        title: "IconPark 图标库",
-        badge: {
-          text: "图片",
-          type: "info",
-        },
-        desc: "通过技术驱动矢量图标样式的开源图标库",
-        link: "https://iconpark.oceanengine.com/official",
-      },
+      
       {
         title: "幕布",
         desc: "思维导图，ppt，在线形式",
@@ -852,6 +628,21 @@ export const NAV_DATA: NavData[] = [
         link: "https://texttospeech.im/zh-CN",
       },
       {
+        title: "语音转字幕工具",
+        badge: {
+          text: "AI",
+          type: "info",
+        },
+        desc: "AI 自动生成语音字幕，免费且可本地离线运行",
+        link: "https://godlucky.net/whisperapp/",
+      },
+      {
+        title: "Descript",
+        icon: "https://cdn.prod.website-files.com/5d761d627a6dfa6a5b28ab12/5d761d627a6dfa22d328aba1_Webclip.png",
+        desc: "视频和播客编辑工具",
+        link: "https://www.descript.com",
+      },
+      {
         title: "TikTok Voice",
         desc: "一个在线的文本转语音网站，可以选择 TikTok 内置的各种语音，支持多种语言。",
         link: "https://tiktokvoice.net/",
@@ -874,14 +665,65 @@ export const NAV_DATA: NavData[] = [
         },
         link: "https://www.canva.com",
       },
+    ]
+  },
+  {
+    title: "翻译",
+    items: [
       {
-        title: "Tome",
-        desc: "演示制作工具，快速生成图像、文本、大纲等，创建产品演示",
+        title: "沉浸式翻译",
+        desc: "沉浸式翻译工具，支持pdf转EPUB",
+        link: "https://immersivetranslate.com/",
+      },
+      {
+        title: "DeepL 翻译",
+        desc: "全世界最准确的翻译",
+        link: "https://www.deepl.com/translator",
+      },
+    ],
+  },
+  {
+    title: '图片处理',
+    items: [
+      {
+        title: "DALL-E",
         badge: {
-          text: "设计",
+          text: "图片",
+          type: "warning",
+        },
+        desc: "【需魔法】OpenAI开发的文本到图像生成模型",
+        link: "https://openai.com/index/dall-e-3",
+      },
+      {
+        title: "Midjourney",
+        icon: "https://www.midjourney.com/favicon.ico",
+        desc: "图像生成和操作工具，生成产品概念图、设计营销材料",
+        link: "https://www.midjourney.com",
+      },
+      {
+        title: "Stable Diffusion 3 AI 图像生成器",
+        icon: "https://stablediffusion3.net/favicon.ico",
+        desc: "通过文本生成图像，无需注册",
+        link: "https://stablediffusion3.net/zh-CN",
+      },
+      {
+        title: "万能视频图片解析下载",
+        desc: "万能视频图片解析下载",
+        badge: {
+          text: "图片",
+          type: "warning",
+        },
+        link: "https://snapany.com/zh",
+      },
+      {
+        icon: "https://lf1-cdn2-tos.bytegoofy.com/bydesign/iconparksite/logo.svg",
+        title: "IconPark 图标库",
+        badge: {
+          text: "图片",
           type: "info",
         },
-        link: "https://tome.app/ai",
+        desc: "通过技术驱动矢量图标样式的开源图标库",
+        link: "https://iconpark.oceanengine.com/official",
       },
       {
         title: "切九图",
@@ -937,7 +779,7 @@ export const NAV_DATA: NavData[] = [
         },
         link: "https://favicon.io/",
       },
-    ],
+    ]
   },
   {
     title: "投诉维权防诈骗",
@@ -1019,10 +861,6 @@ export const NAV_DATA: NavData[] = [
       },
       {
         title: "生日那天的星星",
-        badge: {
-          text: "图片",
-          type: "warning",
-        },
         desc: "Hubble 望远镜在你生日那天拍摄的照片",
         link: "https://science.nasa.gov/mission/hubble/multimedia/what-did-hubble-see-on-your-birthday",
       },
@@ -1045,6 +883,21 @@ export const NAV_DATA: NavData[] = [
         title: "元素周期表",
         desc: "每一种元素都有详细介绍，包括物理特性、原子特性和其他属性，还配有照片。",
         link: "https://pt.ziziyi.com/",
+      },
+      {
+        title: "终身教育平台",
+        desc: "终身教育平台",
+        link: "https://le.ouchn.cn/home",
+      },
+      {
+        title: "《对外投资合作国别（地区）指南》",
+        desc: "商务部",
+        link: "http://fec.mofcom.gov.cn/article/gbdqzn/",
+      },
+      {
+        title: "startup failure",
+        desc: "聚焦于汇聚编程、人工智能、产品设计、商业科技领域的精华",
+        link: "https://www.cbinsights.com/research/startup-failure-post-mortem/",
       },
     ],
   },
