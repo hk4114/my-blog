@@ -140,30 +140,6 @@ export const NAV_DATA: NavData[] = [
         desc: "Google开发的对话式AI聊天机器人",
         link: "https://gemini.google.com/app",
       },
-      {
-        title: "Missive",
-        icon: "https://ddux7jl4k2xkx.cloudfront.net/assets/missive-apple-touch-icon-0b50d5767ede0ecd6ab321f0c72c4c8745a67ca5978bb6991a68cf251dec0785.png",
-        desc: "团队收件箱工具，可用于内部和外部沟通",
-        link: "https://missiveapp.com",
-      },
-      {
-        title: "Recruitee",
-        icon: "https://cdn.prod.website-files.com/60780a9b4720a47267a88257/60990d7ed4f930cd32416212_recruitee-webclip-blue.png",
-        desc: "自动化招聘任务的工具",
-        link: "https://recruitee.com",
-      },
-      {
-        title: "Notion",
-        icon: "https://www.notion.so/front-static/logo-ios.png",
-        desc: "智能文档组织工具，总结会议记录",
-        link: "https://www.notion.so",
-      },
-      {
-        title: "tl;dv",
-        icon: "https://tldv.io/wp-content/uploads/2022/04/tldvllogo.svg",
-        desc: "会议记录和总结工具",
-        link: "https://tldv.io",
-      },
     ],
   },
   {
