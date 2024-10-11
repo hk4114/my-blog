@@ -182,15 +182,6 @@ export const NAV_DATA: NavData[] = [
         link: "https://consensus.app/search/",
       },
       {
-        title: "brainstorm",
-        badge: {
-          text: "需登陆",
-          type: "danger",
-        },
-        desc: "备用",
-        link: "https://brainstorm.cool",
-      },
-      {
         title: "devv ai",
         badge: {
           text: "需魔法",
@@ -198,21 +189,6 @@ export const NAV_DATA: NavData[] = [
         },
         desc: "面向程序员",
         link: "https://devv.ai/",
-      },
-      {
-        title: "lepton",
-        icon: "https://avatars.githubusercontent.com/u/124112888?s=200&v=4",
-        desc: "【备用】如果不设置返回的结果是英文，体验不怎么样",
-        link: "https://search.lepton.run/",
-      },
-      {
-        title: "ImageSearch",
-        badge: {
-          text: "图片",
-          type: "warning",
-        },
-        desc: "一个以图搜图的网站，聚合了百度和谷歌的结果",
-        link: "https://picfind.top/",
       },
     ],
   },
