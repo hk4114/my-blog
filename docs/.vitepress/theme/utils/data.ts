@@ -25,11 +25,6 @@ export const NAV_DATA: NavData[] = [
         link: "https://exercism.org/",
       },
       {
-        title: "tldr",
-        desc: "浏览器中的命令行手册浏览器中的命令行手册",
-        link: "https://tldr.inbrowser.app/",
-      },
-      {
         title: "编程导航",
         badge: {
           text: "会员",
@@ -43,11 +38,6 @@ export const NAV_DATA: NavData[] = [
   {
     title: "博客专栏",
     items: [
-      {
-        title: "BestBlogs.dev",
-        desc: "聚焦于汇聚编程、人工智能、产品设计、商业科技领域的精华",
-        link: "https://www.bestblogs.dev/feeds",
-      },
       {
         icon: "https://paper.seebug.org/static/images/favicon.ico",
         title: "seebug",

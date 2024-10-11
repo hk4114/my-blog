@@ -113,6 +113,15 @@ export const NAV_DATA: NavData[] = [
         desc: "Google开发的对话式AI聊天机器人",
         link: "https://gemini.google.com/app",
       },
+      {
+        title: "google AIStudio",
+        badge: {
+          text: "需魔法",
+          type: "danger",
+        },
+        desc: "可以上传图片、视频、文件等，与ai交互。",
+        link: "https://aistudio.google.com",
+      }
     ],
   },
   {

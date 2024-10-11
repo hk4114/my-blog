@@ -16,7 +16,6 @@ hidden: true
 
 ### 技术资讯
 
-- [BestBlogs.dev](https://www.bestblogs.dev/feeds) 聚焦于汇聚编程、人工智能、产品设计、商业科技领域的精华，以及个人成长的深度洞见
 - [宝玉的博客](https://baoyu.io/) 宝玉老师的博客，现在主要更新 AIGC 相关的内容
 - [buzzing](https://www.buzzing.cc/) 用中文浏览国外社交媒体
 - [changelog](https://changelog.com/) News and podcasts for developers
