@@ -116,3 +116,19 @@ GitHub 上一套基于 Cloudflare 的全栈 SaaS 开发模板。利用该模板�
 
 ### [Gridstack｜网格布局 JS 库](https://gridstackjs.com/)
 用于创建响应式、可拖拽、可调整大小网格布局的JS库，可以与任何框架结合使用，且支持移动端。基于他提供的强大交互性能和定制能力特别适合用于构建复杂的仪表盘和管理界面。
+
+### ThinNav
+
+> https://github.com/DemoJ/ThinNav
+
+作者在 ChatGPT 的帮助下，完成的一个极简的网址导航站，自带后台管理系统，可以用作学习参考。
+
+### 探讨如何为开源项目提交 issue
+https://ryanc.cc/archives/open-source-repo-issue?continueFlag=27d8898907ae17a147d0192cb73ef10b
+
+GitHub Issue 是 GitHub 上用于跟踪项目相关想法、反馈、任务和缺陷的工具。它是一个异步沟通系统，允许用户提交与项目相关的问题或建议。为了有效地提交 Issue，用户需要做足准备工作，包括理解问题、查阅文档、搜索相似 Issue 等。一个好的 Issue 应该包含清晰的标题、详细的描述、环境信息、复现步骤、相关日志和已尝试的解决方式。提交后，用户应耐心等待回复并保持友好的交流。项目管理员或维护者应该提供指导文档和模板，以帮助用户提交高质量的 Issue，并及时跟踪和回复。
+
+### AI 代码编辑器 Cursor 上手指南
+https://jstoppa.com/posts/artificial-intelligence/fundamentals/code-smarter-not-harder-developing-with-cursor-and-claude-sonnet/post/
+
+AI 编码工具: Cursor Cursor 是最近走红的 AI 代码编辑器，底层模型是 Claude 3.5 Sonnet，代码生成要比 GPT-4 更出色。作者介绍怎么使用这个编辑器。
