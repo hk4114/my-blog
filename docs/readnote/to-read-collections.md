@@ -150,11 +150,6 @@ AI 编码工具: Cursor Cursor 是最近走红的 AI 代码编辑器，底层模
 
 下面是一篇[使用感受](https://timkellogg.me/blog/2024/09/29/notebooklm)，作者用它将一篇地质学论文，转成几分钟的播客节目，放给8岁的儿子听。
 
-### zeli
-> https://zeli.app/zh
-
-这个网站实时给"黑客新闻"每个链接生成摘要。
-
 ### 开源许可证选择器
 > https://open-source-license-chooser.toolsnav.top/zh/
 

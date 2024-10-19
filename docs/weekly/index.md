@@ -22,6 +22,8 @@ hidden: true
 - [阮一峰: 科技爱好者周刊](https://www.ruanyifeng.com/blog/archives.html) 记录每周值得分享的科技内容，周五发布
 - [ShowMeAI](https://juejin.cn/user/554605767047053/posts) 为AI硬核资料库(cool)而生
 - [FRE123 技术周刊精选](https://www.fre321.com/weekly) 前后端技术周刊精选推荐信息流
+- [通往 AGI 之路](https://www.waytoagi.com) 帮助了解 AI 的从概念到应用等各方面知识
+- [zeli](https://zeli.app/zh) 这个网站实时给"黑客新闻"每个链接生成摘要。
 
 ### 技术社区
 
