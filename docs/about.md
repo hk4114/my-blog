@@ -58,6 +58,9 @@ ISTJ 。我是个计划性比较强的人，积累了涵盖出游、生活小窍
 
 <MNavLinks v-for="{title, items} in NAV_DATA" :title="title" :items="items"/>
 
+- 学习
+  - [anki](https://ankiweb.net/decks) 
+
 - 文字工作
 
   - notion
