@@ -810,6 +810,11 @@ export const NAV_DATA: NavData[] = [
         link: "https://www.artofmanliness.com/",
       },
       {
+        title: "NewsNow",
+        desc: "开源的新闻热榜网站。",
+        link: "https://github.com/ourongxing/newsnow",
+      },
+      {
         title: "国家统计局官网",
         desc: "国家统计局官网",
         link: "http://www.stats.gov.cn/",
@@ -860,19 +865,9 @@ export const NAV_DATA: NavData[] = [
         link: "https://pt.ziziyi.com/",
       },
       {
-        title: "终身教育平台",
-        desc: "终身教育平台",
-        link: "https://le.ouchn.cn/home",
-      },
-      {
         title: "《对外投资合作国别（地区）指南》",
         desc: "商务部",
         link: "http://fec.mofcom.gov.cn/article/gbdqzn/",
-      },
-      {
-        title: "startup failure",
-        desc: "聚焦于汇聚编程、人工智能、产品设计、商业科技领域的精华",
-        link: "https://www.cbinsights.com/research/startup-failure-post-mortem/",
       },
     ],
   },
