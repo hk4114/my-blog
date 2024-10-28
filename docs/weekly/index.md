@@ -90,6 +90,15 @@ hidden: true
 :::details 模板
 
 ```md
+---
+title: Mine Weekly 第 x 期
+description:
+outline: [2, 3]
+hidden: true
+date: 2024-10-27
+recommend: -83
+---
+
 ## 🚀 科技动态
 
 > 最新的科技进展和市场动态，包括新闻、行业动态、趋势分析
