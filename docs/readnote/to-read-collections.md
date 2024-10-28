@@ -96,19 +96,6 @@ GitHub 上一套基于 Cloudflare 的全栈 SaaS 开发模板。利用该模板�
 
 此外，书籍通过定制 250+ 精美插图，并辅以可运行的代码、时间线以及引用关键论文，帮助读者更深入理解并使用大语言模型。
 
-### 代码安全指南
-
-> https://github.com/Tencent/secguide
-
-腾讯出品的代码安全指南，一份面向开发人员梳理的代码安全指南，旨在梳理 API 层面的风险点并提供详实可行的安全编码方案。
-分 C/C++安全指南、JavaScript 安全指南、Node 安全指南、Go 安全指南、Java 安全指南、Python 安全指南。
-代码安全指引可用于以下场景：
-
-- 开发人员日常参考
-- 编写安全系统扫描策略
-- 安全组件开发
-- 漏洞修复指引
-
 ### [ScrapeGraphAI](https://github.com/VinciGit00/Scrapegraph-ai)
 
 基于 AI 的网页爬虫工具
@@ -129,12 +116,6 @@ GitHub 上一套基于 Cloudflare 的全栈 SaaS 开发模板。利用该模板�
 ### [Gridstack ｜网格布局 JS 库](https://gridstackjs.com/)
 
 用于创建响应式、可拖拽、可调整大小网格布局的 JS 库，可以与任何框架结合使用，且支持移动端。基于他提供的强大交互性能和定制能力特别适合用于构建复杂的仪表盘和管理界面。
-
-### ThinNav
-
-> https://github.com/DemoJ/ThinNav
-
-作者在 ChatGPT 的帮助下，完成的一个极简的网址导航站，自带后台管理系统，可以用作学习参考。
 
 ### 探讨如何为开源项目提交 issue
 
@@ -168,23 +149,12 @@ GitHub Issue 是 GitHub 上用于跟踪项目相关想法、反馈、任务和�
 
 TypeScript 题库 Type Challenge 的网页版。
 
-### 万字实践教程，全面入门 Coze 工作流｜用 Coze 打造 AI 精读专家，复刻 10 万粉公众号的创作生产力
-
-> https://mp.weixin.qq.com/s/r40BDHKq8NC547cehAzOzw
-
-### Coze+飞书多维表格，打造 AI 稍后读智能体，解锁 10 倍知识管理效率
-
-> https://mp.weixin.qq.com/s/2q9MpHak4SKFJjUQpnnHmA
-
 ### HuggingChat 上线 macOS
 
 > https://github.com/huggingface/chat-macOS
 
 完全免费，按下快捷键 ⌘ + Shift + Return 瞬间呼出，一键访问多个顶尖的开源大语言模型，包括 Qwen 2.5 72B、Command R+、Phi 3.5、Mistral 12B 等
 
-
-### 95 条 AI 之于人类的theses
-> https://www.secondbest.ca/p/ninety-five-theses-on-ai
 
 ### 你管这破玩意叫网络
 
@@ -200,14 +170,3 @@ TypeScript 题库 Type Challenge 的网页版。
 
 一篇不错的科普文章。
 
-### 如何写好提示词？
-
-> https://www.bilibili.com/medialist/detail/ml3420023104
-
-现在有很多写提示词的技巧如 one-shot、few-shot、思维链、伪代码、设置角色等，技巧太多记不住怎么办？
-
-这很像我们经常看到的一些日常生活小技巧，比如用醋可以除水垢，但是如果你学过化学，知道酸碱中和，那么就可以衍生出很多类似的技巧，比如我用苹果皮、柠檬水也能除水垢，毕竟都可以产生酸碱中和反应。
-
-提示词技巧也是类似，如果我们了解 AI 模型的本质，它的优缺点，再来找出适合 AI 模型的策略，根据策略就可以衍生出很多有用的技巧，而不必死记硬背提示词技巧。
-
-这一系列视频就是讲如何推演写好提示词的策略，希望会对你有帮助。

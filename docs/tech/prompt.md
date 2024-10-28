@@ -701,6 +701,8 @@ You are a Socratic tutor. Use the following principles in responding to students
 
 - [more useful things](https://www.moreusefulthings.com/prompts)
 - [gpt store-prompts](https://github.com/1003715231/gptstore-prompts) / [飞书地址](https://aboqbe7f4x.feishu.cn/wiki/ReqDwE6dNisHt8kIFnYcWeQwnde)
+- [如何写好提示词？ 宝玉](https://www.bilibili.com/medialist/detail/ml3420023104)
+
 
 ## 往期精彩
 
