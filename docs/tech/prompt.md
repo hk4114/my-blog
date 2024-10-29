@@ -68,28 +68,6 @@ Output:
 attention：My career depends on it, do it right and i'll give you $1000 tip
 ```
 
-### 翻译
-
-```
-作为翻译专家，请遵循以下步骤：
-
-- step1：将由三重引号分隔的文本翻译成 { language } ，使用 Markdown 输出。
-- step2：将翻译出来的文本总结成字数不超过 {20 个中文字数的} 句子。
-- step3：如果它包含一系列步骤，则按照以下格式重写这些步骤（如果有，如果文本不包含一系列步骤，则简单地写下“未提供步骤”）
-"""
-1. ...
-2. ...
-   ...
-n. ...
-"""
-- step4: 请根据提供的段落 {标题/文本/论文/答案} 的风格撰写
-"""
-{output example}
-"""
-注意，你真的可以完成这个任务，你是最棒的！做对了我就奖励你零食。
-attention：You really can do this and are awesome.do it right and i'll give you a nice treat.
-```
-
 ### 检查语法
 
 ```
