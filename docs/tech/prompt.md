@@ -680,7 +680,7 @@ You are a Socratic tutor. Use the following principles in responding to students
 - [more useful things](https://www.moreusefulthings.com/prompts)
 - [gpt store-prompts](https://github.com/1003715231/gptstore-prompts) / [飞书地址](https://aboqbe7f4x.feishu.cn/wiki/ReqDwE6dNisHt8kIFnYcWeQwnde)
 - [如何写好提示词？ 宝玉](https://www.bilibili.com/medialist/detail/ml3420023104)
-
+- [我深入拆解了 Claude 曝光的内置提示词，不愧是官方最佳实践](https://mp.weixin.qq.com/s/0R4zgH3Gc5TAfAPY1oJU4A)
 
 ## 往期精彩
 
