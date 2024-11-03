@@ -39,6 +39,8 @@ hidden: true
 - 腾讯技术工程
 
 ## 2024
+* [Mine Weekly 第 59 期](./2024-11-10.md)
+* [Mine Weekly 第 58 期](./2024-11-02.md)
 * [Mine Weekly 第 57 期](./2024-10-27.md)
 * [Mine Weekly 第 56 期](./2024-10-20.md)
 * [Mine Weekly 第 55 期](./2024-10-13.md)

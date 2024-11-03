@@ -80,3 +80,4 @@ ISTJ 。我是个计划性比较强的人，积累了涵盖出游、生活小窍
 
 - 其他
   - [SoniTranslate 开源视频翻译工具](https://github.com/R3gm/SoniTranslate)
+  - URL Parser Online - 网页内容解析工具
