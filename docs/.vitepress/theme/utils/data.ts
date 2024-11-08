@@ -396,15 +396,6 @@ export const NAV_DATA: NavData[] = [
         link: "https://www.ikanbot.com/",
       },
       {
-        title: "freeok",
-        badge: {
-          text: "影视",
-          type: "tip",
-        },
-        desc: "免登陆，影视资源的聚合，挺全的",
-        link: "https://www.freeok.vip/",
-      },
-      {
         title: "低端影视",
         icon: "https://ddys.pro/apple-touch-icon.png",
         badge: {
@@ -423,11 +414,7 @@ export const NAV_DATA: NavData[] = [
         },
         link: "https://anime1.me/",
       },
-      {
-        title: "包子漫画",
-        desc: "包子漫画",
-        link: "https://cn.baozimh.com/",
-      },
+    
       {
         title: "动漫狂",
         desc: "动漫狂",
