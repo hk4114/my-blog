@@ -90,3 +90,21 @@ yrm add taobao https://registry.npmmirror.com
 # 切换源
 yrm use npm
 ```
+
+## MacBook无法连接WI-FI的处理方法
+先尝试这种办法
+1. 在设置里找到网络“Wi-Fi”右击“删除服务”
+2. 右下角三个点➡️“添加服务”
+3. 接口选择为“Wi-Fi”
+
+或者这种方法
+1. 设置➡️网络➡️右下角三个点➡️“位置”➡️“编辑位置”
+2. 点➕号，名称随意
+
+再试试这个办法
+1. 打开「访达」
+2. 在菜单栏中选取“前往”>“前往文件夹”（用快捷键：Command+Shift+G）
+3. 输入：`/Library/Preferences/SystemConfiguration`
+4. 删除 `SystemConfiguration` 文件夹下除 `com.apple.boot.plist` 以外所有文件（最好也备份一下删除的文件）
+5. 重新启动电脑，重新配置网络，操作完成
+
