@@ -183,3 +183,7 @@ TypeScript 题库 Type Challenge 的网页版。
 - 如何克服冒充者综合症
 
 如果你想进入AI行业但不知从何开始,或者正在为职业发展感到迷茫,这本书会是一个很好的指南。
+
+### 术语表
+- 2套权威的AI术语表，从此拿捏术语翻译：机器之心+ GPT Academic + ChatPaper & 清华大学 AI术语库-人工标注版 → https://cxd03hanx97.feishu.cn/wiki/KUsQwCszAiF596khcpcc00H7nSh
+- 清华唐杰 - 机器学习课程术语表 → https://www.aminer.cn/ml_taxonomy
