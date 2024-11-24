@@ -187,3 +187,152 @@ TypeScript 题库 Type Challenge 的网页版。
 ### 术语表
 - 2套权威的AI术语表，从此拿捏术语翻译：机器之心+ GPT Academic + ChatPaper & 清华大学 AI术语库-人工标注版 → https://cxd03hanx97.feishu.cn/wiki/KUsQwCszAiF596khcpcc00H7nSh
 - 清华唐杰 - 机器学习课程术语表 → https://www.aminer.cn/ml_taxonomy
+
+### 牛津教授项飙：大家现在都被压扁了，压扁成了工具人
+> https://mp.weixin.qq.com/s/LBS3kWiRyi2pRWwfg9zTBA
+
+当前社会中工作的意义和好工作的定义，特别是在内卷和996工作制的背景下。文章指出，社会焦虑和对工作意义的质疑日益增多，人们开始寻求更深入的理解。被工具化的感受在大厂中尤为明显，高压的工作状态和竞争环境导致员工感到异化。文章还讨论了工具理性在中华文化中的缺失，以及城市新穷人面临的意义贫困问题。年轻人对工作重复性的抗拒和个体化趋势，使得他们越来越生活在自己的心理空间中。宠物文化的兴起反映了这种心理空间的封闭性。文章最后提出，好的工作应该是不怕重复、具有合作性、对别人有用的工作，这样的工作能够让人感受到其在社会中的价值和意义。
+
+### Github 从小白到高手
+
+> https://github.com/CatOneTwo/GitHub-Tutorial
+
+### Web3 资料集合
+
+> https://github.com/wangschang/web3.0
+
+涵盖了 Web3 基础知识、应用及项目、相关分享博主、视频教程、相关书籍、开发资源以及工具等内容。
+
+### skyvern
+
+> <https://github.com/Skyvern-AI/Skyvern>
+
+RPA（Robotic Process Automation，流程自动化，比如自批动量文写章）
+
+在 web 端传统做的法是“基于 DOM 模拟交互”，类似 `document.querySelector(".xx").click()`
+
+这领个域下接来的势趋是“利用 LLM 多态模的能力，用户需只描述需求，后识续别、判断、执行由 LLM 实现”，这个就是此类需求的典型项目。
+
+### cursor101 Cursor 的教程网站
+
+> https://cursor101.com/zh
+
+AI 代码编辑器 Cursor 的教程网站，有中文版本
+
+### 云搭
+
+> https://github.com/wangyuan389/yunda
+
+开源的低代码平台，用来搭建小程序、H5、问卷、图文文章等多种应用，试用 [Demo](https://www.sunmao-design.top/sunmao/admin/#/dooring/home)。
+
+### next-forge
+> https://github.com/haydenbleasel/next-forge
+>
+> https://www.next-forge.com/
+
+next-forge 是一个面向 Next.js 应用的生产级 Turborepo 模板。它的主要目标是帮助开发者快速启动和构建 SaaS 应用项目。
+
+核心特点和优势:
+
+1. 全面性
+- 内置了完整的现代 Web 应用所需的核心功能:认证、计费、分析、SEO、数据库 ORM 等
+- 提供了一站式的开发环境和工具链
+- 包含多个预配置模块:应用模板、API 服务、邮件模板、网站模板等
+
+2. 开发效率
+- 采用"opinionated"(固定观点)的设计理念,通过预设最佳实践来减少决策负担
+- 工具链深度整合,开箱即用
+- 支持快速验证想法和迭代
+
+3. 可扩展性与经济性
+- 注重成本控制,适合从小规模起步
+- 优先选择具有慷慨免费额度的服务
+- 架构设计支持随业务增长平滑扩展
+
+4. 技术现代性
+- 基于 React 框架,采用 Rust 工具链
+- 集成了大量流行且成熟的工具:TypeScript、Tailwind、Prisma 等
+- 持续维护更新,确保技术栈的先进性
+
+5. 安全可靠
+- 端到端类型安全
+- 安全的密钥管理
+- 可靠的平台安全保障
+
+使用非常简单,只需要一行命令即可初始化项目:
+npx next-forge init [my-project]
+
+常见应用场景：
+- SaaS 应用开发
+- 跨平台 API 服务
+- 邮件营销系统
+- 企业官网建设
+- 技术文档网站
+- 数据管理平台
+
+如果你要基于 NextJS 快速启动一个要包含认证、支付、统计、数据管理的项目，可以试试，应该可以节约不少时间。
+
+### Claude Prompt：概念构建
+
+> https://mp.weixin.qq.com/s/EV2gRTeD_6NtDaaANTT7TQ
+
+### 用 iframe 必定遇到过这六种“坑”之一（以 vue 为示例）
+
+> https://mp.weixin.qq.com/s/HLWh6DFb7sLJcKrANhk2dw
+
+### 年久失修的大厂系统如何做迁移？
+
+> https://mp.weixin.qq.com/s/vmF2bUA0O3Q0Q2M16co3PA
+
+### 深入探索 JavaScript Promises：.all、.allSettled、.race 与 .any
+
+> https://mp.weixin.qq.com/s/YEEgM-7Nr9DjUY7I165dUQ
+
+### 专访"Prompt 之神"李继刚 - 我想用 20 年时间，给世界留一句话。
+
+> https://mp.weixin.qq.com/s/JT2oOG2SYw2pDYEHlEmcyQ
+
+### Github 从小白到高手
+
+> https://github.com/CatOneTwo/GitHub-Tutorial
+
+### Web3 资料集合
+
+> https://github.com/wangschang/web3.0
+
+涵盖了 Web3 基础知识、应用及项目、相关分享博主、视频教程、相关书籍、开发资源以及工具等内容。
+
+### cursor101 Cursor 的教程网站
+
+> https://cursor101.com/zh
+
+AI 代码编辑器 Cursor 的教程网站，有中文版本
+
+### 云搭
+
+> https://github.com/wangyuan389/yunda
+
+开源的低代码平台，用来搭建小程序、H5、问卷、图文文章等多种应用，试用 [Demo](https://www.sunmao-design.top/sunmao/admin/#/dooring/home)。
+
+### skyvern
+
+> <https://github.com/Skyvern-AI/Skyvern>
+
+RPA（Robotic Process Automation，流程自动化，比如自批动量文写章）
+
+在 web 端传统做的法是“基于 DOM 模拟交互”，类似 `document.querySelector(".xx").click()`
+
+这领个域下接来的势趋是“利用 LLM 多态模的能力，用户需只描述需求，后识续别、判断、执行由 LLM 实现”，这个就是此类需求的典型项目。
+
+### next-forge
+> https://github.com/haydenbleasel/next-forge
+>
+> https://www.next-forge.com/
+
+next-forge 是一个面向 Next.js 应用的生产级 Turborepo 模板。它的主要目标是帮助开发者快速启动和构建 SaaS 应用项目。
+
+### Maxun 自动化网页数据爬取工具
+> https://github.com/getmaxun/maxun
+
+无需代码，通过可视化界面构建自定义机器人，实现自动化网页数据爬取，支持执行捕获列表、文本或截图等操作。
+还支持数据提取、处理分页和滚动、指定机器人运行时间、将网页数据转换为 API 或导出 Excel 表格等等功能。
