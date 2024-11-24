@@ -213,12 +213,6 @@ RPA（Robotic Process Automation，流程自动化，比如自批动量文写章
 
 这领个域下接来的势趋是“利用 LLM 多态模的能力，用户需只描述需求，后识续别、判断、执行由 LLM 实现”，这个就是此类需求的典型项目。
 
-### cursor101 Cursor 的教程网站
-
-> https://cursor101.com/zh
-
-AI 代码编辑器 Cursor 的教程网站，有中文版本
-
 ### 云搭
 
 > https://github.com/wangyuan389/yunda
@@ -301,12 +295,6 @@ npx next-forge init [my-project]
 > https://github.com/wangschang/web3.0
 
 涵盖了 Web3 基础知识、应用及项目、相关分享博主、视频教程、相关书籍、开发资源以及工具等内容。
-
-### cursor101 Cursor 的教程网站
-
-> https://cursor101.com/zh
-
-AI 代码编辑器 Cursor 的教程网站，有中文版本
 
 ### 云搭
 
