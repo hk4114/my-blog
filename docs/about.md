@@ -58,26 +58,3 @@ ISTJ 。我是个计划性比较强的人，积累了涵盖出游、生活小窍
 
 <MNavLinks v-for="{title, items} in NAV_DATA" :title="title" :items="items"/>
 
-- 学习
-  - [anki](https://ankiweb.net/decks) 
-
-- 文字工作
-
-  - notion
-  - 语雀
-
-- 代码工作
-
-  - cursor
-  - vscode + 通义灵码
-  - IDEA
-  - MarsCode
-
-- 浏览器插件
-  - [code-box](https://github.com/027xiguapi/code-box) 一个开源的浏览器插件，用来解除 CSDN/知乎/脚本之家/博客园/博客园/51CTO 博客等网站的限制（比如要求登录）。
-  - [wechat-article-exporter](https://github.com/jooooock/wechat-article-exporter) 微信公众号文章批量下载工具
-  - [Cloud Document Converter](https://github.com/lujunji4113/cloud-document-converter) 开源的飞书文档下载 Chrome 插件
-
-- 其他
-  - [SoniTranslate 开源视频翻译工具](https://github.com/R3gm/SoniTranslate)
-  - URL Parser Online - 网页内容解析工具
