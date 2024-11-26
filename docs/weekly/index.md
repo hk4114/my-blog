@@ -39,6 +39,7 @@ hidden: true
 - 腾讯技术工程
 
 ## 2024
+* [Mine Weekly 第 60 期](./2024-12-01.md)
 * [Mine Weekly 第 59 期](./2024-11-10.md)
 * [Mine Weekly 第 58 期](./2024-11-02.md)
 * [Mine Weekly 第 57 期](./2024-10-27.md)
@@ -97,7 +98,7 @@ title: Mine Weekly 第 x 期
 description:
 outline: [2, 3]
 hidden: true
-date: 2024-10-27
+date: yyyy-mm-dd
 recommend: -83
 ---
 
