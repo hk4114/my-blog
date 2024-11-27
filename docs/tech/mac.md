@@ -229,7 +229,6 @@ conda config --set show_channel_urls true
 
 ```
 
-
 ## 常见问题
 
 ### MacBook 无法连接 WI-FI 的处理方法
