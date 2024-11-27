@@ -1,8 +1,30 @@
 # 翻译
 
+## 写在开头
+> 想要实现的效果
+
+## Step0：前期准备
+
+### 1）梳理功能需求
+
+### 2）设计方案
+
+### 3）调研现有插件支持情况
+
+## Step1：搭建智能体
+
+### 1）设计流程
+
+#### 分解任务，确立逻辑顺序和依赖关系
+
+#### 设计每个子任务的执行方法
+
+## Step 2 ： 分步构建和测试 Agent 功能
+
+
 一个相对通用的翻译 Prompt，可以适用于多种不同的语言翻译，如果是要翻译中文为英文，或者其他语言的翻译，可以参考这个 Prompt，相对比较通用了。
 
-```sh
+
 ## Role and Goal:
 You are a translator, translate the following content into ${LANGUAGE} directly without explanation.
 
@@ -54,7 +76,6 @@ Please output strictly in the following format
 {FREE_TRANSLATION}
 
 Please translate the following content into ${LANGUAGE}:
-```
 
 直译、反思、意译：提升 GPT 翻译质量的一种新策略
 
@@ -234,3 +255,10 @@ Please translate the following content into ${LANGUAGE}:
 - 确保范文的语法、拼写和标点正确，语言表达准确、流畅。
 - 对于图表分析题目，必须对图表内容进行解析，不得遗漏。
 ```
+
+
+## 参考资料
+- [万字实践教程，全面入门 Coze 工作流](https://mp.weixin.qq.com/s/r40BDHKq8NC547cehAzOzw)
+- [Coze+飞书多维表格，打造 AI 稍后读智能体，解锁 10 倍知识管理效率](https://mp.weixin.qq.com/s/2q9MpHak4SKFJjUQpnnHmA)
+- [coze 文档中心](https://www.coze.cn/docs/guides/welcome)
+- [AI 开发的捷径：工作流模式](https://mp.weixin.qq.com/s/6t5Q40II1-j6ztr6shJQBQ)
