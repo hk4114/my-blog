@@ -231,13 +231,13 @@ conda config --set show_channel_urls true
 
 ## 常见问题
 
-### MacBook 无法连接 WI-FI 的处理方法
+### Mac 无法连接 wifi 的处理方法
 
 先尝试这种办法
 
-1. 在设置里找到网络“Wi-Fi”右击“删除服务”
+1. 在设置里找到网络“wifi”右击“删除服务”
 2. 右下角三个点 ➡️“添加服务”
-3. 接口选择为“Wi-Fi”
+3. 接口选择为“wifi”
 
 或者这种方法
 
