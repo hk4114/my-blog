@@ -1358,6 +1358,9 @@ sincere 由衷的
 生活不是为了证明给别人看，而是热爱及分享生命的美好
 Life is all about chasing your passion and sharing the beauty of it.
 
+Un jour je serais de retour près de toi
+总有天我会回到你身边
+
 ## 鸡汤-自我开解
 
 觉得自己可怜而哭，是小孩子的泪水，就像在希望有谁能为自己做什么。爸爸，妈妈，或是其他的人。
