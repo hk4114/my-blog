@@ -1358,6 +1358,8 @@ sincere 由衷的
 生活不是为了证明给别人看，而是热爱及分享生命的美好
 Life is all about chasing your passion and sharing the beauty of it.
 
+Un jour je serais de retour près de toi
+总有天我会回到你身边
 你不能只在胜利时，才爱你的国家 you can't love your country only when you win
 
 你不能只在已经赢的时候才自信。
