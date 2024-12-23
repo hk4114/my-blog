@@ -24,6 +24,7 @@
 | [Amazon CodeWhisperer](https://aws.amazon.com/cn/pm/codewhisperer/) |  是   |                             免费                             |
 
 ### 参考资料
+- [cursor 视频](https://space.bilibili.com/351969226/video)
 - [cursor directory](https://cursor.directory/) cursor 提示词库，在上面分享了很多 cursor rules 以及 使用教程。
 - [cursor101](https://cursor101.com/zh/article) cursor教学网站
 - [marscode](https://docs.marscode.cn/docs/introduction-to-marscode-ide)
