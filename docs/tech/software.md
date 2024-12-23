@@ -24,8 +24,7 @@
 | [Amazon CodeWhisperer](https://aws.amazon.com/cn/pm/codewhisperer/) |  是   |                             免费                             |
 
 ### 参考资料
-- [2024年AI 编程现在可以做到什么程度？](https://mp.weixin.qq.com/s/kMA0ngu8pQoscrCEwgmXbA)
-- [GitHub Copilot最佳实践](https://mp.weixin.qq.com/s/4BonLFwot6nEDVldSopLAQ)
 - [cursor directory](https://cursor.directory/) cursor 提示词库，在上面分享了很多 cursor rules 以及 使用教程。
 - [cursor101](https://cursor101.com/zh/article) cursor教学网站
 - [marscode](https://docs.marscode.cn/docs/introduction-to-marscode-ide)
+- [AI 编程云课堂](https://bytedance.larkoffice.com/docx/Bd5HdlklBocDt5xXpQCc6Lkdnmc)
