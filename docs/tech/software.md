@@ -23,9 +23,50 @@
 |               [文心快码](https://comate.baidu.com/zh)               |  否   |                           个人免费                           |
 | [Amazon CodeWhisperer](https://aws.amazon.com/cn/pm/codewhisperer/) |  是   |                             免费                             |
 
+
+## Cursor
+
+### 快捷键
+1.  全局AI。在Cursor的AI输入框中(如`Cmd K`、`Cmd L`或Terminal `Cmd K`)，你只需输入 `@` 符号，就会弹出一个建议列表，显示可引用的上下文信息。这个列表会根据你的输入自动过滤，只显示最相关的建议。
+2.  Tab功能。代码补全、并且是多行补全。
+3.  提示框功能(Cmd + K)
+4.  聊天功能（Cmd + L）适合学习新技术或框架、获取代码建议和最佳实践
+
+### 如何使用 Composer
+1. 打开 Cursor 设置，找到"Beta"部分，激活"Composer"、
+2.  composer（Ctrl/⌘ + I）打开 Composer 进行更复杂的 AI 辅助任务
+
+### 快速回答
+
+在提示栏中按`Option/Alt Enter`，立即回答关于选中内容和相关上下文的任何问题，在这个过程中不会生成或修改代码。
+
+### `@web` 联网检索
+
+`Cmd + L` 在输入框输入 `@web` 可以联网检索。
+
+### rules
+可以理解为 system prompt。指导 Cursor 如何工作。可以参考 [cursor directory](https://cursor.directory/)  上的推荐。
+
+#### 设置全局规则
+1. 打开设置
+2. 导航至 `General` > `Rules for AI`
+3. 在提供的文本区域输入您的自定义指令
+4. 点击"保存"以应用您的全局规则，记得启用 `include .cursorrules file` 。
+
+#### 创建项目特定规则(推荐)
+1. 在项目根目录创建一个 .cursorrules 文件
+2. 将自定义指令添加到此文件中
+
+
+### 【场景】快速生成 git commit message
+
+1.  `git diff | cat` 获取最近修改
+2.  `git add .` 把所有修改添加到暂存区
+3.  `Cmd K` 提示栏中输入 `git commit message`
+4.  `Cmd + Enter` 确认
+5.  `Cmd + I` 唤起 Cursor Composer 窗口，输入需求对文件和文件夹进行调整。
+
 ### 参考资料
 - [cursor 视频](https://space.bilibili.com/351969226/video)
 - [cursor directory](https://cursor.directory/) cursor 提示词库，在上面分享了很多 cursor rules 以及 使用教程。
-- [cursor101](https://cursor101.com/zh/article) cursor教学网站
-- [marscode](https://docs.marscode.cn/docs/introduction-to-marscode-ide)
 - [AI 编程云课堂](https://bytedance.larkoffice.com/docx/Bd5HdlklBocDt5xXpQCc6Lkdnmc)
