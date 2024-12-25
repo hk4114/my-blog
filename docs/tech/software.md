@@ -66,6 +66,13 @@
 4.  `Cmd + Enter` 确认
 5.  `Cmd + I` 唤起 Cursor Composer 窗口，输入需求对文件和文件夹进行调整。
 
+### 【场景】 Figma 转换为代码
+
+1. 使用 Visual Copilot 插件导出 Figma 设计
+2. 从 Builder.io 复制生成的指令
+3. 将该指令直接粘贴到 Cursor 的终端机并生成代码
+
+
 ### 参考资料
 - [cursor 视频](https://space.bilibili.com/351969226/video)
 - [cursor directory](https://cursor.directory/) cursor 提示词库，在上面分享了很多 cursor rules 以及 使用教程。
