@@ -77,3 +77,36 @@
 - [cursor 视频](https://space.bilibili.com/351969226/video)
 - [cursor directory](https://cursor.directory/) cursor 提示词库，在上面分享了很多 cursor rules 以及 使用教程。
 - [AI 编程云课堂](https://bytedance.larkoffice.com/docx/Bd5HdlklBocDt5xXpQCc6Lkdnmc)
+
+## VsCode Debug Vue项目
+1. 开启sourcemap `vue.config.js`
+
+```js
+configureWebpack: {
+    devtool: process.env.NODE_ENV !== "production" ? "source-map" : '',
+}
+```
+
+2. 启动项目 记录下访问端口
+3. 点击左侧栏目-debug。新建debug配置，创建`launch.json`文件。
+```json
+{
+  // 使用 IntelliSense 了解相关属性。
+  // 悬停以查看现有属性的描述。
+  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Edge",
+      "request": "launch",
+      "type": "msedge",
+      "url": "http://localhost:8081",
+      "webRoot": "${workspaceFolder}",
+      "sourceMapPathOverrides": {
+        "webpack:///src/*": "${workspaceFolder}/src/*"
+      }
+    }
+  ]
+}
+```
+4. 调试操作，通过debug打开的浏览器，按需操作。在 vscode 代码里
