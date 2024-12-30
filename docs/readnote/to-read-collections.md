@@ -170,6 +170,12 @@ GitHub 上一套基于 Cloudflare 的全栈 SaaS 开发模板。利用该模板�
 - [A Neural Network Playground](https://playground.tensorflow.org/) | [GitHub](https://github.com/tensorflow/playground) 一个可交互的可视化网站，更确切地说是一个神经网络模拟器，高度支持自由选择和调整。通过这个网站，就能体验到神经网络设计和训练的完整过程。
 - [CNN Explainer：卷积神经网络原理演示](https://poloclub.github.io/cnn-explainer)｜[GitHub](https://github.com/poloclub/cnn-explainer) ｜ [详细解读(中文) ](https://blog.csdn.net/weixin_41792162/article/details/118659253) 直观理解 CNN 的运行原理，并且理解其中卷积、激活函数、池化等操作的实现过程，可以借助这个网站工具
 
+### 《大模型白盒子构建指南》毕业，仅需 2G 显存，手搓关于 LLM 的一切！
+
+> https://mp.weixin.qq.com/s/nyXsU8wKgI3C0JOX0zoNvQ
+
+该项目的亮点在于其全流程从零手搓的特点，包含了 LLM 全流程，从 Model 到 pretrain，RAG，Agent，Eval，打造了一个全栈教程。与大型的算法包不同，该项目的代码对初级开发者来说更简洁清晰，更“白盒子”，使得学习者能够更容易地理解和掌握大模型的内部原理。
+
 ### LLM Visualization：用可视化 3D 页面，演示大模型的运行原理
 
 > [github](https://github.com/karpathy/nanoGPT) | [官网](https://bbycroft.net/llm) | [中文翻译版](http://llm-viz-cn.iiiai.com/llm) | [图文教程 | The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
