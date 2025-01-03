@@ -82,6 +82,7 @@
 2. [入门到进阶，用豆包MarsCode 学习大模型｜Vol.2 检索增强](https://live.marscode.cn/7116/601669) [课程文档](https://bytedance.larkoffice.com/docx/O598dmlIOocSsjxLO1ec2uLMn8e)
 3. [用豆包 MarsCode 让飞书个性签名动起来](https://live.byteoc.com/2333/9955066) / [课程文档](https://bytedance.larkoffice.com/docx/Qh68dUEmzoVpsOxkT9tcKa55nkh) / [作业提交](https://bytedance.larkoffice.com/share/base/form/shrcni6hfJjAFIWCC8ZNE0cYN5c)
 4. [用MarsCode快速打造公众号排版工具](https://live.marscode.cn/7116/1217602)
+5. [「豆包MarsCode AI 编程云课堂」课程文档合集](https://bytedance.larkoffice.com/docx/EhbGdbIk4ob22pxAaB0cPdUjnRf)
 
 
 辅助编程
