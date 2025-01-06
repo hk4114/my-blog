@@ -68,65 +68,26 @@
 
 ### 参考资料
 - [cursor directory](https://cursor.directory/) cursor 提示词库，在上面分享了很多 cursor rules 以及 使用教程。
-- [AI 编程云课堂](https://bytedance.larkoffice.com/docx/Bd5HdlklBocDt5xXpQCc6Lkdnmc)
-
-- https://juejin.cn/post/7444022992777527348
-- [新功能 | 告别复制粘贴，一键 Apply 让你编程效率再提升！](https://mp.weixin.qq.com/s/jszvVZAdD1n-gyLtIot3Aw)
-- [Task3：学AI编程做项目的方法论，构建自己的应用](https://www.datawhale.cn/activity/116/23/96?rankingPage=1&_refluxos=a10)
-- [「人人皆是开发者」的大模型时代来了，5大开发者利器](https://mp.weixin.qq.com/s/gH5krrn6b2nd3ha1WaravA)
-- [Cursor 生产力指南](https://c6k.app/posts/cursor-guide)
 - https://www.bilibili.com/video/BV1GSDZYpEY1/
 - https://space.bilibili.com/351969226/video
+- [Cursor 生产力指南](https://c6k.app/posts/cursor-guide)
 
 1. [MarsCode快速理解开源项目](https://live.marscode.cn/7116/8728899)
 2. [入门到进阶，用豆包MarsCode 学习大模型｜Vol.2 检索增强](https://live.marscode.cn/7116/601669) [课程文档](https://bytedance.larkoffice.com/docx/O598dmlIOocSsjxLO1ec2uLMn8e)
 3. [用豆包 MarsCode 让飞书个性签名动起来](https://live.byteoc.com/2333/9955066) / [课程文档](https://bytedance.larkoffice.com/docx/Qh68dUEmzoVpsOxkT9tcKa55nkh) / [作业提交](https://bytedance.larkoffice.com/share/base/form/shrcni6hfJjAFIWCC8ZNE0cYN5c)
 4. [用MarsCode快速打造公众号排版工具](https://live.marscode.cn/7116/1217602)
 5. [「豆包MarsCode AI 编程云课堂」课程文档合集](https://bytedance.larkoffice.com/docx/EhbGdbIk4ob22pxAaB0cPdUjnRf)
+6. [AI辅助编程技术交流会-豆包MarsCode](https://meeting.tencent.com/crm/2yb4qkBR1b) 密码：CWXW
 
 
-辅助编程
-最近用 AI 辅助编程比较多，对于复杂的算法和程序设计我是这么搭配使用的：
-● OpenAI o1：架构设计师、算法高手
-● Cursor/Claude 3.5 Sonnet：码农
-● v0/Claude 3.5 Sonnet: 网页设计制作
-● Gemini：反编译、反向工程师
-o1 能力最强，但是上下文不够长，并且次数有限，复杂的算法最适合它，或者一些难一点的问题也可以咨询它，让它充当一个架构师的角色出一些点子，有时候甚至会超出我的期望，因为我自己可能会犯一些经验主义错误，或者在某些领域并不熟悉，这时候 o1 的广博知识和强大推理能力就发挥作用了。
-Claude 写代码能力非常强、出活快，并且上下文很长，但是算法还不够好，有时候写程序的思路并不是很清晰，但是在 o1 的指导下可以发挥的更好。比如我就会让 o1 给出思路或者设计方案，让 Claude 去生成代码。IDE 我还是喜欢用 Cursor 一点，主要是它上下文控制比较好，当然很多人喜欢的 Windsurf 也是很不错的，至于 GitHub Copilot，已经由一个领先者变成了追赶者了，但用来写单元测试还是不错的。
-要做前端网页的话，v0.dev 是很有优势的，直接浏览器可以预览，把设计稿截图发过去就能生成个类似的网页。但如果从无到有设计个网页或者网站，Claude 的网页版我觉得比 v0 效果还好，你把一些基本的想法告诉它，它就能给你做出来个不错的网页。持续提要求甚至一个简单的网站都可以搭出来了。v0 可能提示词太长要处理的情况太多，有时候反而不如 Claude 网页上做出来效果好。当然还有些人喜欢用 bolt.new，也是很好的。
-Gemini 可能被很多人低估，一直被笼罩在 OpenAI 和 Claude 的光环下，但最近一直在升级迭代，编码能力已经相当不错了，尤其是支持视频和2M Tokens的长上下文窗口。所以有时候我需要反向分析别人混淆后的代码的时候，就会把完整的几万行甚至十几万行代码扔过去，让它帮我分析。
-不得不说，充分利用好这些 AI 模型，真的是可以事半功倍的，唯一的问题是每个月花在 AI 上的钱越来越多了。
-
-⚡️技术交流会录播来啦，错过的小伙伴可以看回放哦，有很多作品开发遇到的普遍问题，都可以看看哈
-
-录制《AI辅助编程技术交流会-豆包MarsCode》
-
-录制文件：https://meeting.tencent.com/crm/2yb4qkBR1b
-密码：CWXW
-
-如果人没思路，程序也写不出来
-
-- 先要定义需求；
-- 然后去做简单的UI设计；
-- 再是系统设计：什么系统架构？选什么数据库？前后端API是什么样的？什么编程框架？等等；
-- 设计定了才好去写代码，前端代码、后端代码。至于前面说到的排序算法，都不用自己去实现，用现成的就好，甚至于排序算法不够好在初期都不会影响用户体验；
-- 程序写完了要测试
-- 测试没问题了部署让用户可以访问
-- 线上有问题还需要修复
-- 程序还需要持续优化升级
-- 至于营销推广甚至不在工程的范畴
-
-
-如果不懂技术，可以先:
-1.优先用所见即所得的 AI 工具，比如 vO,Claude 的Artifacts，直接就可以看到 Ul效果，避免了自己搭环境
-2.借助图形化的内容截图、设计稿、草图去描述你要做的功能、UI
-3.不知道如何描述可以先在 ChatGPT 这样的聊天机器人中去沟通，让 AI帮你写提示词描述
-4.如果遇到 Bug，重点是描述清楚问题
-相关的代码是什么?(上下文很重要)如何重现 Bug?期望结果和实际结果?错误信息?日志?5.让 AI 在代码中写注释，给你解释代码是如何工作的
-最后，新手学习一点基础知识还是有必要的多练多试，有问题可以随时去请教 Al。
-
-Lovable 提示指南及最佳实践:
-使用上下文在开始之前向 Lovable 介绍你的项目:"我们正在构建一个具有用户认证、任务分配和报告功能的项目管理工具。让我们从项目创建界面开始。
-
-
-https://bytedance.larkoffice.com/docx/EhbGdbIk4ob22pxAaB0cPdUjnRf
+## 工作流
+1. 先要定义需求；
+2. 简单的UI设计
+   1. 优先用所见即所得的 AI 工具，比如 vO、Claude 的Artifacts，直接就可以看到 Ul效果，避免了自己搭环境，
+   2. 借助图形化的内容截图、设计稿、草图去描述你要做的功能、UI
+   3. 不知道如何描述可以先在 ChatGPT 这样的聊天机器人中去沟通，让 AI帮你写提示词描述
+3. 再是系统设计：什么系统架构？选什么数据库？前后端API是什么样的？什么编程框架？等等；
+4. 设计定了才好去写代码，前端代码、后端代码。
+5. 程序写完了要测试
+6. 测试没问题了部署让用户可以访问，线上有问题还需要修复
+7. 程序还需要持续优化升级
