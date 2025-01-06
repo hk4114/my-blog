@@ -68,9 +68,7 @@
 
 ### 参考资料
 - [cursor directory](https://cursor.directory/) cursor 提示词库，在上面分享了很多 cursor rules 以及 使用教程。
-- https://www.bilibili.com/video/BV1GSDZYpEY1/
-- https://space.bilibili.com/351969226/video
-- [Cursor 生产力指南](https://c6k.app/posts/cursor-guide)
+
 
 1. [MarsCode快速理解开源项目](https://live.marscode.cn/7116/8728899)
 2. [入门到进阶，用豆包MarsCode 学习大模型｜Vol.2 检索增强](https://live.marscode.cn/7116/601669) [课程文档](https://bytedance.larkoffice.com/docx/O598dmlIOocSsjxLO1ec2uLMn8e)
