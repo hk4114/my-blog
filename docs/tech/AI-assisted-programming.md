@@ -40,16 +40,19 @@
 ### rules
 可以理解为 system prompt。指导 Cursor 如何工作。可以参考 [cursor directory](https://cursor.directory/)  上的推荐。
 
+#### 创建项目特定规则(推荐)
+1. 在项目根目录创建一个 `.cursorrules` 文件
+2. 将自定义指令添加到此文件中
+
+> [cursor directory](https://cursor.directory/) 
+> 
+> cursor 提示词库，在上面分享了很多 cursor rules 以及 使用教程。
+
 #### 设置全局规则
 1. 打开设置
 2. 导航至 `General` > `Rules for AI`
 3. 在提供的文本区域输入您的自定义指令
 4. 点击"保存"以应用您的全局规则，记得启用 `include .cursorrules file` 。
-
-#### 创建项目特定规则(推荐)
-1. 在项目根目录创建一个 .cursorrules 文件
-2. 将自定义指令添加到此文件中
-
 
 ### 【场景】快速生成 git commit message
 
@@ -65,17 +68,6 @@
 2. 从 Builder.io 复制生成的指令
 3. 将该指令直接粘贴到 Cursor 的终端机并生成代码
 
-
-### 参考资料
-- [cursor directory](https://cursor.directory/) cursor 提示词库，在上面分享了很多 cursor rules 以及 使用教程。
-
-1. [「豆包MarsCode AI 编程云课堂」课程文档合集](https://bytedance.larkoffice.com/docx/EhbGdbIk4ob22pxAaB0cPdUjnRf)
-2. [MarsCode快速理解开源项目](https://live.marscode.cn/7116/8728899)
-3. [入门到进阶，用豆包MarsCode 学习大模型｜Vol.2 检索增强](https://live.marscode.cn/7116/601669) [课程文档](https://bytedance.larkoffice.com/docx/O598dmlIOocSsjxLO1ec2uLMn8e)
-4. [用豆包 MarsCode 让飞书个性签名动起来](https://live.byteoc.com/2333/9955066) / [课程文档](https://bytedance.larkoffice.com/docx/Qh68dUEmzoVpsOxkT9tcKa55nkh)
-5. [用MarsCode快速打造公众号排版工具](https://live.marscode.cn/7116/1217602)
-
-
 ## 工作流
 1. 先要定义需求；
 2. 简单的UI设计
@@ -87,3 +79,18 @@
 5. 程序写完了要测试
 6. 测试没问题了部署让用户可以访问，线上有问题还需要修复
 7. 程序还需要持续优化升级
+
+## 案例1：公众号排版工具
+> https://bytedance.larkoffice.com/docx/LC9sdk7zgoY4mKxcTHLcuoKfnBb
+
+1. 准备一个项目
+```sh
+# 创建新的 Next.js 项目
+npx create-next-app@14 markflow --typescript --tailwind --eslint
+
+# 进入项目目录
+cd markflow
+
+# 安装 shadcn-ui CLI
+npx shadcn@latest init
+```
