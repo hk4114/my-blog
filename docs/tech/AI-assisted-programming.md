@@ -16,6 +16,17 @@
 |               [文心快码](https://comate.baidu.com/zh)               |  否   |                           个人免费                           |
 | [Amazon CodeWhisperer](https://aws.amazon.com/cn/pm/codewhisperer/) |  是   |                             免费                             |
 
+## 工作流
+1. 先要定义需求；
+2. 简单的UI设计
+   1. 优先用所见即所得的 AI 工具，比如 vO、Claude 的Artifacts，直接就可以看到 Ul效果，避免了自己搭环境，
+   2. 借助图形化的内容截图、设计稿、草图去描述你要做的功能、UI
+   3. 不知道如何描述可以先在 ChatGPT 这样的聊天机器人中去沟通，让 AI帮你写提示词描述
+3. 再是系统设计：什么系统架构？选什么数据库？前后端API是什么样的？什么编程框架？等等；
+4. 设计定了才好去写代码，前端代码、后端代码。
+5. 程序写完了要测试
+6. 测试没问题了部署让用户可以访问，线上有问题还需要修复
+7. 程序还需要持续优化升级
 
 ## Cursor
 
@@ -68,37 +79,4 @@
 2. 从 Builder.io 复制生成的指令
 3. 将该指令直接粘贴到 Cursor 的终端机并生成代码
 
-## 工作流
-1. 先要定义需求；
-2. 简单的UI设计
-   1. 优先用所见即所得的 AI 工具，比如 vO、Claude 的Artifacts，直接就可以看到 Ul效果，避免了自己搭环境，
-   2. 借助图形化的内容截图、设计稿、草图去描述你要做的功能、UI
-   3. 不知道如何描述可以先在 ChatGPT 这样的聊天机器人中去沟通，让 AI帮你写提示词描述
-3. 再是系统设计：什么系统架构？选什么数据库？前后端API是什么样的？什么编程框架？等等；
-4. 设计定了才好去写代码，前端代码、后端代码。
-5. 程序写完了要测试
-6. 测试没问题了部署让用户可以访问，线上有问题还需要修复
-7. 程序还需要持续优化升级
 
-## 案例1：公众号排版工具
-> https://bytedance.larkoffice.com/docx/LC9sdk7zgoY4mKxcTHLcuoKfnBb
-
-1. 准备一个项目
-```sh
-# 创建新的 Next.js 项目
-pnpm create next-app markdown-tool --typescript --tailwind --eslint
-
-# 进入项目目录
-cd markdown-tool 
-
-# 安装 shadcn-ui CLI
-npx shadcn@latest init
-```
-
-2. 选择`Workspace`，输入：帮我生成一个全屏的markdown编辑器，左侧为编辑器，右侧为微信公众号预览
-  
-3. `Workspace` 我需要完成飞书解析markdown的工作，拷贝飞书文档，然后在markdown编辑器粘贴，可以自动解析为markdown格式
-
-4. 有没有现成的HTML转markdown的库可以用。可以看到，它推荐我们安装 turndown 这个库来解决问题。于是一个简单的解析器就跑起来了
-
-5. Workspace 加一个移动端预览的按钮，可以真实看到公众号预览的效果
