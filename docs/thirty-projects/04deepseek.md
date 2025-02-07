@@ -43,3 +43,41 @@ chat-box: https://chatboxai.app/zh
 ### 【api】anything llm
 
 下载地址：https://anythingllm.com/desktop
+
+## 【搜索】 秘塔搜索
+
+> https://metaso.cn/
+
+缺点：
+
+1. 需要登陆。
+2. 不支持多轮对话，主要功能是搜索，不具备上下文记忆的功能。
+
+## 【搜索】 Perplexity AI
+
+> https://www.perplexity.ai/
+> 缺点：
+
+1. 需要登陆
+2. 需要访问外网。
+
+## 【聚合】POE
+
+> https://poe.com/
+
+缺点：
+1. 要钱，贵
+
+## 【云服务】SiliconFlow
+> https://siliconflow.cn/zh-cn/
+
+缺点：
+1. 有限额（免费赠送的额度大概可以对话 1000 次）
+2. 在线体验的是试验场，无法保留历史信息
+3. 无法联网。
+
+## 【云服务】nvidia nim
+> https://build.nvidia.com/deepseek-ai/deepseek-r1
+
+缺点：
+1. 英文。
