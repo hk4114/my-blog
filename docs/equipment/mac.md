@@ -208,7 +208,7 @@ conda activate py311
 conda activate base[虚拟环境名]
 
 # 退出当前环境
-deactivate 环境名字
+conda deactivate
 
 # 删除环境
 conda remove -n 环境名字 --all
