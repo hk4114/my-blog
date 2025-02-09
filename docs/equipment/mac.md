@@ -150,6 +150,9 @@ yrm use npm
 ### pyenv
 
 ```sh
+brew install pyenv
+# 配置shell环境
+echo 'eval "$(pyenv init -)"' >> ~/.zshrc
 # 查看可安装的版本
 pyenv install -l
 # 安装与卸载
@@ -171,8 +174,6 @@ pyenv global {python版本}
 
 ### Miniconda
 pyenv管理的python用于python开发。conda用于机器学习、深度学习。安装Miniconda 后，打开终端默认会激活 base 环境，所以通过命令取消掉。
-
-``
 
 下载地址：
 - 官方：https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh
@@ -202,8 +203,8 @@ conda config --set auto_activate_base True
 conda env list
 
 # 创建虚拟环境
-conda create -n py38 python=3.8
-conda activate py38
+conda create -n py311 python=3.11
+conda activate py311
 conda activate base[虚拟环境名]
 
 # 退出当前环境

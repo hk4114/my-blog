@@ -1,5 +1,7 @@
 # DeepSeek 资源整理
 
+随着 DeepSeek 的日益火热，官网经常出现繁忙状态。为了方便大家使用 DeepSeek R1，本文整理了多种使用途径，包括直接使用、本地部署、API 调用以及联网搜索等方案。其中，API 调用方式是最推荐的使用方式。
+
 ## 可以直接使用的资源
 
 - 【搜索】秘塔搜索 https://metaso.cn/
@@ -11,150 +13,176 @@
 
 > https://metaso.cn/
 
-缺点：
+秘塔搜索提供了基于 DeepSeek 的搜索服务，但存在以下限制：
 
-1. 需要登陆。
-2. 不支持多轮对话，主要功能是搜索，不具备上下文记忆的功能。
+1. 需要登录才能使用
+2. 仅支持单轮对话，主要用于搜索，不具备上下文记忆功能
 
-### 【搜索】 Perplexity AI
+### 【搜索】Perplexity AI
 
 > https://www.perplexity.ai/
 
-缺点：
+作为一个强大的 AI 搜索引擎，但有以下使用限制：
 
-1. 需要登陆
-2. 需要访问外网。
-3. 有次数限制
+1. 需要登录账号
+2. 需要科学上网
+3. 免费版有使用次数限制
 
 ### 【聚合】Monica
 
 > https://monica.im/home/chat/Monica/monica
 
-缺点：
+提供多模型聚合服务，但主要缺点是：
 
-1. 贵。
+- 付费较贵
 
 ### 【聚合】POE
 
 > https://poe.com/DeepSeek-R1
 
-缺点：
+同样提供多模型聚合服务，但：
 
-1. 要钱，贵
+- 付费价格较高
 
-## 本地部署
+## 本地部署方案
 
 ### LMStudio
 
-利用 LMStudio 本地部署 DeepSeek-R1 模型，并部署 API 可以接入到 IDE 中（修改配置）。
+LMStudio 支持本地部署 DeepSeek-R1 模型，并可以部署 API 接入 IDE。
 
 下载地址：https://lmstudio.ai/docs
 
-LMStudio 的默认模型下载地址为 Hugging Face 平台，但由于众所周知的原因，我们需要设置一下国内可访问的 HF 镜像源。
+由于 LMStudio 默认使用 Hugging Face 平台下载模型，国内用户需要配置镜像源：
 
-一共需要修改两个文件。
+1. 需要修改的文件：
+   - `LMStudio文件位置\resources\app\.webpack\renderer\main_window.js`
+   - `LMStudio文件位置\resources\app\.webpack\main\index.js`
 
-- `LMStudio文件位置\resources\app\.webpack\renderer\main_window.js`
-- `LMStudio文件位置\resources\app\.webpack\main\index.js`
+2. 将所有 `https://huggingface.co/` 替换为 `https://hf-mirror.com/`
 
-将 `https://huggingface.co/` 全部替换为 `https://hf-mirror.com/`，然后重新打开 LMStudio 即可。
+3. 重启 LMStudio 后：
+   - 点击左侧放大镜按钮
+   - 搜索框输入 "r1"
+   - 选择搜索结果进行下载
 
-修改完成之后重新打开 LMStudio，首先点击左侧的放大镜按钮，在搜索框搜索 r1，然后点击下面的搜索结果，进行下载即可。
+#### API 部署步骤
 
-#### 部署 r1 api
-
-1. 点击 LMStudio 主界面的第二个按钮，可以进入开发者界面，打开此处的 api 部署服务，并在 Setting 中选择全部打开，这样就算 windows 部署 LMStudio 之后也可以在 wsl 中访问到服务。
+1. 点击主界面第二个按钮进入开发者界面
+2. 开启 API 部署服务
+3. 在 Settings 中启用所有选项（确保 Windows WSL 可访问）
 
 ### Ollama
 
 下载地址：https://ollama.com/download
 
-1. 验证安装。在命令行输入 ollama，如果出现以下信息，说明 Ollama 已经成功安装。
-2. 拉取模型
-   1. 从命令行，参考 [Ollama 模型列表](https://ollama.com/library) 和 [文本嵌入模型列表](https://python.langchain.com/v0.2/docs/integrations/text_embedding/) 拉取模型。
-   2. deepseek-r1:1.5b 和 nomic-embed-text 为例: 命令行输入 `ollama pull deepseek-r1:1.5b`、 `ollama pull nomic-embed-text` 拉取 [文本嵌入模型 nomic-embed-text](https://ollama.com/search?c=embedding)
+部署步骤：
 
-当应用运行时，所有模型将自动在 localhost:11434 上启动。
+1. 安装验证：命令行输入 `ollama` 确认安装成功
 
-3. 部署模型，命令行窗口运行以下命令，部署模型。　`ollama run deepseek-r1:1.5b`
+2. 拉取模型：
+```bash
+# 拉取 DeepSeek R1 模型
+ollama pull deepseek-r1:1.5b
+# 拉取文本嵌入模型
+ollama pull nomic-embed-text
+```
 
-## 利用 api（推荐）
-本地部署的参数都比较少，知道怎么去部署就行了，具体到实际工作生活场景，更推荐使用 api 接口的方式，从以下几种软件中挑选自己喜欢的工具。
+3. 启动服务：
+   - 模型将在 localhost:11434 上自动启动
+   - 运行命令：`ollama run deepseek-r1:1.5b`
+
+## API 调用方案（推荐）
+
+相比本地部署，API 调用方式更适合实际工作场景。以下是推荐的工具和平台：
 
 ### 本地工具
-- anything llm：https://anythingllm.com/desktop 自己在用，没感觉有啥问题。
-- cherry studio：https://cherry-ai.com/ 风格挺喜欢的。
-- chatbox: https://chatboxai.app/zh 
 
+- Anything LLM：https://anythingllm.com/desktop（个人使用体验良好）
+- Cherry Studio：https://cherry-ai.com/（界面设计优雅）
+- Chatbox：https://chatboxai.app/zh
 
-### 提供接口平台
+### API 服务提供商
+
 - 硅基流动：https://cloud.siliconflow.cn/models
-- 火山引擎: https://console.volcengine.com/ark/region:ark+cn-beijing/experience/chat
-- open router: https://openrouter.ai/
-- 阿里云百炼： https://api.together.ai/playground/chat/deepseek-ai/DeepSeek-R1
+- 火山引擎：https://console.volcengine.com/ark/region:ark+cn-beijing/experience/chat
+- OpenRouter：https://openrouter.ai/
+- 阿里云百炼：https://api.together.ai/playground/chat/deepseek-ai/DeepSeek-R1
 - 腾讯云：https://console.cloud.tencent.com.cn/tione/v2/aimarket
-- Groq：https://groq.com/ 蒸馏 ollama 70b
-- nvidia nim: https://build.nvidia.com/deepseek-ai/deepseek-r1 不稳定
+- Groq：https://groq.com/（基于 Ollama 70B 模型蒸馏）
+- NVIDIA NIM：https://build.nvidia.com/deepseek-ai/deepseek-r1（服务稳定性有待提升）
 
-基本操作逻辑都是：注册 - 生成key - 填入本地工具 - 选择模型 - 开始对话。
+使用流程：注册账号 → 生成 API Key → 配置本地工具 → 选择模型 → 开始对话
 
-#### 硅基流动
+##### 硅基流动
 > https://cloud.siliconflow.cn/models
 
-缺点：
-1. 有限额（免费赠送的额度大概可以对话 1000 次）
-2. 在线体验的是试验场，无法保留历史信息
+特点：
+- 免费额度：约 1000 次对话
+- 在线试验场不支持保存历史记录
 
-#### 火山引擎
-
+##### 火山引擎
 > https://console.volcengine.com/ark/region:ark+cn-beijing/experience/chat
 
-优点：上下文够长，反应稳定。
+优势：
+- 上下文长度充足
+- 响应稳定
 
-缺点：
-1. 有限额
+限制：
+- 使用额度有限
 
-#### open router
-
+##### OpenRouter
 > https://openrouter.ai/
 
-优点：免费
+优势：
+- 免费使用
 
-缺点：
+限制：
+- 不支持联网
+- 需要注册
+- 服务稳定性待改善
 
-1. 无法联网
-2. 需要注册
-3. 不稳定
+### 推荐组合
 
-### 案例（推荐）
+> 推荐搭配：
+> - 工具：[Cherry Studio](https://cherry-ai.com/)
+> - 接口：[火山引擎-火山方舟](https://console.volcengine.com/ark/region:ark+cn-beijing/experience/chat)
 
-> 工具：[cherry studio](https://cherry-ai.com/)
-> 
-> 接口：[火山引擎-火山方舟](https://console.volcengine.com/ark/region:ark+cn-beijing/experience/chat)
+## 联网搜索配置
 
+> 环境要求：Miniconda/pyenv
 
-## 接入联网搜索
-开发环境：
+配置步骤：
 
+1. 使用 Conda 创建 Python 3.11 环境：
+   ```bash
+   conda create -n webui python=3.11
+   conda activate webui
+   pip install open-webui
+   ```
 
-## 测试是否满血
+2. 启动服务：
+   ```bash
+   open-webui serve
+   ```
 
-### 测试一
-每局随机抽取四张扑克牌，可以重复使用。
+## 模型能力测试
 
-仅允许使用加法（+）、减法（-）、乘法（×）、除法（÷）四种运算符。
+### 测试一：24点游戏
 
-每张牌必须使用且只能使用一次。
+规则：
+- 随机抽取 4 张扑克牌（可重复）
+- 仅可使用加(+)、减(-)、乘(×)、除(÷)运算
+- 每张牌必须且只能使用一次
+- 计算结果需等于 24
 
-目标是通过这些运算使四张牌的计算结果等于 24。
+测试数据：
+- 第一组：3, 6, 7, 5
+- 第二组：9, 1, 5, 4
 
-第一组：3, 6, 7, 5
+### 测试二：网络梗理解
 
-第二组：9, 1, 5, 4
+要求：用一个字回答"什么你太美"（禁止搜索）
 
-### 测试二
-网络梗 什么你太美 用一个字回答 禁止搜索。
+## 更多集成方案
 
-## DeepSeek 应用集成
-
-> https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/README_cn.md
+> 详见：[DeepSeek 官方集成方案](https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/README_cn.md)
