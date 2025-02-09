@@ -105,6 +105,7 @@ ollama pull nomic-embed-text
 
 - 硅基流动：https://cloud.siliconflow.cn/models
 - 火山引擎：https://console.volcengine.com/ark/region:ark+cn-beijing/experience/chat
+- AskManyAI：https://askmanyai.cn/login 免费，联网搜索 + 图片对话 + 文件上传
 - OpenRouter：https://openrouter.ai/
 - 阿里云百炼：https://api.together.ai/playground/chat/deepseek-ai/DeepSeek-R1
 - 腾讯云：https://console.cloud.tencent.com.cn/tione/v2/aimarket
