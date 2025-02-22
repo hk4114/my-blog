@@ -1,46 +1,43 @@
-# AI 资源导航
+# 🚀2025 AI 工具导航｜牛马必备资源宝典
 
-## 知识库工具
+## 📚 知识库构建工具
+
+**核心功能：智能文档管理 & 知识图谱构建**
 
 > 用于构建和管理 AI 知识库的工具
 
-- **IMA** (https://ima.qq.com/) - 腾讯出品，小程序配合 PC 端使用，支持直接从微信群、公众号、网页获取文件和内容
-- **FastGPT** (https://tryfastgpt.ai/) - 开源知识库工具，支持本地部署
-- **Cherry Studio** (https://cherry-ai.com/) - 知识库构建和管理平台
+- **IMA** https://ima.qq.com/  - 腾讯出品，小程序配合 PC 端使用，支持直接从微信群、公众号、网页获取文件和内容
+- **FastGPT** https://tryfastgpt.ai/ - 开源知识库工具，支持本地部署
+- **Cherry Studio** https://cherry-ai.com/ - 知识库构建和管理平台
 
-## AI Agent 平台
+## 🤖 AI 应用开发平台
 
-> 用于构建和部署 AI 应用的平台
+### 零代码开发方案
 
-|   名称    |                              地址                              | 特点                               |
-| :-------: | :------------------------------------------------------------: | ---------------------------------- |
+| 平台      | 地址                                                           | 核心优势                           |
+| --------- | -------------------------------------------------------------- | ---------------------------------- |
 | Coze 扣子 | 国内：https://www.coze.cn/home 国外：https://www.coze.com/home | 零代码构建 AI 应用，支持多平台部署 |
-|   Dify    |                       https://dify.ai/zh                       | 开源框架，支持本地部署，可视化搭建 |
+| Dify      | https://dify.ai/zh                                             | 开源框架，支持本地部署，可视化搭建 |
 
-## AI 对话平台
+## 💬 智能对话系统
 
 ### 国内平台
 
 > DS R1 表示是否支持 DeepSeek Coder R1 模型
 
-|   名称   |             地址             | DS R1 | 特点                       |
-| :------: | :--------------------------: | :---: | -------------------------- |
-|   Kimi   |  https://kimi.moonshot.cn/   |  否   | 支持多模态，可联网         |
-|   豆包   | https://www.doubao.com/chat/ |  否   | 智源研究院出品             |
-|   通义   |   https://chat.qwenlm.ai/    |  否   | 阿里云大模型，支持多模态   |
-|   智谱   |     https://chatglm.cn/      |  否   | 清华团队，开源模型         |
-| 腾讯元宝 | https://yuanbao.tencent.com  |  是   |                            |
-|   语雀   |    https://www.yuque.com/    |  是   | 阿里文档工具，集成 AI 能力 |
-| DeepSeek |  https://www.deepseek.com/   |  是   |                            |
-
-### 搜索增强对话
-
-|   名称   |              地址              | 特点                                         |
-| :------: | :----------------------------: | -------------------------------------------- |
-|   秘塔   |       https://metaso.cn/       | 缺点：只支持单轮对话的搜索引擎               |
-|  百小应  | https://ying.baichuan-ai.com/  |                                              |
-| 术语在线 |   https://www.termonline.cn/   | 专业术语搜索查询                             |
-| Felo.AI  | https://felo.ai/zh-Hans/search | 支持小红书、Reddit、Twitter 等平台的定向搜索 |
+|   名称   |              地址              |                    DS R1                     | 特点                       |
+| :------: | :----------------------------: | :------------------------------------------: | -------------------------- |
+|   Kimi   |   https://kimi.moonshot.cn/    |                      否                      | 支持多模态，可联网         |
+|   豆包   |  https://www.doubao.com/chat/  |                      否                      | 智源研究院出品             |
+|   通义   |    https://chat.qwenlm.ai/     |                      否                      | 阿里云大模型，支持多模态   |
+|   智谱   |      https://chatglm.cn/       |                      否                      | 清华团队，开源模型         |
+| 腾讯元宝 |  https://yuanbao.tencent.com   |                      是                      |                            |
+|   语雀   |     https://www.yuque.com/     |                      是                      | 阿里文档工具，集成 AI 能力 |
+| DeepSeek |   https://www.deepseek.com/    |                      是                      |                            |
+|   秘塔   |       https://metaso.cn/       |        缺点：只支持单轮对话的搜索引擎        |                            |
+|  百小应  | https://ying.baichuan-ai.com/  |                                              |                            |
+| 术语在线 |   https://www.termonline.cn/   |               专业术语搜索查询               |                            |
+| Felo.AI  | https://felo.ai/zh-Hans/search | 支持小红书、Reddit、Twitter 等平台的定向搜索 |                            |
 
 ### 海外平台
 
@@ -60,7 +57,7 @@
 |      Elicit      |             https://elicit.com/              |  否   | 基于 AI 的研究助手，支持文献综述                           |
 | ScienceDirect AI |       https://www.sciencedirect.com/ai       |  否   | Elsevier 官方 AI 搜索工具                                  |
 
-## 云平台服务
+## ☁️ 云端 AI 服务
 
 > AI 模型训练和部署平台
 
@@ -77,7 +74,7 @@
 
 > **注意**：云平台虽然可以在线演示使用，但要获得稳定的对话历史记录和更好的使用体验，建议配合专业的 AI 客户端软件使用。
 
-## AI 编程工具
+## ⌨️ 智能编程生态
 
 ### 代码生成与转换
 
