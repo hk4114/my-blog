@@ -112,7 +112,6 @@ ollama pull nomic-embed-text
 - 阿里云百炼：https://api.together.ai/playground/chat/deepseek-ai/DeepSeek-R1
 - 腾讯云：https://console.cloud.tencent.com.cn/tione/v2/aimarket
 - Groq：https://groq.com/（基于 Ollama 70B 模型蒸馏）
-- NVIDIA NIM：https://build.nvidia.com/deepseek-ai/deepseek-r1（服务稳定性有待提升）
 
 使用流程：注册账号 → 生成 API Key → 配置本地工具 → 选择模型 → 开始对话
 
