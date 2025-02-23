@@ -16,6 +16,7 @@ hidden: true
 
 ### 技术资讯
 
+- [aman.ai](https://aman.ai/)
 - [宝玉的博客](https://baoyu.io/) 宝玉老师的博客，现在主要更新 AIGC 相关的内容
 - [buzzing](https://www.buzzing.cc/) 用中文浏览国外社交媒体
 - [changelog](https://changelog.com/) News and podcasts for developers
@@ -39,6 +40,8 @@ hidden: true
 - 腾讯技术工程
 
 ## 2024
+* [Mine Weekly 第 62 期](./2024-03-02.md)
+* [Mine Weekly 第 61 期](./2024-02-23.md)
 * [Mine Weekly 第 60 期](./2024-12-01.md)
 * [Mine Weekly 第 59 期](./2024-11-10.md)
 * [Mine Weekly 第 58 期](./2024-11-02.md)
