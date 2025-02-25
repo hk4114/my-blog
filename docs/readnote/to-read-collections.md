@@ -122,87 +122,10 @@ recommend: 2
 
 开源代码有更高的标准、更多的测试，这是让代码不过时的绝佳机制。
 
-## 软件工程
+## 软件工具
 
-- [软件工程师的必读书单](https://newsletter.techworld-with-milan.com/p/learn-things-that-dont-change) 作者列出一份英文书单，包括 34 本程序员的必读书籍。
-- [谷歌工程实践文档](https://github.com/google/eng-practices) | [中文翻译](https://github.com/xindoo/eng-practices-cn) 目前只有开发者怎么提交代码（去评审）和评审者如何做代码评审两个章节
-
-### 来自 MIT 的优秀的数据结构课程
-
-- [数据结构课程 1](https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf) Erik Demaine 20 岁就拿到了博士学位，而且他讲课非常幽默生动，很受欢迎。课程内容包括：几何结构、动态规划、内存层次结构模型、静态树、动态图结构等。
-
-- [数据结构课程 2](https://www.youtube.com/watch?v=ZA-tUyM_y7s&list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY) 由多位 MIT 讲师一起授课的，具体内容包括广度优先搜索、深度优先搜索、二叉树、线性排序、动态规划等。
-
-### cloudflare-saas-stack
-
-> [github](https://github.com/Dhravya/cloudflare-saas-stack)
-
-GitHub 上一套基于 Cloudflare 的全栈 SaaS 开发模板。利用该模板，可以快速在 Cloudflare 上构建并部署全栈应用，包括数据库、认证、样式、存储等功能。
-
-案例：[轻松打造属于自己的 “第二大脑”！](https://github.com/supermemoryai/supermemory)
-
-通过这个工具，你可以轻松地将所有内容导入到自己的 SuperMemory 中，然后通过 AI 快速查找和回顾已收藏的内容。
-此外，它还提供了一个浏览器插件，帮助你轻松导入推文或保存网页内容。
-安装完插件后，在网页的右下角会出现的「Add to memory」图标，点击即可将内容添加到 SuperMemory 中。
-
-### 微软官方面向初学者的网络安全教程
-
-> https://microsoft.github.io/Security-101
-
-基本网络安全概念，如机密性、完整性、可用性三元组、风险与威胁的区别等。理解身份、网络、安全操作、基础设施和数据安全等关键概念和主题。
-
-### 关于很多计算机历史的博客
-
-> https://www.abortretry.fail/archive?sort=top
-
-一个关于很多计算机历史的博客，比如 windows、linux 的老版本是怎么开发出来的，C、Basic 的起源，各种老计算机的故事等等
-
-### Bash 编程导论
-
-> https://github.com/bobbyiliev/introduction-to-bash-scripting
-
-一本开源的英文电子书，介绍 Bash 脚本开发。
-
-## 人工智能
-
-- [清华大学的机器学习术语表](https://www.aminer.cn/ml_taxonomy) 已收录 500+ AI 术语，最全&最准确。这是清华大学 唐杰 老师组整理的一份「机器学习课程术语表」，对常见 AI 术语进行了分类、翻译。
-- [MLU Explain](https://mlu-explain.github.io/) 新手入门机器学习，用超酷可视化网页解释 14 个机器学习核心概念。网站演示了 14 个机器学习的核心概念。只需要下拉页面，就可以让网页所有信息动起来！
-- [A Neural Network Playground](https://playground.tensorflow.org/) | [GitHub](https://github.com/tensorflow/playground) 一个可交互的可视化网站，更确切地说是一个神经网络模拟器，高度支持自由选择和调整。通过这个网站，就能体验到神经网络设计和训练的完整过程。
-- [CNN Explainer：卷积神经网络原理演示](https://poloclub.github.io/cnn-explainer)｜[GitHub](https://github.com/poloclub/cnn-explainer) ｜ [详细解读(中文) ](https://blog.csdn.net/weixin_41792162/article/details/118659253) 直观理解 CNN 的运行原理，并且理解其中卷积、激活函数、池化等操作的实现过程，可以借助这个网站工具
-
-
-1. 了解 一次性时间码（TOTP）技术
-2. [Company Researcher](https://github.com/exa-labs/company-researcher) 快速了解任何(外国)公司的开源 AI 工具，组织架构、产品、融资情况以及官方媒体账号，抓取的数据主要来自各大平台开放的 API，如 Linkedin、X（Twitter）、Yogithub.com/exa-labs/company-researcheruTube、GitHub、Reddit 等。最终汇总罗列一个详细面板给我们快速了解该家公司，不过从数据来看，主要面向国外公司。
-
-
-### 从第一性原理出发来介绍 AI Agent
-
-> https://goyalpramod.github.io/blogs/AI_agents_from_first_principles/
-
-文章详细介绍了 AI 代理的核心组件，包括提示（Prompts）、模型（Models）、工具（Tools）、记忆（Memory）以及检索增强生成（Retrieval Augmented Generation, RAG）等技术，并提供了具体的实现方法和代码示例。文章强调了在构建 AI 代理时应遵循的最佳实践，如最小化 LLM 调用、逐步迭代和优化系统性能。通过阅读本文，读者可以深入了解 AI 代理的构建过程，掌握如何使用 Python 和核心库实现复杂的 AI 代理系统，同时避免常见的开发陷阱。
-
-### 如何构建靠谱的 AI agent？
-
-> https://www.anthropic.com/research/building-effective-agents
-
-这是一篇来自于 Anthropic Claude 团队的座谈交流。他们围绕 agents 的定义、实践经验与未来展望展开了一个深入对话。
-
-文章从理论到实践全面阐述了 AI agent 的开发要点：
-
-1. 首先明确区分了 agent 和工作流的本质区别，agent 具有自主决策能力而非简单的固定流程；
-2. 在代码实现层面，详细对比了工作流的线性特征和 agent 的灵活性；同时强调了开发者需要深入理解模型视角，在设计时保持同理心。
-3. 在工具设计方面，文章指出了开发者常见的忽视工具接口友好性的误区。
-   对于 agent 的应用前景，文章认为目前消费级 agent 被过度炒作，存在偏好表达复杂和风险控制等挑战，而企业级应用则更具潜力，特别适合自动化重复性任务。
-   最后，专家们建议开发者建立完善的度量体系，并着眼于开发能随模型进步而持续改进的产品。
-
-我印象比较深刻的有三句话：
-
-1. Agents 不是工作流，而是管理工作流的自动化流程；
-2. 对 Agents 工作要有同理心，人要站在机器的视角考虑流程是否奏效；
-3. 最后一句，是奥特曼也说过很多次的，构建的工具要考虑模型演进，如果你的工具在模型演进之后失去意义了，那么即是坏选择，如果模型越好，你的工具越好，就是好选择。
-
-
-
+### [Company Researcher](https://github.com/exa-labs/company-researcher)
+快速了解任何(外国)公司的开源 AI 工具，组织架构、产品、融资情况以及官方媒体账号，抓取的数据主要来自各大平台开放的 API，如 Linkedin、X（Twitter）、Yogithub.com/exa-labs/company-researcheruTube、GitHub、Reddit 等。最终汇总罗列一个详细面板给我们快速了解该家公司，不过从数据来看，主要面向国外公司。
 
 ### DeeSearcher 开源版 Deep Research
 
@@ -211,6 +134,7 @@ GitHub 上一套基于 Cloudflare 的全栈 SaaS 开发模板。利用该模板�
 结合了大模型和向量数据库，为个人/企业知识管理、智能问答、信息搜索等场景提供高度准确的答案和全面分析。
 
 支持本地文件导入，以及网络数据爬取等文档加载，支持 DeepSeek、OpenAI 等大模型。
+
 
 ### LangBot
 
@@ -222,6 +146,7 @@ GitHub 上一套基于 Cloudflare 的全栈 SaaS 开发模板。利用该模板�
 
 除此之外，还支持访问控制、限速、敏感词过滤等功能，支持多种部署方式，而且配置简单。
 
+
 ### Llama Tutor
 
 > https://github.com/Nutlope/llamatutor
@@ -231,7 +156,6 @@ GitHub 上一套基于 Cloudflare 的全栈 SaaS 开发模板。利用该模板�
 集成 Llama 3.1 和 Serper 为工具提供强大的推理以及搜索能力，以达到高质量辅助教学。
 
 输入任何想要了解的知识，以及选择能接受的教育水平，覆盖了小学到大学，即可为你生成个性化导师，解答一切疑难杂题。
-
 
 
 ### AudioNotes
@@ -249,102 +173,6 @@ GitHub 上一套基于 Cloudflare 的全栈 SaaS 开发模板。利用该模板�
 > https://github.com/zaidmukaddam/scira
 
 集成 DeepSeek、Claude、Grok 等模型以及各种 API，实现了实时天气查询、代码片段运行、地图导航、学术搜索、视频搜索、X 帖子搜索等等功能。同时，提供简洁好用的可视化界面，并能为我们清晰展示相关搜索到的内容。可以通过 Vercel 快速部署使用。
-
-
-### 《大模型白盒子构建指南》毕业，仅需 2G 显存，手搓关于 LLM 的一切！
-
-> https://mp.weixin.qq.com/s/nyXsU8wKgI3C0JOX0zoNvQ
-
-该项目的亮点在于其全流程从零手搓的特点，包含了 LLM 全流程，从 Model 到 pretrain，RAG，Agent，Eval，打造了一个全栈教程。与大型的算法包不同，该项目的代码对初级开发者来说更简洁清晰，更“白盒子”，使得学习者能够更容易地理解和掌握大模型的内部原理。
-
-### LLM Visualization：用可视化 3D 页面，演示大模型的运行原理
-
-> [github](https://github.com/karpathy/nanoGPT) | [官网](https://bbycroft.net/llm) | [中文翻译版](http://llm-viz-cn.iiiai.com/llm) | [图文教程 | The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
-
-目前 LLM 和 Transformer 原理可视化做得最好的网站。它把抽象的论文理论，做成了颗粒度极细微的可交互动画，还配上了文字解释。
-
-后续，还可以丝滑衔接李沐大佬的[论文解读视频](https://www.bilibili.com/video/BV1pu411o7BE)，以及 3Blue1Brown 的[原理讲解视频](https://www.bilibili.com/video/BV1TZ421j7Ke/)等等，尝试更深层地理解 Transformer 运行原理.
-
-### Transformer Explainer：把 gpt 原理压缩进一张 5 秒的动图
-
-> [官网](http://poloclub.github.io/transformer-explainer) | [GitHub](https://github.com/poloclub/transformer-explainer)
-
-展示了基于 Transformer 的 GPT-2 模型的基本构成，以及数据在组件间的传输流程。
-网站提供了多个输入文本示例。点击选择或者输入自己的文本，再单击 Generate 按钮，就可以看到文本「输入-输出」的完整流程，感受信息在模型中的逐步传递。最终，GPT-2 计算输出概率，并给出下一个输出文本。
-
-### 大型语言模型（LLM）免费学习课程
-
-> [Github](https://github.com/decodingml/llm-twin-course)
-
-通过 LLMOps 的最佳实践，从数据收集到部署，教授我们如何构建一个生产级别的 LLM 和基于 LLM 的检索增强生成（RAG）系统。
-课程主要有 11 节，涵盖系统设计、数据工程、特征管道、训练管道和推理管道等方面。
-并从实际操作中学习如何收集和存储数据、准备数据以提供 LLM 微调和 RAG、以及如何部署和监控 LLM 和 RAG 系统等。
-同时，实践涉及到的代码，全部可在 GitHub 仓库上找到。最近准备学习构建 LLM 和 RAG 系统的同学，不妨看下。
-
-### 音乐学习
-
-> https://learningmusic.ableton.com/zh-Hans/
-
-这是一个公益音乐基础教育网站，跟着网页的引导，一边听着美妙旋律，从节奏、音符、音阶到旋律、歌曲结构，不知不觉就能学会很多专业的音乐知识。 ​​​
-
-### 实践大语言模型
-
-> https://github.com/handsOnLLM/Hands-On-Large-Language-Models
-
-电子书。共十二章，涵盖了语言模型的基础知识、文本分类、提示工程、语义搜索、多模态语言模型以及如何创建和微调文本嵌入模型等内容。
-
-每个章节涉及到的案例代码均已开源到 GitHub，可通过 Google Colab 直接运行。
-
-此外，书籍通过定制 250+ 精美插图，并辅以可运行的代码、时间线以及引用关键论文，帮助读者更深入理解并使用大语言模型。
-
-### TypeRoom 类型小屋
-
-> https://typeroom.cn/problems/all
-
-TypeScript 题库 Type Challenge 的网页版。
-
-### 你管这破玩意叫网络
-
-> https://mp.weixin.qq.com/s?__biz=MzAxODI5ODMwOA==&mid=2666570007&idx=1&sn=4f852357e85961d029987eabd4fe25e7
-
-详细介绍了计算机网络的基本概念和发展历程，从单机到多机通过网线连接，再到集线器和交换机的使用，以及路由器和 TCP 协议在网络层和传输层的作用。
-
-文章解释了物理层、数据链路层和网络层的设备和功能，包括网线的连接作用、集线器的广播转发机制、交换机的 MAC 地址表、路由器的路由表、IP 地址和子网的概念、默认网关和 ARP 协议。
-
-同时，文章还探讨了传输层的 TCP 协议，包括三次握手和四次挥手过程，以及端口号的作用。
-
-此外，文章还讨论了网络传输中的各种问题，如丢包、顺序、流量和拥塞控制，以及它们的解决方案，如确认机制、序列号、滑动窗口和拥塞窗口。通过这些技术，网络传输变得更加可靠和高效。
-
-一篇不错的科普文章。
-
-### How to Build Your Career in AI
-> https://info.deeplearning.ai/how-to-build-a-career-in-ai-book
-
-吴恩达的新书。这是一本职业发展指导书,不是技术教程，这本书不要求读者具备技术背景。。它主要面向三类读者: 1. 想要进入AI领域的学生。2. 希望转行到AI行业的专业人士。3. AI领域的初学者和新人
-
-这本书最大的价值在于提供了全方位的AI职业发展建议,包括:
-- 如何掌握核心AI技能
-- 求职面试技巧
-- 如何打造个人项目作品集
-- 如何建立和利用人脉网络
-- 如何克服冒充者综合症
-
-如果你想进入AI行业但不知从何开始,或者正在为职业发展感到迷茫,这本书会是一个很好的指南。
-
-### 术语表
-- 2套权威的AI术语表，从此拿捏术语翻译：机器之心+ GPT Academic + ChatPaper & 清华大学 AI术语库-人工标注版 → https://cxd03hanx97.feishu.cn/wiki/KUsQwCszAiF596khcpcc00H7nSh
-- 清华唐杰 - 机器学习课程术语表 → https://www.aminer.cn/ml_taxonomy
-
-### 牛津教授项飙：大家现在都被压扁了，压扁成了工具人
-> https://mp.weixin.qq.com/s/LBS3kWiRyi2pRWwfg9zTBA
-
-当前社会中工作的意义和好工作的定义，特别是在内卷和996工作制的背景下。文章指出，社会焦虑和对工作意义的质疑日益增多，人们开始寻求更深入的理解。被工具化的感受在大厂中尤为明显，高压的工作状态和竞争环境导致员工感到异化。文章还讨论了工具理性在中华文化中的缺失，以及城市新穷人面临的意义贫困问题。年轻人对工作重复性的抗拒和个体化趋势，使得他们越来越生活在自己的心理空间中。宠物文化的兴起反映了这种心理空间的封闭性。文章最后提出，好的工作应该是不怕重复、具有合作性、对别人有用的工作，这样的工作能够让人感受到其在社会中的价值和意义。
-
-### Web3 资料集合
-
-> https://github.com/wangschang/web3.0
-
-涵盖了 Web3 基础知识、应用及项目、相关分享博主、视频教程、相关书籍、开发资源以及工具等内容。
 
 ### next-forge
 > https://github.com/haydenbleasel/next-forge
@@ -393,7 +221,150 @@ npx next-forge init [my-project]
 
 如果你要基于 NextJS 快速启动一个要包含认证、支付、统计、数据管理的项目，可以试试，应该可以节约不少时间。
 
+## 教程资源
+
+- [软件工程师的必读书单](https://newsletter.techworld-with-milan.com/p/learn-things-that-dont-change) 作者列出一份英文书单，包括 34 本程序员的必读书籍。
+- [谷歌工程实践文档](https://github.com/google/eng-practices) | [中文翻译](https://github.com/xindoo/eng-practices-cn) 目前只有开发者怎么提交代码（去评审）和评审者如何做代码评审两个章节
+
+### 来自 MIT 的优秀的数据结构课程
+
+- [数据结构课程 1](https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf) Erik Demaine 20 岁就拿到了博士学位，而且他讲课非常幽默生动，很受欢迎。课程内容包括：几何结构、动态规划、内存层次结构模型、静态树、动态图结构等。
+
+- [数据结构课程 2](https://www.youtube.com/watch?v=ZA-tUyM_y7s&list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY) 由多位 MIT 讲师一起授课的，具体内容包括广度优先搜索、深度优先搜索、二叉树、线性排序、动态规划等。
+
+### 微软官方面向初学者的网络安全教程
+
+> https://microsoft.github.io/Security-101
+
+基本网络安全概念，如机密性、完整性、可用性三元组、风险与威胁的区别等。理解身份、网络、安全操作、基础设施和数据安全等关键概念和主题。
+
+### 关于很多计算机历史的博客
+
+> https://www.abortretry.fail/archive?sort=top
+
+一个关于很多计算机历史的博客，比如 windows、linux 的老版本是怎么开发出来的，C、Basic 的起源，各种老计算机的故事等等
+
+### Bash 编程导论
+
+> https://github.com/bobbyiliev/introduction-to-bash-scripting
+
+一本开源的英文电子书，介绍 Bash 脚本开发。
+
+### 人工智能
+
+- [清华大学的机器学习术语表](https://www.aminer.cn/ml_taxonomy) 已收录 500+ AI 术语，最全&最准确。这是清华大学 唐杰 老师组整理的一份「机器学习课程术语表」，对常见 AI 术语进行了分类、翻译。
+- [MLU Explain](https://mlu-explain.github.io/) 新手入门机器学习，用超酷可视化网页解释 14 个机器学习核心概念。网站演示了 14 个机器学习的核心概念。只需要下拉页面，就可以让网页所有信息动起来！
+- [A Neural Network Playground](https://playground.tensorflow.org/) | [GitHub](https://github.com/tensorflow/playground) 一个可交互的可视化网站，更确切地说是一个神经网络模拟器，高度支持自由选择和调整。通过这个网站，就能体验到神经网络设计和训练的完整过程。
+- [CNN Explainer：卷积神经网络原理演示](https://poloclub.github.io/cnn-explainer)｜[GitHub](https://github.com/poloclub/cnn-explainer) ｜ [详细解读(中文) ](https://blog.csdn.net/weixin_41792162/article/details/118659253) 直观理解 CNN 的运行原理，并且理解其中卷积、激活函数、池化等操作的实现过程，可以借助这个网站工具
+
+### 从第一性原理出发来介绍 AI Agent
+
+> https://goyalpramod.github.io/blogs/AI_agents_from_first_principles/
+
+文章详细介绍了 AI 代理的核心组件，包括提示（Prompts）、模型（Models）、工具（Tools）、记忆（Memory）以及检索增强生成（Retrieval Augmented Generation, RAG）等技术，并提供了具体的实现方法和代码示例。文章强调了在构建 AI 代理时应遵循的最佳实践，如最小化 LLM 调用、逐步迭代和优化系统性能。通过阅读本文，读者可以深入了解 AI 代理的构建过程，掌握如何使用 Python 和核心库实现复杂的 AI 代理系统，同时避免常见的开发陷阱。
+
+### 如何构建靠谱的 AI agent？
+
+> https://www.anthropic.com/research/building-effective-agents
+
+这是一篇来自于 Anthropic Claude 团队的座谈交流。他们围绕 agents 的定义、实践经验与未来展望展开了一个深入对话。
+
+文章从理论到实践全面阐述了 AI agent 的开发要点：
+
+1. 首先明确区分了 agent 和工作流的本质区别，agent 具有自主决策能力而非简单的固定流程；
+2. 在代码实现层面，详细对比了工作流的线性特征和 agent 的灵活性；同时强调了开发者需要深入理解模型视角，在设计时保持同理心。
+3. 在工具设计方面，文章指出了开发者常见的忽视工具接口友好性的误区。
+   对于 agent 的应用前景，文章认为目前消费级 agent 被过度炒作，存在偏好表达复杂和风险控制等挑战，而企业级应用则更具潜力，特别适合自动化重复性任务。
+   最后，专家们建议开发者建立完善的度量体系，并着眼于开发能随模型进步而持续改进的产品。
+
+我印象比较深刻的有三句话：
+
+1. Agents 不是工作流，而是管理工作流的自动化流程；
+2. 对 Agents 工作要有同理心，人要站在机器的视角考虑流程是否奏效；
+3. 最后一句，是奥特曼也说过很多次的，构建的工具要考虑模型演进，如果你的工具在模型演进之后失去意义了，那么即是坏选择，如果模型越好，你的工具越好，就是好选择。
+
+### 《大模型白盒子构建指南》毕业，仅需 2G 显存，手搓关于 LLM 的一切！
+
+> https://mp.weixin.qq.com/s/nyXsU8wKgI3C0JOX0zoNvQ
+
+该项目的亮点在于其全流程从零手搓的特点，包含了 LLM 全流程，从 Model 到 pretrain，RAG，Agent，Eval，打造了一个全栈教程。与大型的算法包不同，该项目的代码对初级开发者来说更简洁清晰，更“白盒子”，使得学习者能够更容易地理解和掌握大模型的内部原理。
+
+### LLM Visualization：用可视化 3D 页面，演示大模型的运行原理
+
+> [github](https://github.com/karpathy/nanoGPT) | [官网](https://bbycroft.net/llm) | [中文翻译版](http://llm-viz-cn.iiiai.com/llm) | [图文教程 | The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
+
+目前 LLM 和 Transformer 原理可视化做得最好的网站。它把抽象的论文理论，做成了颗粒度极细微的可交互动画，还配上了文字解释。
+
+后续，还可以丝滑衔接李沐大佬的[论文解读视频](https://www.bilibili.com/video/BV1pu411o7BE)，以及 3Blue1Brown 的[原理讲解视频](https://www.bilibili.com/video/BV1TZ421j7Ke/)等等，尝试更深层地理解 Transformer 运行原理.
+
+### Transformer Explainer：把 gpt 原理压缩进一张 5 秒的动图
+
+> [官网](http://poloclub.github.io/transformer-explainer) | [GitHub](https://github.com/poloclub/transformer-explainer)
+
+展示了基于 Transformer 的 GPT-2 模型的基本构成，以及数据在组件间的传输流程。
+网站提供了多个输入文本示例。点击选择或者输入自己的文本，再单击 Generate 按钮，就可以看到文本「输入-输出」的完整流程，感受信息在模型中的逐步传递。最终，GPT-2 计算输出概率，并给出下一个输出文本。
+
+### 大型语言模型（LLM）免费学习课程
+
+> [Github](https://github.com/decodingml/llm-twin-course)
+
+通过 LLMOps 的最佳实践，从数据收集到部署，教授我们如何构建一个生产级别的 LLM 和基于 LLM 的检索增强生成（RAG）系统。
+课程主要有 11 节，涵盖系统设计、数据工程、特征管道、训练管道和推理管道等方面。
+并从实际操作中学习如何收集和存储数据、准备数据以提供 LLM 微调和 RAG、以及如何部署和监控 LLM 和 RAG 系统等。
+同时，实践涉及到的代码，全部可在 GitHub 仓库上找到。最近准备学习构建 LLM 和 RAG 系统的同学，不妨看下。
+
+### 音乐学习
+
+> https://learningmusic.ableton.com/zh-Hans/
+
+这是一个公益音乐基础教育网站，跟着网页的引导，一边听着美妙旋律，从节奏、音符、音阶到旋律、歌曲结构，不知不觉就能学会很多专业的音乐知识。 ​​​
+
+### 实践大语言模型
+
+> https://github.com/handsOnLLM/Hands-On-Large-Language-Models
+
+电子书。共十二章，涵盖了语言模型的基础知识、文本分类、提示工程、语义搜索、多模态语言模型以及如何创建和微调文本嵌入模型等内容。
+
+每个章节涉及到的案例代码均已开源到 GitHub，可通过 Google Colab 直接运行。
+
+此外，书籍通过定制 250+ 精美插图，并辅以可运行的代码、时间线以及引用关键论文，帮助读者更深入理解并使用大语言模型。
+
+### 你管这破玩意叫网络
+
+> https://mp.weixin.qq.com/s?__biz=MzAxODI5ODMwOA==&mid=2666570007&idx=1&sn=4f852357e85961d029987eabd4fe25e7
+
+详细介绍了计算机网络的基本概念和发展历程，从单机到多机通过网线连接，再到集线器和交换机的使用，以及路由器和 TCP 协议在网络层和传输层的作用。
+
+文章解释了物理层、数据链路层和网络层的设备和功能，包括网线的连接作用、集线器的广播转发机制、交换机的 MAC 地址表、路由器的路由表、IP 地址和子网的概念、默认网关和 ARP 协议。
+
+同时，文章还探讨了传输层的 TCP 协议，包括三次握手和四次挥手过程，以及端口号的作用。
+
+此外，文章还讨论了网络传输中的各种问题，如丢包、顺序、流量和拥塞控制，以及它们的解决方案，如确认机制、序列号、滑动窗口和拥塞窗口。通过这些技术，网络传输变得更加可靠和高效。
+
+一篇不错的科普文章。
+
+### How to Build Your Career in AI
+> https://info.deeplearning.ai/how-to-build-a-career-in-ai-book
+
+吴恩达的新书。这是一本职业发展指导书,不是技术教程，这本书不要求读者具备技术背景。。它主要面向三类读者: 1. 想要进入AI领域的学生。2. 希望转行到AI行业的专业人士。3. AI领域的初学者和新人
+
+这本书最大的价值在于提供了全方位的AI职业发展建议,包括:
+- 如何掌握核心AI技能
+- 求职面试技巧
+- 如何打造个人项目作品集
+- 如何建立和利用人脉网络
+- 如何克服冒充者综合症
+
+如果你想进入AI行业但不知从何开始,或者正在为职业发展感到迷茫,这本书会是一个很好的指南。
+
+### 术语表
+- 2套权威的AI术语表，从此拿捏术语翻译：机器之心+ GPT Academic + ChatPaper & 清华大学 AI术语库-人工标注版 → https://cxd03hanx97.feishu.cn/wiki/KUsQwCszAiF596khcpcc00H7nSh
+- 清华唐杰 - 机器学习课程术语表 → https://www.aminer.cn/ml_taxonomy
 
 
+### Web3 资料集合
 
+> https://github.com/wangschang/web3.0
+
+涵盖了 Web3 基础知识、应用及项目、相关分享博主、视频教程、相关书籍、开发资源以及工具等内容。
 
