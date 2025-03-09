@@ -1442,6 +1442,7 @@ Beautiful things don't ask for attention
 
 但只是看到产品质量好，于是激动地去投简历或者买股票，这种判断就是基于情感（及其导致的混乱思维）而非逻辑。
 
+生前不纪念自己的人，死后就会没人纪念。——神圣罗马帝国皇帝马克西米利安一世
 
 [沪币等来了最懂它的韩国人](https://mp.weixin.qq.com/s/1HenW2K2W-NrmwwqMVPYTA)
 
