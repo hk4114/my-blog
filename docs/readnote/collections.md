@@ -1461,6 +1461,8 @@ Beautiful things don't ask for attention
 
 每个人的生命都是一条通向自我的路。《德米安》 赫尔曼·黑塞
 
+每一个你害怕的鬼，都是别人朝思暮想的人。
+
 [沪币等来了最懂它的韩国人](https://mp.weixin.qq.com/s/1HenW2K2W-NrmwwqMVPYTA)
 
 这是一次打着民族、爱国、国威旗号的宏大叙事与卑微现实之间的冲突。这场极端两极分化的财富分配，是权贵阶级进行的毫无遮拦的财富展演。
