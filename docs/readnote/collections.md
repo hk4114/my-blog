@@ -1430,9 +1430,8 @@ Beautiful things don't ask for attention
 
 在一堵坚硬的高墙和一只撞向它的鸡蛋之间，我会永远站在鸡蛋这一边。村上春树
 
-<<<<<<< HEAD
 找的是那些具备市场红利，技术红利的公司，而不是那些把我们当成红利的公司。
-=======
+
 财神殿
 有德斯福，招财纳珍自来驻。
 不义岂昌，财官利市求也无。
@@ -1442,7 +1441,6 @@ Beautiful things don't ask for attention
 
 城隍殿
 莫只是磕了头去；还须要扪着心来。
->>>>>>> refs/remotes/origin/main
 
 [沪币等来了最懂它的韩国人](https://mp.weixin.qq.com/s/1HenW2K2W-NrmwwqMVPYTA)
 
