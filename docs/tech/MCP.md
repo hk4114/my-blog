@@ -82,3 +82,10 @@ MCP Sever 能力接入可以穷举，但是 AI Agent 定制化开发难以穷尽
 
 - [MCP Server](https://mcp.so/) 目前已收录 2600 多个 MCP Server
 - [Model Context Protocol servers](https://github.com/modelcontextprotocol/servers) MCP 服务器合集
+
+[MCP + 数据库，一种比 RAG 检索效果更好的新方式！](https://mp.weixin.qq.com/s/jV46NMDfcJRiklUG_RLsmQ)
+
+视频
+- [开挂体验+1，通过MCP光速建站，毫秒级访问](https://www.bilibili.com/video/BV157dJYbEti)
+- [一口气介绍15种MCP工具，CherryStudio配置MCP](https://www.bilibili.com/video/BV1MjZ5YrESn/)
+- [我被AI智能体整破防！如何像搭积木一样构建Agent](https://www.bilibili.com/video/BV1F7XzYJEYd/)
