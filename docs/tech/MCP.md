@@ -76,7 +76,8 @@ MCP Sever 能力接入可以穷举，但是 AI Agent 定制化开发难以穷尽
 
 
 环境：
-- 
+- 类 VScode 编辑器，cursor\trae 等
+- 安装插件 cline
 
 ## 其他引用和参考资料
 
