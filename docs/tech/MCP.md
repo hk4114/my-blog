@@ -90,3 +90,13 @@ MCP Sever 能力接入可以穷举，但是 AI Agent 定制化开发难以穷尽
 - [开挂体验+1，通过MCP光速建站，毫秒级访问](https://www.bilibili.com/video/BV157dJYbEti)
 - [一口气介绍15种MCP工具，CherryStudio配置MCP](https://www.bilibili.com/video/BV1MjZ5YrESn/)
 - [我被AI智能体整破防！如何像搭积木一样构建Agent](https://www.bilibili.com/video/BV1F7XzYJEYd/)
+
+推荐一个目前看到最系统+详细的良心MCP免费教程（by 同济子豪兄），大家想看的AI控制unity，figma，blender的案例里边都有。https://zihao-ai.feishu.cn/wiki/TLEnwPkI1iIHglkgEtQcObLgnSe
+
+https://juejin.cn/post/7490462400614826024
+
+[详解 MCP 传输机制](https://mp.weixin.qq.com/s/gmgo_glOzbvdFwePP1yQ9g)
+
+[详解 MCP 连接生命周期](https://mp.weixin.qq.com/s/lJHiT-iaecqhcR55fz4G1Q)
+
+[详解 MCP 核心架构](https://mp.weixin.qq.com/s/uTsr06MnJ9t3sGDzLD99_g)
