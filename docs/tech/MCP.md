@@ -100,3 +100,24 @@ https://juejin.cn/post/7490462400614826024
 [详解 MCP 连接生命周期](https://mp.weixin.qq.com/s/lJHiT-iaecqhcR55fz4G1Q)
 
 [详解 MCP 核心架构](https://mp.weixin.qq.com/s/uTsr06MnJ9t3sGDzLD99_g)
+
+
+五、三步搭建MCP Agent，腾讯大模型知识引擎升级支持MCP
+
+1. 腾讯云大模型知识引擎升级支持MCP协议，已集成腾讯位置服务、EdgeOne Pages等多款MCP Server，并支持用户自定义插件配置；
+
+2. MCP协议作为AI领域的"万能接口"，通过统一接口规范简化API插件集成，降低开发门槛，提供"即插即用"模式；
+
+3. 知识引擎提供标准、工作流和Agent三种开发方式，用户可在后两种模式中使用MCP Server，几步即可完成智能体应用开发。
+
+https://mp.weixin.qq.com/s/EtDw3x-_EHrXP7CjmdQ0Tg
+
+六、魔搭ModelScope上线MCP广场，可简易配置 MCP服务  
+
+1. 魔搭上线MCP中文社区"MCP广场"，已集成多款MCP服务，支付宝、MiniMax等明星服务独家首发，可在云端或本地灵活部署；
+
+2. MCP协议可大幅简化智能体与AI模型、工具、数据的连接配置，将100×100次复杂度的传统API配置降至100+100次；
+
+3. 魔搭推出MCP Bench评估工具，对不同MCP服务进行性能对比，支持MCP服务托管。
+
+https://mp.weixin.qq.com/s/7E0ygKEsO9gMAOB2-ZxW_A
