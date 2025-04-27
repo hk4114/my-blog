@@ -145,3 +145,67 @@ A2A技术架构：
 1. 通信协议：定义了一套标准的通信协议，规范智能体间消息的交换规则、语法结构和传输机制。
 2. Agent身份：智能体可以通过Agent Card声明自身标识、功能特性、服务接口等信息。
 3. 服务发现机制：提供了服务发现机制，使智能体能够依据任务需求查询并定位具备特定能力的其他智能体。
+
+[在 Docker 沙箱中运行 MCP Server](https://miantiao.me/posts/guide-to-running-mcp-server-in-a-sandbox/)
+
+
+[智能体Agent与工作流构建实战指南：从选型决策到高效实施](https://mp.weixin.qq.com/s/g93CF_akhd7F-RmpuVoliw)
+
+[首篇MCP技术生态全面综述：核心组件、工作流程、生命周期](https://mp.weixin.qq.com/s/LfZ_ckpGTDXwPNpzFdq5vg)
+
+[MCP 这么火，为什么普通用户却感觉不到？](https://mp.weixin.qq.com/s/auCWbnJ-rFp3lE6Y9buRiw)
+
+[三步搭建MCP Agent，腾讯云大模型知识引擎上线MCP插件](https://mp.weixin.qq.com/s/EtDw3x-_EHrXP7CjmdQ0Tg)
+
+[全网最细，一文带你弄懂 MCP 的核心原理！](https://mp.weixin.qq.com/s/yP6D_mnxwFsL3SbC4qZnYg)
+
+[MCP + 数据库，一种比 RAG 检索效果更好的新方式！](https://mp.weixin.qq.com/s/jV46NMDfcJRiklUG_RLsmQ)
+
+[Cursor MCP推荐](https://mp.weixin.qq.com/s/mShTSOispTM0JQftcRgkrQ)
+
+[MCP协议深度解读：技术创新正以前所未有的速度突破](https://mp.weixin.qq.com/s/fpUbnxLhX5EgX8cX0rew3g)
+
+[聊一聊 Tool、MCP 和 Agent 来龙去脉 | 大白话技术科普系列@Jomy](https://mp.weixin.qq.com/s/ZZBs2iL9G9bJx37oZkMlAg)
+
+[从MCP协议到A2A协议，共同实现大模型和智能体应用生态的互补和完善](https://mp.weixin.qq.com/s/btABMJxIP8SrLcKVX8k_Og)
+
+
+[“谷歌版MCP”来了！开源A2A，不同厂商Agent也能协作 ](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247787192&idx=2&sn=738ca32b2efc1afe3de5474a573854ef&scene=21#wechat_redirect)
+
+[AI Agent破局：MCP与A2A定义安全新边界](https://mp.weixin.qq.com/s/x3N7uPV1sTRyGWPH0jnz7w)
+
+[MCP，这个AI 开源协议有多大想象空间？](https://mp.weixin.qq.com/s/0G2KL6o0a_iWthTuZW5fRA)
+
+[随着AI大模型和MCP生态发展，传统低代码平台和RPA类产品还有无出路？](https://mp.weixin.qq.com/s/-1TkqTQEeNvME95N8w-Uzg)
+
+["三小时搞定AI工具开发"：基于MCP的Node.js极简实践](https://mp.weixin.qq.com/s?__biz=MzkwODIwMDY2OQ==&mid=2247493797&idx=1&sn=62b664fe10770e26586c7542edf7e306&scene=21#wechat_redirect)
+
+### MCPFlow
+> https://mcpflow.io/
+
+MCP 的一个目录站。
+
+firebase studio
+
+阿里百炼 mcp
+
+### DevDocs
+> https://github.com/cyberagiinc/DevDocs
+
+开发者经常需要查看技术文档，这不仅是一项既耗时又繁琐的工作。
+
+为了解决这个痛点，一款专为程序员打造的文档爬取和处理工具：DevDocs，开源了！
+
+它能够自动爬取、提取并组织技术文档，将以往需要花数周理解文档的时间缩短至几个小时，极大提升我们的开发效率。
+
+主要功能：
+
+- 智能爬取功能，支持 1-5 层深度的网站结构爬取；
+- 自动发现链接和子 URL，全面映射网站结构；
+- 并行处理技术，实现高速文档爬取与智能缓存；
+- 干净提取内容，去除冗余信息易于理解；
+- 支持 MD 和 JSON 导出格式，方便 LLM 训练。
+
+除此之外，还内置 MCP 服务器，支持集成到 Claude、Cursor、Cline 等 AI 应用，实现聊天对话查询文档。
+
+提供 Docker 快速部署方式，简单配置下，即可使用。

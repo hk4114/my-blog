@@ -40,7 +40,7 @@ hidden: true
 - 腾讯技术工程
 
 ## 2024
-* [Mine Weekly 第 63 期](./2025-03-16.md)
+* [Mine Weekly 第 63 期](./2025-04-27.md)
 * [Mine Weekly 第 62 期](./2025-03-02.md)
 * [Mine Weekly 第 61 期](./2025-02-23.md)
 * [Mine Weekly 第 60 期](./2024-12-01.md)
