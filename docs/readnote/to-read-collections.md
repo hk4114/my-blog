@@ -127,24 +127,10 @@ recommend: 2
 ### [Company Researcher](https://github.com/exa-labs/company-researcher)
 快速了解任何(外国)公司的开源 AI 工具，组织架构、产品、融资情况以及官方媒体账号，抓取的数据主要来自各大平台开放的 API，如 Linkedin、X（Twitter）、Yogithub.com/exa-labs/company-researcheruTube、GitHub、Reddit 等。最终汇总罗列一个详细面板给我们快速了解该家公司，不过从数据来看，主要面向国外公司。
 
-### DeeSearcher 开源版 Deep Research
-
-> https://github.com/zilliztech/deep-searcher
-
-结合了大模型和向量数据库，为个人/企业知识管理、智能问答、信息搜索等场景提供高度准确的答案和全面分析。
-
-支持本地文件导入，以及网络数据爬取等文档加载，支持 DeepSeek、OpenAI 等大模型。
 
 
-### LangBot
 
-> http://github.com/RockChinQ/LangBot
 
-可扩展的通信机器人平台，提供了丰富生态、支持扩展、多模态的能力，用于构建大模型的即时通信机器人，支持接入 QQ、微信、飞书等平台。
-
-同时支持多种主流大模型，如 DeepSeek、ChatGPT、Claude、Gemini、Ollama 等。
-
-除此之外，还支持访问控制、限速、敏感词过滤等功能，支持多种部署方式，而且配置简单。
 
 
 ### Llama Tutor
@@ -247,3 +233,91 @@ npx next-forge init [my-project]
 
 这是一个公益音乐基础教育网站，跟着网页的引导，一边听着美妙旋律，从节奏、音符、音阶到旋律、歌曲结构，不知不觉就能学会很多专业的音乐知识。 ​​​
 
+### one-person-company
+> https://github.com/cyfyifanchen/one-person-company
+
+汇总了各类日常实用的 AI 工具，如 AI 对话、图文视频、开发工具、媒体工具、网站设计、Logo 设计等等。这里面收集整理的工具，均备注了是否免费、开源以及收费情况，希望能帮助到大家提升工作效率。
+
+### 终极网络安全精通路线图
+> https://github.com/Hamed233/Cybersecurity-Mastery-Roadmap
+
+一份全面的网络安全精通路线图，帮助初学者到专家级的网络安全从业者。它分为基础阶段、技术技能阶段、专业深化阶段、高级进阶阶段和职业发展等部分，涵盖计算机、网络、编程等基础知识，网络、系统、Web应用等安全技能，以及渗透测试、漏洞利用、社会工程学等高级技能。还提供学习资源、实践练习、工具推荐和职业发展建议。
+
+### 免费资源合集
+> https://github.com/fmhy/edit
+
+GitHub 上 FMHY 这份收集了互联网上众多免费资源的合集，值得收藏！
+
+涵盖了电影、动漫、音乐、书籍、下载、游戏、去广告等等使用资源。
+
+此外，还收集了系统、文件、网络、社交媒体、图像、视频、开发者等等实用的工具。
+
+### Agentic Company Researcher
+> https://github.com/pogjester/company-research-agent
+
+通常我们在面试前，会对即将面试的公司进行了解，在国内可使用天眼查，但想查看完整信息需要支付高额费用，而自己去查又费时费力。
+
+给大家推荐使用 Agentic Company Researcher 这个开源项目，一键自动生成全面公司研究报告。
+
+它集成多个 AI 智能体分别从公司网站、新闻、财报等多种来源收集信息，并结合 Gemini 和 ChatGPT 大模型进行内容筛选与合成，生成一份高质量报告。
+
+主要功能：
+
+- 多源数据自动收集，整合公司网站、新闻和财报信息；
+- 基于 Tavily 的 AI 内容筛选，确保信息相关性；
+- 实时进度流式传输，随时查看研究进展；
+- 双模型架构，Gemini 处理大量数据，GPT-4.1 负责精确排版；
+- 现代化 React 前端界面，支持实时更新和下载；
+- 模块化智能体架构，支持灵活扩展和定制。
+
+可通过克隆代码到本地，并简单配置下 API Key，即可使用。
+
+### 今天学点啥
+> https://metaso.cn/study
+
+秘塔AI推出的“今天学点啥”开创了AI时代交互式学习新方式，通过AI生成图文并茂的PPT课程与语音讲解，支持用户自主规划或AI推荐学习路径，覆盖中小学补课、书籍导读、技术学习等场景。其创新点在于精准抓取书籍/文章核心内容并整合关键配图形成动态课件，大幅提升学习效率，但存在配音生硬、知识库质量待优化等不足。该工具突破传统AI应用的PPT内卷模式，或将重塑在线教育形态，为个人学习者和知识创作者提供强大助力。
+
+### 代码学习
+https://codecombat.cn/play
+
+### AI Agents for Beginners 微软出了一门给初学者学习的 AI 智能体课程
+
+> https://github.com/microsoft/ai-agents-for-beginners
+
+共 10 节课程，涵盖构建 AI 智能体的所有基础知识，旨在教授我们从零开始构建一个 AI 智能体。课程内容已做了中文翻译，学习起来更加轻松，同时提供每节课所使用的示例代码，方便我们运行。
+
+
+
+所有小初高、大学PDF教材。
+
+项目的由来
+虽然国内教育网站已提供免费资源，但大多数普通人获取信息的途径依然受限。有些人利用这一点，在淘宝上销售这些带有私人水印的资源。为了应对这种情况，我计划将这些资源集中并开源，以促进义务教育的普及和消除地区间的教育贫困。
+
+还有一个最重要的原因是，希望海外华人能够让自己的孩子继续了解国内教育。
+
+TapXWorld/ChinaTextbook
+
+
+Github上超5万star的大模型课程
+github.com/mlabonne/llm-course
+课程分为三个部分：
+🧩 LLM 基础部分为选修内容，涵盖数学、Python 和神经网络的基础知识。
+🧑‍🔬 LLM 科学家部分专注于运用最新技术构建最优的 LLMs。
+👷 LLM 工程师专注于创建基于 LLM 的应用程序并进行部署。
+之前发过，还在一直更新。最近新增了 GRPO 和 MCP 相关内容
+
+
+谷歌 Prompting guide 101，仍然是 68 页，我差点以为和之前的 Prompting Engineering 是一个东西，但其实不是，这篇更偏向各行各业的提示案例和实践，围绕 Persona（角色）、Task（任务）、Context（上下文）、Format（格式）四要素展开。
+
+链接：services.google.com/fh/files/misc/gemini-for-google-workspace-prompting-guide-101.pdf
+翻译：https://mp.weixin.qq.com/s/-tz_U70n9Yy_VOTi2OxsoA
+
+
+一个写给非专业人士看的Cursor AI + Python教程
+gmudfish.github.io/Cursor-AI-Beginner-REALHUMAN/
+“这不是普通的编程教程。这是一份为以下人群准备的指南：
+
+从未写过代码但想与机器对话的人
+想要自动化工作（而不变成机器人）的作家、艺术家、梦想家
+好奇的灵魂通过一款名为 Cursor 的工具探索 AI 的力量
+Cursor AI 是一款基于 Visual Studio Code 打造的 AI 编程助手——但与其他编辑器不同，它只需你描述想要实现的功能就能协助编码。你不需要懂 Python 或 JavaScript，只需清楚自己的目标……并学会对过程中的混乱一笑置之。”
