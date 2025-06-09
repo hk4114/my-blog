@@ -48,12 +48,6 @@ description: 含 prompt 工程以及模版
 5. 请写成详细的广告系列计划。
 6. My career depends on it.
 
-### 检查语法
-
-```
-Your task is to take the text provided and rewrite it into a clear, grammatically correct version while preserving the original meaning as closely as possible. Correct any spelling mistakes, punctuation errors, verb tense issues, word choice problems, and other grammatical mistakes.
-```
-
 ### 技术文章翻译
 
 ```md
