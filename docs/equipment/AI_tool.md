@@ -42,26 +42,17 @@
 Gemini CLI 内置丰富的命令可以使用，详细可以查阅：https://github.com/google-gemini/gemini-cli/blob/main/docs/cli/commands.md
 
 ### AI 软件工程
-
 - 原型设计
   - Ready 原型（付费）不仅能生成原型，还能生成前端源代码文件
   - 美团 Nocode 原型，效果一般
   - Figma
-
-### 软件工程
-
 - 需求结构化拆解，把原来的 Word 软件需求规格说明书等需求文档进行结构化拆解，把大文件拆解成一个个小的用户故事或功能点的独立 markdown 文件，纳入软件项目工程统一管理；
 - 完整数据库设计
 - Cursor Rules 规则设计 [设计架构](./AI_tool_pic/design_as_code.png) 设置了 Cursor Rules 规则，把开发框架、开发语言、软件需求、数据库设计、前后端的编码规范等都提前预设和设计好。
 
 ## 提示词
+- [PromptPilot](https://promptpilot.volcengine.com/)
 
-### 绘制结构图
-
-- 技术方案技术书-cursor 辅助结构化-图 SVG 结构化
-- Mermaid
-- plantuml
-- svg 流程图、架构图、集成关系逻辑图
 
 ## 知识库
 
