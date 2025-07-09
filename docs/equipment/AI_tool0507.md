@@ -32,15 +32,6 @@
 - [阿里通义灵码](https://lingma.aliyun.com/)
 - [腾讯 CodeBuddy](https://copilot.tencent.com/)
 
-#### Gemini CLI
-
-1. 安装 `npx https://github.com/google-gemini/gemini-cli` 或者 `npm install -g @google/gemini-cli`
-2. 运行 `gemini`，选择主题并授权，登录个人谷歌账号进行授权，即可开始使用。
-3. 如果需要使用特定模型，或者免费额度不够用，可以去 [Google AI Studio](https://aistudio.google.com/apikey) 生成一个 API Key，通过环境变量配置：`export GEMINI_API_KEY="你的apikey"`
-4. 开始使用：登录完成后，输入 gemini 就可以开始正常使用。
-
-Gemini CLI 内置丰富的命令可以使用，详细可以查阅：https://github.com/google-gemini/gemini-cli/blob/main/docs/cli/commands.md
-
 ### AI 软件工程
 - 原型设计
   - Ready 原型（付费）不仅能生成原型，还能生成前端源代码文件
@@ -49,10 +40,6 @@ Gemini CLI 内置丰富的命令可以使用，详细可以查阅：https://gith
 - 需求结构化拆解，把原来的 Word 软件需求规格说明书等需求文档进行结构化拆解，把大文件拆解成一个个小的用户故事或功能点的独立 markdown 文件，纳入软件项目工程统一管理；
 - 完整数据库设计
 - Cursor Rules 规则设计 [设计架构](./AI_tool_pic/design_as_code.png) 设置了 Cursor Rules 规则，把开发框架、开发语言、软件需求、数据库设计、前后端的编码规范等都提前预设和设计好。
-
-## 提示词
-- [PromptPilot](https://promptpilot.volcengine.com/)
-
 
 ## 知识库
 
@@ -82,6 +69,5 @@ Gemini CLI 内置丰富的命令可以使用，详细可以查阅：https://gith
 - 播客
   - [扣子空间](https://space.coze.cn/)
   - [即梦 AI 口播](https://jimeng.jianying.com/ai-tool/home)
-- 图片生成处理
-  - [即梦](https://jimeng.jianying.com/ai-tool/home)
+
 
