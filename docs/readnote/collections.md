@@ -1271,6 +1271,12 @@ Un jour je serais de retour près de toi
 外企下限是劳动法，私企下限是日内瓦公约
 
 ## 2025
+我与我周旋良久，宁作我。
+
+every dog has his day
+
+life is a soup and im a fork.
+
 思想家纳西姆·塔勒布曾在其著作中提到，有三样东西最容易让人上瘾，其负面影响也最大，分别是：海洛因、碳水化合物和月薪。
 
 伟大是无法被计划的。
