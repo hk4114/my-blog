@@ -6,3 +6,4 @@
 
 **你不能只在**胜利时，才爱你的国家 you can't love your country only when you win。.etc 你不能只在已经赢的时候才自信。
 
+老爷子**心善**，**见不得**穷人。————郭德纲、于谦《怯富贵》 
