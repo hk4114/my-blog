@@ -1271,6 +1271,8 @@ Un jour je serais de retour près de toi
 外企下限是劳动法，私企下限是日内瓦公约
 
 ## 2025
+我是一座孤岛，但在深海里，我们紧紧相连。
+
 我与我周旋良久，宁作我。
 
 every dog has his day
