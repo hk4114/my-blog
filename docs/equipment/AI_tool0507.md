@@ -3,7 +3,6 @@
 ### GPT 对话生成
 
 - [kimi](https://www.kimi.com)
-- [deepseek](https://www.deepseek.com)
 - [腾讯元宝](https://yuanbao.tencent.com)
 - [通义千问](https://chat.qwen.ai)
 - [Gemini](https://gemini.google.com/app)
@@ -31,15 +30,6 @@
 - [字节 Trae 国际版](https://www.trae.ai/)
 - [阿里通义灵码](https://lingma.aliyun.com/)
 - [腾讯 CodeBuddy](https://copilot.tencent.com/)
-
-### AI 软件工程
-- 原型设计
-  - Ready 原型（付费）不仅能生成原型，还能生成前端源代码文件
-  - 美团 Nocode 原型，效果一般
-  - Figma
-- 需求结构化拆解，把原来的 Word 软件需求规格说明书等需求文档进行结构化拆解，把大文件拆解成一个个小的用户故事或功能点的独立 markdown 文件，纳入软件项目工程统一管理；
-- 完整数据库设计
-- Cursor Rules 规则设计 [设计架构](./AI_tool_pic/design_as_code.png) 设置了 Cursor Rules 规则，把开发框架、开发语言、软件需求、数据库设计、前后端的编码规范等都提前预设和设计好。
 
 ## 知识库
 
