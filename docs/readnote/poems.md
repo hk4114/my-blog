@@ -335,3 +335,7 @@ Beautiful things don't ask for attention
 There is not one beaten path.没有一条捷径可走
 
 Even now I just cannot feel you feel me.
+
+细路如蛇盘，山根复山巅。
+振衣上千仞，顿觉天地宽。
+自言居家好，笑我行路难。
