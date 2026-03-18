@@ -1535,15 +1535,7 @@ Beautiful things don't ask for attention
 江西面包帮的故事，本质上就是一个由下至上的故事，没有资本加持，没有顶层设计，没有一夜暴富的捷径，就是一个手艺人教会另一个手艺人，一家小店带出另一家小店，1987年，张协旺在鹰潭开出第一家面包店的时候，大概不会想到，30多年后会是这样一番光景，一个不产小麦的县城，养活了4万面包师傅，一群没有背景的山里人，占领了大半个中国的街头巷尾，
 这大概就是江西这片土地的基因，星星之火可以燎原，这句话写在江西不是偶然。
 
-## 202
-我想让 AI 告诉我怎么使用一种全新的、AI 也不会用的工具，就会提示 AI "执行 xxx-tool --help 来了解该工具"（假定工具名字是 xxx-tool），然后 AI 就学会用了。
-
-阅读商战书籍是浪费时间。它们将简单的故事变成通用的建议，将偶然的成功转化为普遍的策略，并用激励人心的口号取代复杂的市场。
-这些书的成功并不是因为内容正确，而是因为易于阅读并且让读者感觉良好。
--- [《阅读商战书籍是浪费时间》](https://antemedian.substack.com/p/why-reading-business-books-is-a-waste)
-
-时间是唯一不可再生的资源。AI 大模型是目前我所知的最便宜的赚取额外时间的方式。
--- [《不要太看重 AI 大模型的订阅费》](https://steipete.me/posts/2025/stop-overthinking-ai-subscriptions)
+## 2026
 
 卷人者，恒被人卷，每个企业都不过是在这商业世界的食物链上找个生态位罢了
 
@@ -1640,46 +1632,3 @@ e pluribus unum 合众为一
 比如，怎么理解那些不变的事物？这是思考杠杆。
 比如，怎么感受每一刻的拥有和幸运？这是幸福杠杆。
 生活是发现，更是创造。
------
-# AI 工具整理和使用经验分享
-
-
-## opencode
-1. https://opencode.ai/docs/zh-cn
-2. https://www.opencodecn.com/docs/intro
-3. https://learn-claude-agents.vercel.app/zh/s01/
-
-## skills & mcp
-- [pua-skill](https://pua-skill.pages.dev/)
-- [baoyu-skills](https://github.com/JimLiu/baoyu-skills)
-- [gstack](https://github.com/garrytan/gstack)
-- https://github.com/lijigang/ljg-skill-xray-paper
-- [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) 支持通过 `--autoConnect`/`--browser-url` 或 WebSocket 连接已有浏览器实例，以便在人工测试和代理测试之间共享登录态和页面状态；还提供 “slim” 模式只暴露少量导航与脚本工具，用于基础浏览任务。
-
-需要了解
-- Obsidian Web Clipper 拿到 youtube 字幕 markdown 文件，交给 Claude Code 调用 excalidraw MCP 出图，把一个视频拆成手绘白板图，只要 3 分钟。
-- 【关键概念】Subagent 和主agent的区别是啥？
-- 【关键概念】上下文污染上下文截断，开发过程中怎么解决？claude code中 compact和handoff有什么区别
-
-claude code
-- [从 0 到 1 复刻一个 Claude Code 这样的 Agent](https://plantegg.github.io/2026/03/05/%E4%BB%8E0%E5%88%B01%E5%A4%8D%E5%88%BB%E4%B8%80%E4%B8%AAClaude_Code%E8%BF%99%E6%A0%B7%E7%9A%84Agent/) 
-- [你不知道的 Claude Code：架构、治理与工程实践](https://tw93.fun/2026-03-12/claude.html)
-- Anthropic刚刚推出了一套全新的AI大师课程。最核心的亮点是：课程涵盖都是当前的热点比如Claude Code实战，Agent skill ，完全免费，花费0.00美元，学完还可获得证书加在简历中。
-http://anthropic.skilljar.com
-而且门槛极低，不需要拥有Anthropic账号，就能直接访问并学习所有内容。
-
-
-
-
-
-
-
-/clear 清空重来
-/copy 复制回复
-/compact 或 /handoff 生成一份摘要文档压缩上下文
-
-1. 涉及不同目录下的文件时，用 realpath 命令生成完整绝对路径，消除歧义，省去不必要的麻烦。
-2. realpath 给 AI 绝对路径
-3. Ctrl+A/E 跳到行首/行尾
-4. Ctrl+W/U/K 删词/删到行首/删到行尾
-5. 创建一个全局自定义斜杠命令"/handover"：当结束会话时（例如上下文窗口即将填满），生成一份" HANDOVER.md"文档，总结本次会话中的所有工作内容，包括决策、遇到的陷阱、经验教训等。转换为PreCompact hook 自动完成
